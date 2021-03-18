@@ -1,6 +1,8 @@
 ---
 title: "Endings."
 date: "2019-05-01"
+description: "Thoughts on finishing university"
+tag: "thoughts"
 ---
 
 One thing that I've realized is that endings take a long time. Last year when I was leaving Australia and this year as I've been finishing up my undergraduate degree, I've really seen how the process of finishing something is exactly that: a process, often an involved one.

@@ -1,6 +1,8 @@
 ---
 title: "On learning."
 date: "2019-01-09"
+description: "Advice on effective learning at university"
+tags: "thoughts"
 ---
 
 This week is my first week back at university for the semester, sometimes known as "syllabus week".

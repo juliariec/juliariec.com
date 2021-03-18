@@ -1,7 +1,8 @@
 ---
 title: "C'est bon."
 date: "2019-05-28"
-coverImage: "saintlaurent.jpg"
+description: ""
+tag: "life"
 ---
 
 For the last two weeks, I've been in a small town in Quebec called Trois Pistoles participating in the Explore program, which sends anglophone students to francophone regions (and vice versa) to encourage young Canadians to learn the other national language.
