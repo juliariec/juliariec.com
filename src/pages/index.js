@@ -1,9 +1,8 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import { css } from "@emotion/core"
 import Layout from "../components/layout"
 
-export default ({ data }) => {
+const Homepage = ({ data }) => {
   return (
     <Layout>
       <div>
@@ -11,13 +10,7 @@ export default ({ data }) => {
         <p>You can read all my piping hot takes here.</p>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
-            <Link
-              to={node.fields.slug}
-              css={css`
-                text-decoration: none;
-                color: inherit;
-              `}
-            >
+            <Link to={node.fields.slug}>
               <h3>{node.frontmatter.title} </h3>
               <p>{node.excerpt}</p>
             </Link>
@@ -48,3 +41,5 @@ export const query = graphql`
     }
   }
 `
+
+export default Homepage
