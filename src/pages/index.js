@@ -1,20 +1,15 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import Snippet from "../templates/snippet"
 
 const Homepage = ({ data }) => {
   return (
     <Layout>
       <div>
         <h1>Posts</h1>
-        <p>You can read all my piping hot takes here.</p>
         {data.allMarkdownRemark.edges.map(({ node }) => (
-          <div key={node.id}>
-            <Link to={node.fields.slug}>
-              <h3>{node.frontmatter.title} </h3>
-              <p>{node.excerpt}</p>
-            </Link>
-          </div>
+          <Snippet node={node}></Snippet>
         ))}
       </div>
     </Layout>
@@ -35,7 +30,7 @@ export const query = graphql`
           fields {
             slug
           }
-          excerpt(pruneLength: 175)
+          excerpt(pruneLength: 170)
         }
       }
     }

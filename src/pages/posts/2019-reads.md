@@ -4,11 +4,17 @@ date: "2019-12-30"
 coverImage: "2019reads.jpg"
 ---
 
-It's hard to believe it's been a year since I wrote 2018 reads, the first post in what I hope will be a long standing series of annual book recommendations! This has been a great year for reading &mdash; I've had lots of spare time, which meant that I tackled some longer and more involved books, and due to school and friends' recommendations I ended up reading a bit of a wider range than I had in 2018. In this post I'm going to share 8 novels and 4 non-fiction books that I really enjoyed and would recommend you give a shot. (A quick note that the numbers are intended to help organize the post, not to rank the choices.)
+It's hard to believe it's been a year since I wrote 2018 reads, the first post in what I hope will be a long standing series of annual book recommendations!
+
+This has been a great year for reading &mdash; I've had lots of spare time, which meant that I tackled some longer and more involved books, and due to school and friends' recommendations I ended up reading a bit of a wider range than I had in 2018.
+
+In this post I'm going to share 8 novels and 4 non-fiction books that I really enjoyed and would recommend you give a shot.
+
+_A quick note:_ the numbers are intended to help organize the post, not to rank the choices.
 
 ## Top Fiction
 
-#### 1 The Wind-Up Bird Chronicle
+### 1. The Wind-Up Bird Chronicle
 
 **Author:** Haruki Murakami
 
@@ -18,7 +24,7 @@ It's hard to believe it's been a year since I wrote 2018 reads, the first post i
 
 **What I Liked:** This novel had an unpredictable energy that kept me on my toes while reading &mdash; I had never read a story with such a creative combination of the mundane and the imaginative. I felt like I was constantly looking for footing in the novel, whether trying to determine a character's intentions or to connect their plotline to something else that was happening, and that made me excited to keep reading and often surprised by where the story would move. I also liked that the novel was ambitious in scope and clearly had a lot going on, because I can envision myself rereading it several times and picking up something new each time.
 
-#### 2 Half Of A Yellow Sun
+### 2. Half Of A Yellow Sun
 
 **Author:** Chimamanda Ngozi Adichie
 
@@ -28,7 +34,7 @@ It's hard to believe it's been a year since I wrote 2018 reads, the first post i
 
 **What I Liked:** I was impressed by the incredibly clear style of this novel &mdash; the writing was unremarkable in the sense that the mechanics and style of the book never distracted from the story itself. I think that focusing on the core set of characters that were all connected to each other while also alternating the narrative perspective helped to make them all seem real, and I found myself invested in each of their storylines. I also learned a lot about Nigerian geography and history through reading the novel, which I enjoyed.
 
-#### 3 The Archive Of Alternate Endings
+### 3. The Archive Of Alternate Endings
 
 **Author:** Lindsey Drager
 
@@ -38,7 +44,7 @@ It's hard to believe it's been a year since I wrote 2018 reads, the first post i
 
 **What I Liked:** It's always exciting to find books that use a more creative approach to telling a story, and this one was especially notable because of its fragmented prose and unusual premise. Two of the major themes of the novel &mdash; what it means to share a story and what it's like to be or have a sibling -- resonated strongly with me, and they provided unifying elements that really tied the different pieces of the book together. The writing also had a certain earnest, focused quality to it that I appreciated. My absolute favourite chapter was "Hansel's Lament" &mdash; I don't want to give anything away, but it's a beautiful and heartbreaking part of the story.
 
-#### 4 Circe
+### 4. Circe
 
 **Author:** Madeline Miller
 
@@ -48,7 +54,7 @@ It's hard to believe it's been a year since I wrote 2018 reads, the first post i
 
 **What I Liked:** For me, the quality that really set this novel apart from so many others was its beautiful prose, melodic and at times even arresting. I really liked the way that it focused on Circe's own story while still intersecting with so many well known mythological adventures. Having read _The Odyssey_ some time prior to reading this novel, I particularly enjoyed reading the Miller's characterizations of Hermes, Odysseus, and Telemachus; Circe's relationships with the three men gave rise to some insightful and striking passages in the book. It was a great reminder of how the classic elements of mythology &mdash; allies and enemies, loyalty and betrayal, peace and conflict &mdash; continue to capture our imaginations.
 
-#### 5 Beloved
+### 5. Beloved
 
 **Author:** Toni Morrison
 
@@ -58,7 +64,7 @@ It's hard to believe it's been a year since I wrote 2018 reads, the first post i
 
 **What I Liked:** This novel was masterfully written &mdash; it had a depth and weight to certain sentences or even phrases in the book that could hit me all at once or slowly build over time. The current running through the prose about how to say that which cannot be said was both powerful and wrenching, and the story confronted the legacy of slavery on Sethe's community, on her immediate family, and even on the characters' bodies with honesty. I really enjoyed the way the book fell into place as I read it, and I think that the style contributed so much to the novel.
 
-#### 6 Chemistry
+### 6. Chemistry
 
 **Author:** Weike Wang
 
@@ -68,7 +74,7 @@ It's hard to believe it's been a year since I wrote 2018 reads, the first post i
 
 **What I Liked:** I love books that propel you into the main character's brain and this certainly fit that criterion. Although the plot was slow moving, I grew to care a lot about the narrator and I enjoyed reading about her insights into her own life and how she navigated all the challenges that she was facing; there was an attention to detail, a sharp honesty, and a dry humour to her perspective that really engaged me. I also liked the passages where she analyzed her romantic relationship or her relationship with her parents, and I think that it illuminated for me the unique ways that each of us understands other people.
 
-#### 7 The Lost Man
+### 7. The Lost Man
 
 **Author:** Jane Harper
 
@@ -78,7 +84,7 @@ It's hard to believe it's been a year since I wrote 2018 reads, the first post i
 
 **What I Liked:** This book was just fun to read &mdash; it was suspenseful, the pacing felt good, and the backstory around the main character, Nathan, helped to keep it interesting. It was the first novel I've read set in the outback, and evoking its unrelenting, isolating nature definitely contributed to the book's tone. I don't read a lot of mystery-style books, but this was one that I finished quickly because I was enjoying it so much.
 
-#### 8 All My Puny Sorrows
+### 8. All My Puny Sorrows
 
 **Author:** Miriam Toews
 
@@ -90,7 +96,7 @@ It's hard to believe it's been a year since I wrote 2018 reads, the first post i
 
 ## Top Non-Fiction
 
-#### 9 Pedagogy Of Freedom
+### 9. Pedagogy Of Freedom
 
 **Author:** Paulo Freire
 
@@ -100,7 +106,7 @@ It's hard to believe it's been a year since I wrote 2018 reads, the first post i
 
 **What I Liked:** This book was a fascinating look at the practices of teaching and learning and how they connect to notions of the individual, ethical education, and democratic ideals. Freire's style took me a little getting used to, but once I picked up on the rhythm of the book it was much more readable than most non-fiction I've encountered, full of vigour and passion. I especially appreciated the focus on the "unfinishedness" of humans, the autonomy of the individual, and the role of emotion in education. My only regret is that I read this book at the end of my university career rather than the beginning &mdash; I would definitely recommend this to students or future educators.
 
-#### 10 Life In Code
+### 10. Life In Code
 
 **Author:** Ellen Ullman
 
@@ -110,7 +116,7 @@ It's hard to believe it's been a year since I wrote 2018 reads, the first post i
 
 **What I Liked:** As someone interested in technology and its effects on human life, Ullman's work taught me a lot while maintaining a personal perspective that I haven't encountered before in books about technology. I really liked that each essay was self-contained and focused on one particular facet of Ullman's experiences &mdash; it made the book as a whole a little less cohesive, but in exchange gave a clear unifying idea behind each individual chapter. There were also moments where she expressed thoughts that I've had before, which is always a neat experience for a reader! If you're interested in a more comprehensive reflection on this book, I wrote one earlier this year which you can read [here](https://juliariec.wordpress.com/2019/02/12/life-in-code/).
 
-#### 11 The Wisdom Of Insecurity
+### 11. The Wisdom Of Insecurity
 
 **Author:** Alan W. Watts
 
@@ -120,7 +126,7 @@ It's hard to believe it's been a year since I wrote 2018 reads, the first post i
 
 **What I Liked:** This was a book that often contradicted my fundamental assumptions about the world, which made it particularly enjoyable to read and mull over. It's written at a relatively readable level &mdash; certain chapters were definitely heavier on the philosophy than others &mdash; and I didn't find it too difficult to relate his points to my own experiences. It was also short, which helped me to get through it while retaining the most important points rather than losing steam or forgetting the book as I read it. I learned a lot about being present and the drawbacks of leaning too heavily on structures and definitions, which was definitely good for me!
 
-#### 12 Thinking, Fast and Slow
+### 12. Thinking, Fast and Slow
 
 **Author:** Daniel Kahneman
 

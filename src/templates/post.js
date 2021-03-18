@@ -8,19 +8,20 @@ const Post = ({ data }) => {
     <Layout>
       <div>
         <h1>{post.frontmatter.title}</h1>
-        <h4>{post.frontmatter.date}</h4>
+        <p className={"date"}>Published {post.frontmatter.date}</p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
     </Layout>
   )
 }
+
 export const query = graphql`
   query($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
         title
-        date(formatString: "DD MMM YYYY")
+        date(formatString: "MMMM DD, YYYY")
       }
     }
   }

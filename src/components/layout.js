@@ -2,7 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 
 const ListLink = props => (
-  <li style={{ display: `inline-block`, marginLeft: `1.5rem` }}>
+  <li>
     <Link to={props.to}>{props.children}</Link>
   </li>
 )
@@ -21,21 +21,13 @@ const Layout = ({ children }) => {
   )
 
   return (
-    <div
-      style={{
-        margin: `3rem auto`,
-        maxWidth: 700,
-        padding: `1rem`,
-      }}
-    >
-      <header style={{ marginBottom: `60px` }}>
-        <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
-          <h3 style={{ display: `inline` }}>{data.site.siteMetadata.title}</h3>
+    <div className="container">
+      <header>
+        <Link to="/">
+          <h3>{data.site.siteMetadata.title}</h3>
         </Link>
-        <ul style={{ listStyle: `none`, float: `right`, margin: `0` }}>
-          <ListLink to="/">Home</ListLink>
+        <ul>
           <ListLink to="/about/">About</ListLink>
-          <ListLink to="/contact/">Contact</ListLink>
         </ul>
       </header>
       {children}

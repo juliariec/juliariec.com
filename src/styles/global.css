@@ -1,12 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Inter");
 
 html {
-  font-family: "Inter", "Arial", "sans-serif";
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
 }
 
 body {
-  line-height: 175%;
+  font-family: "Inter", "Arial", "sans-serif";
   color: rgb(60, 60, 60);
+  word-wrap: break-word;
+  line-height: 175%;
+  margin: 0;
+}
+
+.container {
+  margin: 3rem auto;
+  max-width: 700px;
+  padding: 1rem;
 }
 
 h1,
@@ -15,27 +25,67 @@ h3,
 h4 {
   padding-top: 1rem;
   line-height: 105%;
-}
-
-h3 {
-  font-size: 1.5rem;
   font-weight: 700;
 }
 
-h4 {
-  color: #bbb;
+h1 {
+  font-size: 1.8rem;
+  padding-top: 1.4rem;
 }
 
-a {
-  color: rgb(60, 60, 60);
-  text-decoration: none;
+h2 {
+  font-size: 1.6rem;
+  padding-top: 1.2rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+h4 {
+  font-size: 1.2rem;
 }
 
 header {
   text-transform: lowercase;
+  margin-bottom: 60px;
+}
+
+header a {
+  color: rgb(60, 60, 60);
+  text-decoration: none;
 }
 
 header a:hover {
-  color: rgb(98, 2, 128);
+  color: rgb(93, 4, 121);
   transition: 0.2s color;
+}
+
+header h3 {
+  display: inline;
+}
+
+header ul {
+  list-style: none;
+  float: right;
+  margin: 0;
+}
+
+header li {
+  display: inline-block;
+  margin-left: 1.5rem;
+}
+
+a {
+  color: rgb(93, 4, 121);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(60, 60, 60);
+  transition: 0.2s color;
+}
+
+.date {
+  color: #bbb;
 }
