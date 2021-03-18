@@ -7,15 +7,8 @@ export default ({ data }) => {
   return (
     <Layout>
       <div>
-        <h1
-          css={css`
-            display: inline-block;
-          `}
-        >
-          Welcome
-        </h1>
+        <h1>Posts</h1>
         <p>You can read all my piping hot takes here.</p>
-        <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <Link
@@ -25,22 +18,7 @@ export default ({ data }) => {
                 color: inherit;
               `}
             >
-              <h3
-                css={css`
-                  margin-bottom: 10px;
-                `}
-              >
-                {node.frontmatter.title}
-                
-              </h3>
-              <p><span
-                  css={css`
-                    margin-bottom: 5px;
-                    color: #bbb;
-                  `}
-                >
-                 {node.frontmatter.date}
-                </span></p>
+              <h3>{node.frontmatter.title} </h3>
               <p>{node.excerpt}</p>
             </Link>
           </div>
@@ -64,7 +42,7 @@ export const query = graphql`
           fields {
             slug
           }
-          excerpt
+          excerpt(pruneLength: 175)
         }
       }
     }

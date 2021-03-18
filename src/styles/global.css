@@ -1,9 +1,37 @@
-@import url('https://fonts.googleapis.com/css?family=Inter');
+@import url("https://fonts.googleapis.com/css?family=Inter");
 
 html {
   font-family: "Inter", "Arial", "sans-serif";
 }
 
+body {
+  line-height: 155%;
+  color: rgb(60, 60, 60);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  padding-top: 1rem;
+  line-height: 105%;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
 a {
-  color: #cc0000;
+  color: rgb(60, 60, 60);
+  text-decoration: none;
+}
+
+header {
+  text-transform: lowercase;
+}
+
+header a:hover {
+  color: rgb(98, 2, 128);
+  transition: 0.2s color;
 }

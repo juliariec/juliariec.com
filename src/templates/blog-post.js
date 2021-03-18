@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import { css } from "@emotion/core"
 import Layout from "../components/layout"
 
 export default ({ data }) => {
@@ -8,7 +9,13 @@ export default ({ data }) => {
     <Layout>
       <div>
         <h1>{post.frontmatter.title}</h1>
-        <h4>{post.frontmatter.date}</h4>
+        <h4
+          css={css`
+            color: #bbb;
+          `}
+        >
+          {post.frontmatter.date}
+        </h4>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
     </Layout>
