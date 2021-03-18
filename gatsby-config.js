@@ -6,8 +6,9 @@ module.exports = {
   siteMetadata: {
     title: "juliariec",
     titleTemplate: "%s",
+    author: "Julia Cooke",
     description: "Thoughts on books, tech, and life.",
-    url: "http://www.juliariec.com",
+    url: "http://juliariec.com",
   },
   flags: {
     PRESERVE_WEBPACK_CACHE: true,
@@ -23,8 +24,6 @@ module.exports = {
     `gatsby-plugin-emotion`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-advanced-sitemap`,
-    `gatsby-plugin-robots-txt`,
     `gatsby-plugin-offline`,
   ],
 }
