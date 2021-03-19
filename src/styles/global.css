@@ -7,7 +7,7 @@ html {
 
 body {
   font-family: "Inter", "Arial", "sans-serif";
-  color: rgb(60, 60, 60);
+  color: #2e2e2e;
   word-wrap: break-word;
   line-height: 175%;
   margin: 0;
@@ -44,6 +44,7 @@ h3 {
 
 h4 {
   font-size: 1.2rem;
+  font-weight: 500;
 }
 
 header {
@@ -52,7 +53,7 @@ header {
 }
 
 header a {
-  color: rgb(60, 60, 60);
+  color: #2e2e2e;
   text-decoration: none;
 }
 
@@ -82,14 +83,36 @@ a {
 }
 
 a:hover {
-  color: rgb(60, 60, 60);
+  color: #2e2e2e;
   transition: 0.2s color;
 }
 
-.date {
-  color: #bbb;
+.grey {
+  color: #6e6e6e;
 }
 
 .aside {
-  padding-top: 4rem;
+  padding-top: 40px;
+}
+
+.post {
+  padding-bottom: 50px;
+}
+
+.post-links {
+  display: flex;
+}
+
+.ref {
+  padding: 2rem 0;
+  width: 50%;
+  display: block;
+}
+
+.ref:last-of-type {
+  text-align: right;
+}
+
+.ref h4 {
+  padding-top: 0;
 }

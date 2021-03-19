@@ -1,9 +1,10 @@
 import React, { Fragment } from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Layout from "./layout"
 
-const Post = ({ data }) => {
+const Post = ({ data, pageContext }) => {
   const post = data.markdownRemark
+  const { previous, next } = pageContext
   return (
     <Fragment>
       <Layout
@@ -11,10 +12,33 @@ const Post = ({ data }) => {
         description={post.frontmatter.description}
         article={true}
       >
-        <div>
+        <div className="post">
           <h1>{post.frontmatter.title}</h1>
-          <p className={"date"}>Published {post.frontmatter.date}</p>
+          <p className="grey">Published {post.frontmatter.date}</p>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        </div>
+        <div className="post-links">
+          <div className="ref">
+            {previous && (
+              <Fragment>
+                <p>Previous</p>
+                <Link to={previous.fields.slug}>
+                  <h4>{previous.frontmatter.title}</h4>
+                </Link>
+              </Fragment>
+            )}
+          </div>
+
+          <div className="ref">
+            {next && (
+              <Fragment>
+                <p>Next</p>
+                <Link to={next.fields.slug}>
+                  <h4>{next.frontmatter.title}</h4>
+                </Link>
+              </Fragment>
+            )}
+          </div>
         </div>
       </Layout>
     </Fragment>

@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 const Now = ({ data }) => (
   <Layout title="Now" description="What I'm currently up to." article={false}>
     <h1>Now</h1>
-    <p className="date">Updated {data.allFile.nodes[0].modifiedTime}</p>
+    <p className="grey">Updated {data.allFile.nodes[0].modifiedTime}</p>
     <ul>
       <li>Staying at home until restrictions lift in Toronto.</li>
       <li>Focusing on writing content for this blog.</li>

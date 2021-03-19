@@ -7,7 +7,7 @@ module.exports = {
     title: "juliariec",
     titleTemplate: "%s",
     author: "Julia Cooke",
-    description: "Thoughts on books, tech, and life.",
+    description: "Thoughts on books, software, and life.",
     url: "http://juliariec.com",
   },
   flags: {

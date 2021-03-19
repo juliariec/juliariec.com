@@ -15,11 +15,15 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
+
   const result = await graphql(`
     query {
       allMarkdownRemark {
         edges {
           node {
+            frontmatter {
+              title
+            }
             fields {
               slug
             }
@@ -29,14 +33,19 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `)
 
-  result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+  const posts = result.data.allMarkdownRemark.edges
+
+  posts.forEach((post, i) => {
+    const previous = i === posts.length - 1 ? null : posts[i + 1].node
+    const next = i === 0 ? null : posts[i - 1].node
+
     createPage({
-      path: node.fields.slug,
+      path: post.node.fields.slug,
       component: path.resolve(`./src/components/post.js`),
       context: {
-        // Data passed to context is available
-        // in page queries as GraphQL variables.
-        slug: node.fields.slug,
+        slug: post.node.fields.slug,
+        previous: previous,
+        next: next,
       },
     })
   })
