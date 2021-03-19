@@ -65,8 +65,8 @@ const About = () => (
     <h3>Software</h3>
     <p>
       I currently work in web development. My experience lies mainly in modern
-      JavaScript, React, Python, Java, and SQL. I've enjoyed trying my hand at
-      Bootstrap, GraphQL, and NodeJS through smaller projects.
+      JavaScript, React, PHP, Python, Java, and SQL. I've enjoyed trying my hand
+      at Bootstrap, GraphQL, WordPress, and NodeJS through smaller projects.
     </p>
     <p>
       At the moment, I'm most interested in learning a NoSQL database like
