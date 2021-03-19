@@ -59,7 +59,7 @@ module.exports = {
                   ) {
                     edges {
                       node {
-                        excerpt(pruneLength: 170)
+                        excerpt(pruneLength: 210)
                         html
                         fields { slug }
                         frontmatter {
