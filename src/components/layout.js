@@ -1,5 +1,11 @@
 import React, { Fragment } from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
+import {
+  IoLogoGithub,
+  IoLogoLinkedin,
+  IoCafe,
+  IoLogoRss,
+} from "react-icons/io5"
 import SEO from "./seo"
 
 const ListLink = props => (
@@ -38,7 +44,32 @@ const Layout = ({ title, description, article, children }) => {
       </div>
       <footer>
         <div class="half">Julia Cooke &copy; 2021.</div>
-        <div class="half">social links</div>
+        <div class="half">
+          <a
+            class="icon"
+            href="https://github.com/juliariec"
+            rel="noreferrer noopener"
+          >
+            <IoLogoGithub />
+          </a>
+          <a
+            class="icon"
+            href="https://www.linkedin.com/in/juliariec"
+            rel="noreferrer noopener"
+          >
+            <IoLogoLinkedin />
+          </a>
+          <a
+            class="icon"
+            href="https://ko-fi.com/juliariec"
+            rel="noreferrer noopener"
+          >
+            <IoCafe />
+          </a>
+          <a class="icon" href="/now" rel="noreferrer noopener">
+            <IoLogoRss />
+          </a>
+        </div>
       </footer>
     </Fragment>
   )
