@@ -28,6 +28,7 @@ const Layout = ({ children }) => {
         </Link>
         <ul>
           <ListLink to="/about/">About</ListLink>
+          <ListLink to="/now/">Now</ListLink>
         </ul>
       </header>
       {children}
