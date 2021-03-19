@@ -2,7 +2,11 @@ import React from "react"
 import Layout from "../components/layout"
 
 const About = () => (
-  <Layout>
+  <Layout
+    title="About"
+    description="About Julia, the author of this blog."
+    article={false}
+  >
     <h1>About</h1>
     <p>
       I'm Julia. I work as a software developer in Toronto and I like to read,

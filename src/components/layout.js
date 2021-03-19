@@ -1,5 +1,6 @@
-import React from "react"
+import React, { Fragment } from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
+import SEO from "./seo"
 
 const ListLink = props => (
   <li>
@@ -7,7 +8,7 @@ const ListLink = props => (
   </li>
 )
 
-const Layout = ({ children }) => {
+const Layout = ({ title, description, article, children }) => {
   const data = useStaticQuery(
     graphql`
       query {
@@ -21,18 +22,21 @@ const Layout = ({ children }) => {
   )
 
   return (
-    <div className="container">
-      <header>
-        <Link to="/">
-          <h3>{data.site.siteMetadata.title}</h3>
-        </Link>
-        <ul>
-          <ListLink to="/about/">About</ListLink>
-          <ListLink to="/now/">Now</ListLink>
-        </ul>
-      </header>
-      {children}
-    </div>
+    <Fragment>
+      <SEO title={title} description={description} article={article}></SEO>
+      <div className="container">
+        <header>
+          <Link to="/">
+            <h3>{data.site.siteMetadata.title}</h3>
+          </Link>
+          <ul>
+            <ListLink to="/about/">About</ListLink>
+            <ListLink to="/now/">Now</ListLink>
+          </ul>
+        </header>
+        {children}
+      </div>
+    </Fragment>
   )
 }
 

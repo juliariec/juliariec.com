@@ -18,7 +18,6 @@ const SEO = ({ title, description, article }) => {
   const seo = {
     title: title || defaultTitle,
     description: description || defaultDescription,
-    image: `${siteUrl}${image || defaultImage}`,
     url: `${siteUrl}${pathname}`,
   }
 

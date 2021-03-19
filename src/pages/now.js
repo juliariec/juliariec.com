@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 
 const Now = ({ data }) => (
-  <Layout>
+  <Layout title="Now" description="What I'm currently up to." article={false}>
     <h1>Now</h1>
     <p className="date">Updated {data.allFile.nodes[0].modifiedTime}</p>
     <ul>

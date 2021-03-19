@@ -1,18 +1,24 @@
-import React from "react"
+import React, { Fragment } from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import Snippet from "../templates/snippet"
+import Snippet from "../components/snippet"
 
 const Homepage = ({ data }) => {
   return (
-    <Layout>
-      <div>
-        <h1>Posts</h1>
-        {data.allMarkdownRemark.edges.map(({ node }) => (
-          <Snippet node={node}></Snippet>
-        ))}
-      </div>
-    </Layout>
+    <Fragment>
+      <Layout
+        title={data.site.siteMetadata.title}
+        description={data.site.siteMetadata.description}
+        article={false}
+      >
+        <div>
+          <h1>Posts</h1>
+          {data.allMarkdownRemark.edges.map(({ node }) => (
+            <Snippet node={node}></Snippet>
+          ))}
+        </div>
+      </Layout>
+    </Fragment>
   )
 }
 
@@ -32,6 +38,14 @@ export const query = graphql`
           }
           excerpt(pruneLength: 170)
         }
+      }
+    }
+    site {
+      siteMetadata {
+        author
+        description
+        title
+        url
       }
     }
   }
