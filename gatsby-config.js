@@ -5,11 +5,12 @@
 module.exports = {
   siteMetadata: {
     title: "juliariec",
-    titleTemplate: "%s",
+    titleTemplate: "%s · juliariec",
     author: "Julia Cooke",
     description: "Thoughts on books, software, and life.",
     siteUrl: "https://www.juliariec.com",
     url: "https://www.juliariec.com",
+    image: "logo.png",
   },
   flags: {
     PRESERVE_WEBPACK_CACHE: true,

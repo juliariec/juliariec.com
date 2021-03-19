@@ -49,6 +49,7 @@ const Layout = ({ title, description, article, children }) => {
             class="icon"
             href="https://github.com/juliariec"
             rel="noreferrer noopener"
+            alt="GitHub"
           >
             <IoLogoGithub />
           </a>
@@ -56,6 +57,7 @@ const Layout = ({ title, description, article, children }) => {
             class="icon"
             href="https://www.linkedin.com/in/juliariec"
             rel="noreferrer noopener"
+            alt="LinkedIn"
           >
             <IoLogoLinkedin />
           </a>
@@ -63,10 +65,16 @@ const Layout = ({ title, description, article, children }) => {
             class="icon"
             href="https://ko-fi.com/juliariec"
             rel="noreferrer noopener"
+            alt="Ko-Fi"
           >
             <IoCafe />
           </a>
-          <a class="icon" href="/rss.xml" rel="noreferrer noopener">
+          <a
+            class="icon"
+            href="/rss.xml"
+            rel="noreferrer noopener"
+            alt="RSS Feed"
+          >
             <IoLogoRss />
           </a>
         </div>

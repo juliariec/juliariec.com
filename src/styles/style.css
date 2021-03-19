@@ -1,17 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 
-html {
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  text-rendering: optimizeLegibility;
 }
 
+html,
 body {
-  font-family: "Inter", "Arial", "sans-serif";
-  font-size: 18px;
   color: #2e2e2e;
-  word-wrap: break-word;
+  font-family: "Inter", "Lato", "Roboto", "Helvetica", "Arial", "sans-serif";
+  font-size: 18px;
   line-height: 175%;
-  margin: 0;
+  word-wrap: break-word;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .container,
@@ -37,6 +41,7 @@ h2,
 h3,
 h4 {
   padding-top: 1rem;
+  padding-bottom: 0.5rem;
   line-height: 105%;
   font-weight: 600;
 }
@@ -44,21 +49,26 @@ h4 {
 h1 {
   font-size: 1.8rem;
   padding-top: 1.4rem;
+  padding-bottom: 1rem;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   padding-top: 1.2rem;
 }
 
 h3 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 h4 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 500;
+}
+
+p {
+  margin: 1rem 0;
 }
 
 header {

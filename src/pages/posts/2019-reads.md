@@ -1,7 +1,7 @@
 ---
-title: "2019 reads."
+title: "2019 reads"
 date: "2019-12-30"
-description: "My favourite books of 2019"
+description: "My favourite books of 2019."
 tag: "books"
 ---
 

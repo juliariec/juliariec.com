@@ -1,7 +1,7 @@
 ---
-title: "Endings."
+title: "Endings"
 date: "2019-05-01"
-description: "Thoughts on finishing university"
+description: "Thoughts on finishing university."
 tag: "thoughts"
 ---
 

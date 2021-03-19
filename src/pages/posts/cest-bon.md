@@ -1,7 +1,7 @@
 ---
-title: "C'est bon."
+title: "C'est bon"
 date: "2019-05-28"
-description: "My experience on the Explore program in Quebec"
+description: "My experience on the Explore program in Quebec."
 tag: "life"
 ---
 

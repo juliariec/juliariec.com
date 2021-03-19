@@ -5,7 +5,7 @@ const Snippet = ({ node }) => {
   return (
     <div key={node.id}>
       <Link to={node.fields.slug}>
-        <h3>{node.frontmatter.title} </h3>
+        <h2>{node.frontmatter.title}</h2>
       </Link>
       <p>
         {node.excerpt} <Link to={node.fields.slug}>{"(Read)"}</Link>

@@ -7,7 +7,7 @@ const Homepage = ({ data }) => {
   return (
     <Fragment>
       <Layout
-        title={data.site.siteMetadata.title}
+        title="Homepage"
         description={data.site.siteMetadata.description}
         article={false}
       >
@@ -36,7 +36,7 @@ export const query = graphql`
           fields {
             slug
           }
-          excerpt(pruneLength: 210)
+          excerpt(pruneLength: 200)
         }
       }
     }

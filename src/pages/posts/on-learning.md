@@ -1,7 +1,7 @@
 ---
-title: "On learning."
+title: "On learning"
 date: "2019-01-09"
-description: "Advice on effective learning at university"
+description: "Advice on effective learning at university."
 tag: "thoughts"
 ---
 
