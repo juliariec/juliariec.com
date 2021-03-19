@@ -18,7 +18,7 @@ const Post = ({ data, pageContext }) => {
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </div>
         <div className="post-links">
-          <div className="ref">
+          <div className="half">
             {previous && (
               <Fragment>
                 <p>Previous</p>
@@ -29,7 +29,7 @@ const Post = ({ data, pageContext }) => {
             )}
           </div>
 
-          <div className="ref">
+          <div className="half">
             {next && (
               <Fragment>
                 <p>Next</p>

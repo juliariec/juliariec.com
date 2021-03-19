@@ -36,6 +36,10 @@ const Layout = ({ title, description, article, children }) => {
         </header>
         {children}
       </div>
+      <footer>
+        <div class="half">Julia Cooke &copy; 2021.</div>
+        <div class="half">social links</div>
+      </footer>
     </Fragment>
   )
 }

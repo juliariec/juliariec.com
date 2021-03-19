@@ -13,10 +13,21 @@ body {
   margin: 0;
 }
 
-.container {
-  margin: 3rem auto;
+.container,
+footer {
   max-width: 700px;
   padding: 1rem;
+}
+
+.container {
+  min-height: 75vh;
+  margin: 3rem auto;
+}
+
+footer {
+  display: flex;
+  margin: 3rem auto 1rem auto;
+  color: #6e6e6e;
 }
 
 h1,
@@ -96,23 +107,22 @@ a:hover {
 }
 
 .post {
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 
 .post-links {
   display: flex;
 }
 
-.ref {
-  padding: 2rem 0;
+.half {
   width: 50%;
   display: block;
 }
 
-.ref:last-of-type {
+.half:last-of-type {
   text-align: right;
 }
 
-.ref h4 {
+.half h4 {
   padding-top: 0;
 }
