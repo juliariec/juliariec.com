@@ -8,7 +8,8 @@ module.exports = {
     titleTemplate: "%s",
     author: "Julia Cooke",
     description: "Thoughts on books, software, and life.",
-    url: "http://juliariec.com",
+    siteUrl: "https://www.juliariec.com",
+    url: "https://www.juliariec.com",
   },
   flags: {
     PRESERVE_WEBPACK_CACHE: true,
@@ -21,9 +22,11 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
-    `gatsby-plugin-emotion`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-feed`,
+    `gatsby-plugin-advanced-sitemap`,
+    `gatsby-plugin-robots-txt`,
     `gatsby-plugin-offline`,
   ],
 }

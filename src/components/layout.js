@@ -66,7 +66,7 @@ const Layout = ({ title, description, article, children }) => {
           >
             <IoCafe />
           </a>
-          <a class="icon" href="/now" rel="noreferrer noopener">
+          <a class="icon" href="/rss.xml" rel="noreferrer noopener">
             <IoLogoRss />
           </a>
         </div>
