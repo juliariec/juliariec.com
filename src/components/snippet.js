@@ -8,8 +8,7 @@ const Snippet = ({ node }) => {
         <h2>{node.frontmatter.title}</h2>
       </Link>
       <p>
-        {node.excerpt}
-        <Link to={node.fields.slug}>{"  (Read)"}</Link>
+        {node.excerpt} <Link to={node.fields.slug}>{"  (Read)"}</Link>
       </p>
     </div>
   )
