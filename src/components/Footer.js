@@ -28,34 +28,38 @@ const Footer = () => {
       </div>
       <div className="half">
         <a
+          title="GitHub"
           className="icon"
           href="https://github.com/juliariec"
           rel="noreferrer noopener"
-          title="GitHub"
+          target="_blank"
         >
           <IoLogoGithub />
         </a>
         <a
+          title="LinkedIn"
           className="icon"
           href="https://www.linkedin.com/in/juliariec"
           rel="noreferrer noopener"
-          title="LinkedIn"
+          target="_blank"
         >
           <IoLogoLinkedin />
         </a>
         <a
+          title="Ko-Fi"
           className="icon"
           href="https://ko-fi.com/juliariec"
           rel="noreferrer noopener"
-          title="Ko-Fi"
+          target="_blank"
         >
           <IoCafe />
         </a>
         <a
+          title="RSS"
           className="icon"
           href="/rss.xml"
           rel="noreferrer noopener"
-          title="RSS"
+          target="_blank"
         >
           <IoLogoRss />
         </a>
