@@ -1,7 +1,7 @@
 {
-  "name": "julia-blog",
+  "name": "juliariec-blog",
   "private": true,
-  "description": "A basic website to host my blog",
+  "description": "Thoughts on books, software, and life.",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
