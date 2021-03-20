@@ -4,8 +4,7 @@ import { Helmet } from "react-helmet"
 import { useLocation } from "@reach/router"
 import { useStaticQuery, graphql } from "gatsby"
 
-import favicon from "../../static/favicons/favicon.ico"
-import appleTouch from "../../static/favicons/apple-touch-icon.png"
+import favicon from "../../static/favicon.ico"
 import fav32 from "../../static/favicons/favicon-32x32.png"
 import fav16 from "../../static/favicons/favicon-16x16.png"
 import safari from "../../static/favicons/safari-pinned-tab.svg"
@@ -55,7 +54,11 @@ const SEO = ({ title, description, article }) => {
       )}
 
       <link rel="shortcut icon" type="image/png" href={favicon} />
-      <link rel="apple-touch-icon" sizes="180x180" href={appleTouch} />
+      <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="static/favicons/apple-touch-icon.png"
+      />
       <link rel="icon" type="image/png" sizes="32x32" href={fav32} />
       <link rel="icon" type="image/png" sizes="16x16" href={fav16} />
       <link rel="mask-icon" href={safari} color="#5d045b" />
