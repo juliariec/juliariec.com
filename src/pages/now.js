@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 
 const Now = ({ data }) => (
   <Layout title="Now" description="What I'm currently up to." article={false}>

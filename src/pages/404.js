@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 
 const Error = () => (
   <Layout title="404 error" description="Page not found." article={false}>

@@ -28,7 +28,7 @@ footer {
 
 .container {
   min-height: 70vh;
-  margin: 3rem auto;
+  margin: 1rem auto;
 }
 
 footer {
@@ -41,7 +41,7 @@ footer {
 
 header {
   text-transform: lowercase;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   font-weight: 500;
 }
 
@@ -103,8 +103,9 @@ h1 {
 }
 
 h2 {
-  font-size: 1.4rem;
-  padding-top: 1.2rem;
+  font-size: 1.5rem;
+  padding-top: 1.4rem;
+  font-weight: 600;
 }
 
 h3 {

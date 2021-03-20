@@ -5,9 +5,6 @@ import { useLocation } from "@reach/router"
 import { useStaticQuery, graphql } from "gatsby"
 
 import favicon from "../../static/favicon.ico"
-import fav32 from "../../static/favicons/favicon-32x32.png"
-import fav16 from "../../static/favicons/favicon-16x16.png"
-import safari from "../../static/favicons/safari-pinned-tab.svg"
 
 const SEO = ({ title, description, article }) => {
   const { pathname } = useLocation()
@@ -36,9 +33,10 @@ const SEO = ({ title, description, article }) => {
         lang: "en",
       }}
     >
+      <meta charSet="utf-8" />
       <meta name="description" content={seo.description} />
       <meta name="author" content={seo.author} />
-      <meta charSet="utf-8" />
+      <link rel="shortcut icon" type="image/png" href={favicon} />
       {seo.url && <link rel="canonical" href={seo.url} />}
 
       {seo.url && <meta property="og:url" content={seo.url} />}
@@ -52,18 +50,6 @@ const SEO = ({ title, description, article }) => {
       {seo.description && (
         <meta name="twitter:description" content={seo.description} />
       )}
-
-      <link rel="shortcut icon" type="image/png" href={favicon} />
-      <link
-        rel="apple-touch-icon"
-        sizes="180x180"
-        href="static/favicons/apple-touch-icon.png"
-      />
-      <link rel="icon" type="image/png" sizes="32x32" href={fav32} />
-      <link rel="icon" type="image/png" sizes="16x16" href={fav16} />
-      <link rel="mask-icon" href={safari} color="#5d045b" />
-      <meta name="msapplication-TileColor" content="#da532c" />
-      <meta name="theme-color" content="#ffffff" />
     </Helmet>
   )
 }

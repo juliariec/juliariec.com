@@ -3,6 +3,7 @@ title: "2019 reads"
 date: "2019-12-30"
 description: "My favourite books of 2019."
 tag: "books"
+type: "post"
 ---
 
 It's hard to believe it's been a year since I wrote 2018 reads, the first post in what I hope will be a long standing series of annual book recommendations!

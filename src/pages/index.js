@@ -1,11 +1,11 @@
-import React, { Fragment } from "react"
+import React from "react"
 import { graphql } from "gatsby"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import Snippet from "../components/snippet"
 
 const Homepage = ({ data }) => {
   return (
-    <Fragment>
+    <>
       <Layout
         title="Homepage"
         description={data.site.siteMetadata.description}
@@ -18,7 +18,7 @@ const Homepage = ({ data }) => {
           ))}
         </div>
       </Layout>
-    </Fragment>
+    </>
   )
 }
 
