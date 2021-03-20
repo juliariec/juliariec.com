@@ -46,9 +46,9 @@ const About = () => (
         rel="noreferrer noopener"
         target="_blank"
       >
-        Goodreads profile
-      </a>
-      .
+        Goodreads
+      </a>{" "}
+      profile.
     </p>
     <p>
       I also read other blogs extensively, using{" "}

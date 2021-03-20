@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 const Extension = ({ previous, next }) => {
   return (
-    <div className="post-links">
+    <div className="half-container">
       <div className="half">
         {previous && (
           <>
