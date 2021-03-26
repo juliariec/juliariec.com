@@ -46,9 +46,9 @@ const Footer = () => {
           <IoLogoLinkedin />
         </a>
         <a
-          title="Ko-Fi"
+          title="Buy Me a Coffee"
           className="icon"
-          href="https://ko-fi.com/juliariec"
+          href="https://www.buymeacoffee.com/juliariec"
           rel="noreferrer noopener"
           target="_blank"
         >
