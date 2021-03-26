@@ -13,7 +13,7 @@ const About = () => (
       <div class="text">
         <p>
           I'm Julia. I work as a software developer in Toronto and I like to
-          read, think, write, and learn.
+          read, write, think, and learn.
         </p>
         <p>
           I've enjoyed blogging since I was in elementary school. It encourages

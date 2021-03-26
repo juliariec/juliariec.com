@@ -11,6 +11,7 @@ const Now = ({ data }) => (
       <li>Focusing on writing content for this blog.</li>
       <li>Working on freelance web development work.</li>
       <li>Cleaning through my old files and adding them to my Notion.</li>
+      <li>Learning about Acceptance and Commitment Therapy (ACT).</li>
     </ul>
     <p className="aside">
       Inspired by{" "}
