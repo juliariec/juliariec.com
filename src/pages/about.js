@@ -16,8 +16,8 @@ const About = () => (
           read, think, write, and learn.
         </p>
         <p>
-          I've blogged since I was in elementary school. It encourages me to
-          share what I'm learning with others and to clarify my own thoughts.
+          I've enjoyed blogging since I was in elementary school. It encourages
+          me to clarify my own thoughts and share what I'm learning with others.
         </p>
       </div>
 
@@ -27,6 +27,7 @@ const About = () => (
           alt="Julia"
           layout="constrained"
           placeholder="blurred"
+          loading="eager"
         />
       </div>
     </div>
@@ -49,7 +50,8 @@ const About = () => (
       >
         tree books
       </a>
-      .{" "}
+      . My favourite novel is <em>East of Eden</em> by John Steinbeck, with{" "}
+      <em>The Idiot</em> by Elif Batuman as a close second.
     </p>
     <p>
       {" "}
@@ -84,15 +86,16 @@ const About = () => (
     <p>
       I currently work in web development. My experience lies mainly in modern
       JavaScript, React, PHP, Python, Java, and SQL. I've enjoyed trying my hand
-      at Bootstrap, GraphQL, WordPress, and NodeJS through smaller projects.
+      at Bootstrap, GraphQL, WordPress, and NodeJS through smaller projects and
+      am working on becoming more proficient with those technologies.
     </p>
     <p>
-      At the moment, I'm most interested in learning a NoSQL database like
-      MongoDB, a functional language like Haskell, and more advanced CSS like
-      SASS and TailwindCSS. I'd also like to try out Linux and some scripting.
+      In the future, I'd like to learn a NoSQL database like MongoDB, a
+      functional language like Haskell, and more flavours of CSS, like SASS and
+      TailwindCSS. I'd also like to try out Linux and some Python scripting.
     </p>
     <p>
-      I recently set up a{" "}
+      I'm also interested in personal knowledge management and recently set up a{" "}
       <a href="https://notion.so" rel="noreferrer noopener" target="_blank">
         Notion
       </a>{" "}

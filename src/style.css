@@ -156,41 +156,23 @@ a:hover {
   flex-wrap: wrap;
 }
 
-/*
-.profile .text {
-  flex: 2;
-  width: 80%;
-}
-
-.profile .photo {
-  flex: 1;
-  display: block;
-  min-width: 150px;
-}
-
-.profile img {
-  border-radius: 50%;
-  float: right;
-  padding-left: 1rem;
-}
-*/
-
-/*
-.profile .photo {
+.half {
+  width: 50%;
   display: block;
 }
-*/
 
-/*
-.profile .photo {
-  width: 40%;
-  float: right;
+.half:last-of-type {
+  text-align: right;
 }
 
-.profile .text {
-  width: 60%;
+.half h4 {
+  padding-top: 0;
 }
-*/
+
+.icon {
+  font-size: 1.1rem;
+  padding-left: 14px;
+}
 
 .profile .text {
   width: 70%;
@@ -207,6 +189,8 @@ a:hover {
 
 .profile img {
   border-radius: 50%;
+  max-width: 300px;
+  max-height: 300px;
 }
 
 @media (max-width: 650px) {
@@ -226,22 +210,4 @@ a:hover {
     max-width: 200px;
     max-height: 200px;
   }
-}
-
-.half {
-  width: 50%;
-  display: block;
-}
-
-.half:last-of-type {
-  text-align: right;
-}
-
-.half h4 {
-  padding-top: 0;
-}
-
-.icon {
-  font-size: 1.1rem;
-  padding-left: 14px;
 }
