@@ -5,7 +5,7 @@ import { useLocation } from "@reach/router"
 import { useStaticQuery, graphql } from "gatsby"
 import favicon from "../../favicon.ico"
 
-const SEO = ({ title, description, article }) => {
+const Seo = ({ title, description, article }) => {
   const { pathname } = useLocation()
   const { site } = useStaticQuery(query)
 
@@ -68,18 +68,18 @@ const query = graphql`
   }
 `
 
-SEO.propTypes = {
+Seo.propTypes = {
   author: PropTypes.string,
   title: PropTypes.string,
   description: PropTypes.string,
   article: PropTypes.bool,
 }
 
-SEO.defaultProps = {
+Seo.defaultProps = {
   author: null,
   title: null,
   description: null,
   article: false,
 }
 
-export default SEO
+export default Seo

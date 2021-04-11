@@ -9,9 +9,9 @@ const Now = ({ data }) => (
     <ul>
       <li>Staying at home until restrictions lift in Toronto.</li>
       <li>Focusing on writing content for this blog.</li>
-      <li>Working on freelance web development work.</li>
       <li>Cleaning through my old files and adding them to my Notion.</li>
       <li>Learning about Acceptance and Commitment Therapy (ACT).</li>
+      <li>Starting my own herb garden and remembering how to bike.</li>
     </ul>
     <p className="aside">
       Inspired by{" "}

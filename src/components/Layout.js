@@ -1,12 +1,12 @@
 import React from "react"
-import SEO from "./Seo"
+import Seo from "./Seo"
 import Header from "./Header"
 import Footer from "./Footer"
 
 const Layout = ({ title, description, article, children }) => {
   return (
     <>
-      <SEO title={title} description={description} article={article}></SEO>
+      <Seo title={title} description={description} article={article}></Seo>
       <div className="container">
         <Header />
         {children}
