@@ -15,7 +15,7 @@ const Post = ({ data, pageContext }) => {
       >
         <div className="post">
           <h1>{post.frontmatter.title}</h1>
-          <p className="grey">Published {post.frontmatter.date}</p>
+          <p className="grey">Updated {post.frontmatter.date}</p>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </div>
         <Extension previous={previous} next={next} />
