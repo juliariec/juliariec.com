@@ -5,11 +5,10 @@ import Layout from "../components/Layout"
 const Now = ({ data }) => (
   <Layout title="Now" description="What I'm currently up to." article={false}>
     <h1>Now</h1>
-    <p className="grey">Updated Apr 11, 2021</p>
+    <p className="grey">Updated May 16, 2021</p>
     <ul>
       <li>Staying at home until restrictions lift in Toronto.</li>
-      <li>Focusing on writing content for this blog.</li>
-      <li>Cleaning through my old files and adding them to my Notion.</li>
+      <li>Working on improving and finalizing features for this blog.</li>
       <li>Learning about Acceptance and Commitment Therapy (ACT).</li>
       <li>Starting my own herb garden and remembering how to bike.</li>
     </ul>
