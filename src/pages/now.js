@@ -5,12 +5,14 @@ import Layout from "../components/Layout"
 const Now = ({ data }) => (
   <Layout title="Now" description="What I'm currently up to." article={false}>
     <h1>Now</h1>
-    <p className="grey">Updated May 16, 2021</p>
+    <p className="grey">Updated May 31, 2021</p>
     <ul>
-      <li>Staying at home until restrictions lift in Toronto.</li>
-      <li>Working on improving and finalizing features for this blog.</li>
+      <li>Working in web development.</li>
+      <li>Staying (and working) at home until restrictions lift in Toronto.</li>
+      <li>Improving and finalizing features for this blog.</li>
       <li>Learning about Acceptance and Commitment Therapy (ACT).</li>
-      <li>Starting my own herb garden and remembering how to bike.</li>
+      <li>Starting my own herb garden. </li>
+      <li>Getting into cycling.</li>
     </ul>
     <p className="aside">
       Inspired by{" "}
