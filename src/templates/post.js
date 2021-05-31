@@ -7,20 +7,18 @@ const Post = ({ data, pageContext }) => {
   const post = data.markdownRemark
   const { previous, next } = pageContext
   return (
-    <>
-      <Layout
-        title={post.frontmatter.title}
-        description={post.frontmatter.description}
-        article={true}
-      >
-        <div className="post">
-          <h1>{post.frontmatter.title}</h1>
-          <p className="grey">Updated {post.frontmatter.date}</p>
-          <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        </div>
-        <Extension previous={previous} next={next} />
-      </Layout>
-    </>
+    <Layout
+      title={post.frontmatter.title}
+      description={post.frontmatter.description}
+      article={true}
+    >
+      <div className="post">
+        <h1>{post.frontmatter.title}</h1>
+        <p className="grey date">{post.frontmatter.date}</p>
+        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      </div>
+      <Extension previous={previous} next={next} />
+    </Layout>
   )
 }
 
