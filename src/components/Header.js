@@ -27,6 +27,7 @@ const Header = () => {
       </Link>
       <ul>
         <ListLink to="/about/">About</ListLink>
+        <ListLink to="/blog/">Blog</ListLink>
         <ListLink to="/now/">Now</ListLink>
       </ul>
     </header>

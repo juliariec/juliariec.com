@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 const Extension = ({ previous, next }) => {
   return (
-    <div className="flex-container">
+    <div className="flex-container extension">
       <div className="half">
         {previous && (
           <>
