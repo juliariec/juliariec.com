@@ -50,7 +50,7 @@ This is especially valuable if you find yourself unusually preoccupied with a sp
 
 Every year I set a goal for the number of books I hope to read.
 
-I could easily read 50 books in a year if I blazed through light fiction or sped-read the latest pop pychology books. But the point isn't to have read a certain number of books; it's to commit to the process of reading and to continue to learn more about the world.
+I could easily read 50 books in a year if I blazed through light fiction or sped-read the latest pop psychology books. But the point isn't to have read a certain number of books; it's to commit to the process of reading and to continue to learn more about the world.
 
 When I check in on myself, glancing at my book count is easy. Stopping to consider what I've learned and how it's made a difference in my life is more difficult. It's also more worthwhile, and ultimately it's the question I _actually_ want the answer to.
 
