@@ -8,9 +8,7 @@ const Extension = ({ previous, next }) => {
         {previous && (
           <>
             <p>Previous</p>
-            <Link to={previous.fields.slug}>
-              <h4>{previous.frontmatter.title}</h4>
-            </Link>
+            <Link to={previous.fields.slug}>{previous.frontmatter.title}</Link>
           </>
         )}
       </div>
@@ -19,9 +17,7 @@ const Extension = ({ previous, next }) => {
         {next && (
           <>
             <p>Next</p>
-            <Link to={next.fields.slug}>
-              <h4>{next.frontmatter.title}</h4>
-            </Link>
+            <Link to={next.fields.slug}>{next.frontmatter.title}</Link>
           </>
         )}
       </div>
