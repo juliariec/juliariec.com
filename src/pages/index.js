@@ -1,7 +1,7 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import Layout from "../components/Layout"
-import Tag from "../components/Tag"
+import Content from "../components/Content"
 
 const Homepage = ({ data }) => {
   return (
@@ -10,20 +10,12 @@ const Homepage = ({ data }) => {
       description={data.site.siteMetadata.description}
       article={false}
     >
-      <div>
+      <div className="posts">
         {data.allMarkdownRemark.edges.map(({ node }) => (
-          <div className="post">
-            <Link to={node.fields.slug}>
-              <h1>{node.frontmatter.title}</h1>
-            </Link>
-            <p className="grey date">{node.frontmatter.date}</p>
-            {Tag(node.frontmatter.tag)}
-            <div
-              className="content"
-              dangerouslySetInnerHTML={{ __html: node.html }}
-            />
+          <>
+            <Content post={node} />
             <hr />
-          </div>
+          </>
         ))}
       </div>
     </Layout>

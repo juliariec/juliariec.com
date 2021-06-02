@@ -10,7 +10,7 @@ const Blog = ({ data }) => {
       description="A list of all of the posts published on this blog."
       article={false}
     >
-      <div class="blog">
+      <div className="blog">
         <h1>All Posts</h1>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <Snippet node={node}></Snippet>

@@ -9,8 +9,8 @@ const About = () => (
     article={false}
   >
     <h1>About</h1>
-    <div class="profile">
-      <div class="text">
+    <div className="profile">
+      <div className="text">
         <p>
           I'm Julia. I work as a software developer in Toronto and I like to
           read, write, think, and learn.
@@ -21,7 +21,7 @@ const About = () => (
         </p>
       </div>
 
-      <div class="photo">
+      <div className="photo">
         <StaticImage
           src="../images/julia.jpg"
           alt="Julia"

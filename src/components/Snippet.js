@@ -4,12 +4,12 @@ import Tag from "./Tag"
 
 const Snippet = ({ node }) => {
   return (
-    <div className="snippet" key={node.id}>
-      <Link to={node.fields.slug} class="title">
+    <div key={node.id} className="snippet">
+      <Link to={node.fields.slug} className="title">
         {node.frontmatter.title}
       </Link>
-      <p class="grey date">{node.frontmatter.date}</p>
-      {Tag(node.frontmatter.tag)}
+      <p className="date">{node.frontmatter.date}</p>
+      <Tag tag={node.frontmatter.tag} />
       <p>{node.frontmatter.description}</p>
     </div>
   )
