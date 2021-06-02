@@ -23,7 +23,7 @@ const Now = ({ data }) => (
       >
         NowNowNow
       </a>
-      .
+      : "Think of what you'd tell a friend you hadn't seen in a year".
     </p>
   </Layout>
 )

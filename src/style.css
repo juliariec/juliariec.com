@@ -60,7 +60,8 @@ footer a {
 
 header a:hover,
 footer a:hover,
-.snippet a:hover {
+.snippet a:hover,
+.extension h4:hover {
   color: rgb(122, 122, 122);
   transition: color 0.2s;
 }
@@ -280,5 +281,13 @@ blockquote cite {
   .profile .photo img {
     max-width: 200px;
     max-height: 200px;
+  }
+
+  header {
+    font-size: 0.9rem;
+  }
+
+  header li {
+    margin-left: 1rem;
   }
 }

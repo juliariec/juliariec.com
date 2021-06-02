@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 import Layout from "../components/Layout"
 import Tag from "../components/Tag"
 
@@ -13,7 +13,9 @@ const Homepage = ({ data }) => {
       <div>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div className="post">
-            <h1>{node.frontmatter.title}</h1>
+            <Link to={node.fields.slug}>
+              <h1>{node.frontmatter.title}</h1>
+            </Link>
             <p className="grey date">{node.frontmatter.date}</p>
             {Tag(node.frontmatter.tag)}
             <div
