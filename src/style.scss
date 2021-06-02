@@ -209,6 +209,10 @@ hr {
   margin: 80px;
 }
 
+hr:last-of-type {
+  display: none;
+}
+
 // Blog
 .blog h1 {
   padding-bottom: 20px;
