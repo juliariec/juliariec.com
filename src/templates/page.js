@@ -12,7 +12,7 @@ const Page = ({ data }) => {
       article={false}
     >
       <Content node={page} link={false} />
-      <Link to="/pages/">Back To Pages &#8592;</Link>
+      <Link to="/pages/">&#8592; Back to Pages</Link>
     </Layout>
   )
 }

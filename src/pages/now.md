@@ -1,6 +1,6 @@
 ---
 title: "Now"
-date: "2021-06-03"
+date: "2021-06-01"
 description: "What I'm currently up to."
 category: ""
 type: "page"

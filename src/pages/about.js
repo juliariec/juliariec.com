@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../components/Layout"
-import { StaticImage } from "gatsby-plugin-image"
 
 const About = () => (
   <Layout
@@ -9,29 +8,14 @@ const About = () => (
     article={false}
   >
     <h1>About</h1>
-    <div className="profile">
-      <div className="text">
-        <p>
-          I'm Julia. I work as a software developer in Toronto and I like to
-          read, write, think, and learn.
-        </p>
-        <p>
-          I've enjoyed blogging since I was in elementary school. It encourages
-          me to clarify my own thoughts and share what I'm learning with others.
-        </p>
-      </div>
-
-      <div className="photo">
-        <StaticImage
-          src="../images/julia.jpg"
-          alt="Julia"
-          layout="constrained"
-          placeholder="blurred"
-          loading="eager"
-        />
-      </div>
-    </div>
-
+    <p>
+      I'm Julia. I work as a software developer in Toronto and I like to read,
+      write, think, and learn.
+    </p>
+    <p>
+      I've enjoyed blogging since I was in elementary school. It encourages me
+      to clarify my own thoughts and share what I'm learning with others.
+    </p>
     <h2>Contact</h2>
     <p>
       To contact me, please send me an{" "}

@@ -242,10 +242,18 @@ hr:last-of-type {
 // Content
 .content {
   margin-bottom: 100px;
+
+  @media (max-width: 650px) {
+    margin-bottom: 50px;
+  }
 }
 
 .content .body {
   margin: 40px 0;
+
+  @media (max-width: 650px) {
+    margin: 20px 0;
+  }
 }
 
 // Extension
@@ -319,44 +327,4 @@ hr:last-of-type {
 .icon {
   font-size: 1.1rem;
   padding-left: 14px;
-}
-
-.profile {
-  .text {
-    width: 70%;
-    float: left;
-    padding-bottom: 1.5rem;
-  }
-
-  .photo {
-    width: 30%;
-    float: right;
-    padding: 1rem;
-    min-height: 270px;
-  }
-
-  img {
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
-  }
-
-  @media (max-width: 650px) {
-    .text {
-      float: none;
-      width: 100%;
-    }
-
-    .photo {
-      width: 100%;
-      float: none;
-      text-align: center;
-      min-height: 250px;
-    }
-
-    img {
-      max-width: 200px;
-      max-height: 200px;
-    }
-  }
 }
