@@ -24,6 +24,8 @@ exports.createPages = async ({ graphql, actions }) => {
             frontmatter {
               title
               date
+              category
+              type
             }
             fields {
               slug
@@ -34,7 +36,9 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `)
 
-  const posts = result.data.allMarkdownRemark.edges
+  const all = result.data.allMarkdownRemark.edges
+  const posts = all.filter(item => item.node.frontmatter.type === "post")
+  const pages = all.filter(item => item.node.frontmatter.type === "page")
 
   posts.forEach((post, i) => {
     const previous = i === posts.length - 1 ? null : posts[i + 1].node
@@ -47,6 +51,16 @@ exports.createPages = async ({ graphql, actions }) => {
         slug: post.node.fields.slug,
         previous: previous,
         next: next,
+      },
+    })
+  })
+
+  pages.forEach(page => {
+    createPage({
+      path: page.node.fields.slug,
+      component: path.resolve(`./src/templates/page.js`),
+      context: {
+        slug: page.node.fields.slug,
       },
     })
   })

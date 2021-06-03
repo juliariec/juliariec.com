@@ -3,15 +3,15 @@ import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import Snippet from "../components/Snippet"
 
-const Blog = ({ data }) => {
+const PageList = ({ data }) => {
   return (
     <Layout
-      title="Blog"
-      description="A list of all of the posts published on this blog."
+      title="Pages"
+      description="A list of all of the pages published on this blog."
       article={false}
     >
       <div className="collection">
-        <h1>Posts</h1>
+        <h1>Pages</h1>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <Snippet node={node}></Snippet>
         ))}
@@ -24,7 +24,7 @@ export const query = graphql`
   {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { type: { eq: "post" } } }
+      filter: { frontmatter: { type: { eq: "page" } } }
     ) {
       totalCount
       edges {
@@ -46,4 +46,4 @@ export const query = graphql`
   }
 `
 
-export default Blog
+export default PageList

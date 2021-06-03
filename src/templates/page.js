@@ -1,20 +1,18 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 import Layout from "../components/Layout"
 import Content from "../components/Content"
-import Extension from "../components/Extension"
 
-const Post = ({ data, pageContext }) => {
-  const post = data.markdownRemark
-  const { previous, next } = pageContext
+const Page = ({ data }) => {
+  const page = data.markdownRemark
   return (
     <Layout
-      title={post.frontmatter.title}
-      description={post.frontmatter.description}
-      article={true}
+      title={page.frontmatter.title}
+      description={page.frontmatter.description}
+      article={false}
     >
-      <Content node={post} link={false} />
-      <Extension previous={previous} next={next} />
+      <Content node={page} link={false} />
+      <Link to="/pages/">Back To Pages &#8592;</Link>
     </Layout>
   )
 }
@@ -34,4 +32,4 @@ export const query = graphql`
   }
 `
 
-export default Post
+export default Page

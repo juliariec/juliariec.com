@@ -39,6 +39,15 @@ body {
   scroll-behavior: smooth;
 }
 
+.site-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: $maxWidth;
+  padding: 1rem;
+  margin: 1rem auto;
+}
+
 /* Basics */
 
 h1,
@@ -54,7 +63,6 @@ h4 {
 h1 {
   font-size: $size1;
   padding-top: 1.4rem;
-  padding-bottom: 0;
   font-weight: 700;
 }
 
@@ -146,14 +154,13 @@ blockquote cite {
 .date {
   font-weight: 400;
   color: $grey;
+  font-size: 0.9rem;
 }
 
 /* Sections */
 
 .container {
-  max-width: $maxWidth;
-  padding: 1rem;
-  margin: 1rem auto;
+  flex: 1 0 auto;
 }
 
 // Header
@@ -192,12 +199,10 @@ header {
 // Footer
 footer {
   display: flex;
-  margin: 3rem auto 1rem auto;
-  max-width: $maxWidth;
-  padding: 1rem;
   color: $primary;
   font-weight: 300;
   font-size: 0.9rem;
+  margin-top: 100px;
 }
 
 // Homepage
@@ -213,8 +218,8 @@ hr:last-of-type {
   display: none;
 }
 
-// Blog
-.blog h1 {
+// Blog and Pages
+.collection h1 {
   padding-bottom: 20px;
 }
 
@@ -237,6 +242,10 @@ hr:last-of-type {
 // Content
 .content {
   margin-bottom: 100px;
+}
+
+.content .body {
+  margin: 40px 0;
 }
 
 // Extension
@@ -276,6 +285,10 @@ hr:last-of-type {
 
 .books {
   background: $purple;
+}
+
+.paradigms {
+  background: $pink;
 }
 
 /* Utilities */

@@ -8,8 +8,12 @@ const Snippet = ({ node }) => {
       <Link to={node.fields.slug} className="title">
         {node.frontmatter.title}
       </Link>
-      <p className="date">{node.frontmatter.date}</p>
-      <Tag tag={node.frontmatter.tag} />
+      <p className="date">
+        {node.frontmatter.type === "page" && "Updated "} {node.frontmatter.date}
+      </p>
+      {node.frontmatter.category && (
+        <Tag category={node.frontmatter.category} />
+      )}
       <p>{node.frontmatter.description}</p>
     </div>
   )

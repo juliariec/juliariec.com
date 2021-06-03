@@ -7,11 +7,13 @@ const Layout = ({ title, description, article, children }) => {
   return (
     <>
       <Seo title={title} description={description} article={article}></Seo>
-      <div className="container">
-        <Header />
-        {children}
+      <div className="site-content">
+        <div className="container">
+          <Header />
+          {children}
+        </div>
+        <Footer />
       </div>
-      <Footer />
     </>
   )
 }

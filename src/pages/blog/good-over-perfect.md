@@ -2,7 +2,7 @@
 title: "Chasing good instead of perfect"
 date: "2021-05-17"
 description: "Why I'm trying to take a less perfectionistic, more committed approach to blogging."
-tag: "meta"
+category: "meta"
 type: "post"
 ---
 

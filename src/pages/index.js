@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 import Layout from "../components/Layout"
 import Content from "../components/Content"
 
@@ -13,10 +13,11 @@ const Homepage = ({ data }) => {
       <div className="posts">
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <>
-            <Content post={node} />
+            <Content node={node} link={true} />
             <hr />
           </>
         ))}
+        <Link to="/blog/">See All Posts &#8594;</Link>
       </div>
     </Layout>
   )
@@ -24,7 +25,11 @@ const Homepage = ({ data }) => {
 
 export const query = graphql`
   {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      limit: 3
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { type: { eq: "post" } } }
+    ) {
       totalCount
       edges {
         node {
@@ -33,7 +38,8 @@ export const query = graphql`
           frontmatter {
             title
             date(formatString: "MMM DD, YYYY")
-            tag
+            category
+            type
           }
           fields {
             slug

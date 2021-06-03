@@ -2,7 +2,7 @@
 title: "Beware the easier question"
 date: "2021-04-11"
 description: "A flaw with metrics, and why you should stop to consider the answer you really want."
-tag: "thoughts"
+category: "thoughts"
 type: "post"
 ---
 

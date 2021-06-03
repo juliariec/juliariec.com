@@ -1,7 +1,7 @@
 import React from "react"
 
-const Tag = ({ tag }) => {
-  return <span className={`tag ${tag}`}>{tag}</span>
+const Tag = ({ category }) => {
+  return <span className={`tag ${category}`}>{category}</span>
 }
 
 export default Tag
