@@ -10,6 +10,7 @@ const Snippet = ({ node }) => {
       </Link>
       <p className="date">
         {node.frontmatter.type === "page" && "Updated "} {node.frontmatter.date}
+        {node.frontmatter.type === "post" && ` · ${node.timeToRead} min read`}
       </p>
       {node.frontmatter.category && (
         <Tag category={node.frontmatter.category} />

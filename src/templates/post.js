@@ -30,6 +30,7 @@ export const query = graphql`
         date(formatString: "MMMM D, YYYY")
         type
       }
+      timeToRead
     }
   }
 `

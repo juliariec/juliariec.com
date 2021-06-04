@@ -94,6 +94,7 @@ li {
 
 // Main links
 header a,
+.header-link a,
 .extension a,
 .snippet a {
   color: inherit;
@@ -283,8 +284,12 @@ hr:last-of-type {
   background: $orange;
 }
 
-.updates {
+.paradigms {
   background: $yellow;
+}
+
+.personal {
+  background: $green;
 }
 
 .thoughts {
@@ -293,10 +298,6 @@ hr:last-of-type {
 
 .books {
   background: $purple;
-}
-
-.paradigms {
-  background: $pink;
 }
 
 /* Utilities */

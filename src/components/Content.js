@@ -6,14 +6,15 @@ const Content = ({ node, link }) => {
   return (
     <div className="content">
       {link ? (
-        <Link to={node.fields.slug}>
-          <h1>{node.frontmatter.title}</h1>
-        </Link>
+        <h1 className="header-link">
+          <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
+        </h1>
       ) : (
         <h1>{node.frontmatter.title}</h1>
       )}
       <p className="date">
         {node.frontmatter.type === "page" && "Updated "} {node.frontmatter.date}
+        {node.frontmatter.type === "post" && ` · ${node.timeToRead} min read`}
       </p>
       {node.frontmatter.category && (
         <Tag category={node.frontmatter.category} />
