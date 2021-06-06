@@ -9,13 +9,8 @@ const Seo = ({ title, description, article }) => {
   const { pathname } = useLocation()
   const { site } = useStaticQuery(query)
 
-  const {
-    author,
-    defaultTitle,
-    titleTemplate,
-    defaultDescription,
-    siteUrl,
-  } = site.siteMetadata
+  const { author, defaultTitle, titleTemplate, defaultDescription, siteUrl } =
+    site.siteMetadata
 
   const seo = {
     title: title || defaultTitle,
@@ -37,7 +32,6 @@ const Seo = ({ title, description, article }) => {
       <meta name="author" content={seo.author} />
       <link rel="shortcut icon" type="image/png" href={favicon} />
       {seo.url && <link rel="canonical" href={seo.url} />}
-
       {seo.url && <meta property="og:url" content={seo.url} />}
       {(article ? true : null) && <meta property="og:type" content="article" />}
       {seo.title && <meta property="og:title" content={seo.title} />}

@@ -114,6 +114,5 @@ module.exports = {
     },
     `gatsby-plugin-advanced-sitemap`,
     `gatsby-plugin-robots-txt`,
-    `gatsby-plugin-offline`,
   ],
 }
