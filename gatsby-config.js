@@ -41,6 +41,7 @@ module.exports = {
               showCaptions: false,
             },
           },
+          `gatsby-remark-external-links`,
         ],
       },
     },
