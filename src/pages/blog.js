@@ -11,7 +11,7 @@ const Blog = ({ data }) => {
       article={false}
     >
       <div className="collection">
-        <h1>Posts</h1>
+        <h1>Blog</h1>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <Snippet node={node}></Snippet>
         ))}

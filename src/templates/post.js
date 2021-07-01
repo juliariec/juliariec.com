@@ -32,8 +32,8 @@ const Post = ({ data, pageContext }) => {
       article={true}
     >
       <Content node={post} link={false} />
-      <Comment comments={comments} />
       <Extension previous={previous} next={next} />
+      <Comment comments={comments} />
     </Layout>
   )
 }

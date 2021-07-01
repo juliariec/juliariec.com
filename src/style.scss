@@ -233,7 +233,7 @@ hr:last-of-type {
   }
 
   .title {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 600;
     padding-top: 0;
     margin-bottom: 10px;
@@ -257,15 +257,25 @@ hr:last-of-type {
   }
 }
 
-// Comments
-#comments {
-  margin-bottom: 80px;
+// Extension
+.extension {
+  margin-bottom: 100px;
+
+  @media (max-width: 650px) {
+    margin-bottom: 50px;
+  }
+
+  a {
+    font-weight: 600;
+    font-size: $size4;
+  }
 }
 
-// Extension
-.extension a {
-  font-weight: 600;
-  font-size: $size4;
+// Comments
+#comments {
+  h2 {
+    padding-bottom: 30px;
+  }
 }
 
 // Tags
