@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import Content from "../components/Content"
 
@@ -17,7 +17,6 @@ const Homepage = ({ data }) => {
             <hr />
           </>
         ))}
-        <Link to="/blog/">See All Posts &#8594;</Link>
       </div>
     </Layout>
   )

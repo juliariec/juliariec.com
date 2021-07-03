@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import Content from "../components/Content"
 
@@ -12,7 +12,6 @@ const Page = ({ data }) => {
       article={false}
     >
       <Content node={page} link={false} />
-      <Link to="/pages/">&#8592; Back to Pages</Link>
     </Layout>
   )
 }
