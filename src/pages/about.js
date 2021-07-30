@@ -18,8 +18,9 @@ const About = () => (
     </p>
     <h2>Contact</h2>
     <p>
-      To contact me, please send me an{" "}
-      <a href="mailto:juliariec@gmail.com">email</a>. I'd love to hear from you.
+      To contact me, please{" "}
+      <a href="mailto:hello@juliariec.com">send me an email</a>. I'd love to
+      hear from you.
     </p>
 
     <h2>Interests</h2>

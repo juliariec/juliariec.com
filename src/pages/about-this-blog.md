@@ -13,4 +13,6 @@ This website has:
 - **No analytics**. When you visit it, you are not tracked at all (by me). If I decide to change this policy, I would use a privacy-first tool like [Fathom](https://usefathom.com/).
 - **No advertisements or affiliate links**. I'm not really interested in encouraging people to buy things. If you would like to support the blog, you can [buy me a coffee](https://www.buymeacoffee.com/juliariec), but making money is not the purpose of this blog.
 
-The code for this site lives on my [Github repo](https://github.com/juliariec/juliariec.com). It's written with React and SCSS using Gatsby and deployed on Netlify. The idea for its current implementation and for parts of its philosophy come from [Tania Rascia](https://www.taniarascia.com/), whose blog I discovered at the beginning of my professional development career and greatly admire.
+The code for this site lives on my [Github repo](https://github.com/juliariec/juliariec.com). It's written with React and SCSS using Gatsby and deployed on Netlify.
+
+The idea for its current implementation and for parts of its philosophy come from [Tania Rascia](https://www.taniarascia.com/), whose blog I discovered at the beginning of my professional development career and greatly admire.
