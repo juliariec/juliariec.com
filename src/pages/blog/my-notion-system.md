@@ -227,6 +227,8 @@ I've also explained how I devised my Notion system, shown how I use it, and desc
 
 If you've never encountered Notion before, I hope this introduction provided some insight into how it works and what it can be used for. If you have used it or you're considering setting up your own Notion system, I hope that walking you through my setup has given you new ideas about how to organize, relate, and populate your own databases.
 
+For those interested, you can get a copy of this system to duplicate into your own workspace [here](https://www.buymeacoffee.com/juliariec/e/39050).
+
 Please feel free to comment or [contact me](/about) if you have any questions about my Notion system. In addition to the links in this post, I've included extra resources below that helped me to get started.
 
 ## Additional resources
