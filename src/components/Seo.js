@@ -31,8 +31,8 @@ const Seo = ({ title, description, article }) => {
       <meta name="description" content={seo.description} />
       <meta name="author" content={seo.author} />
       <link rel="shortcut icon" type="image/png" href={favicon} />
-      {seo.url && <link rel="canonical" href={seo.url} />}
-      {seo.url && <meta property="og:url" content={seo.url} />}
+      <link rel="canonical" href={seo.url} />
+      <meta property="og:url" content={seo.url} />
       {article && <meta property="og:type" content="article" />}
       {seo.title && <meta property="og:title" content={seo.title} />}
       {seo.description && (
