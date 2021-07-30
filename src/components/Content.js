@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 import Tag from "./Tag"
 
 const Content = ({ node, link }) => {
+  const isPage = node.frontmatter.type === "page"
+  const isPost = node.frontmatter.type === "post"
   return (
     <div className="content">
       {link ? (
@@ -13,8 +15,10 @@ const Content = ({ node, link }) => {
         <h1>{node.frontmatter.title}</h1>
       )}
       <p className="date">
-        {node.frontmatter.type === "page" && "Updated "} {node.frontmatter.date}
-        {node.frontmatter.type === "post" && ` · ${node.timeToRead} min read`}
+        {isPage && "Updated "}
+        {isPost && "Posted "}
+        {node.frontmatter.date}
+        {isPost && ` · ${node.timeToRead} min read`}
       </p>
       {node.frontmatter.category && (
         <Tag category={node.frontmatter.category} />

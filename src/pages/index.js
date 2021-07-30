@@ -13,8 +13,8 @@ const Homepage = ({ data }) => {
       <div className="posts">
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <>
-            <Content node={node} link={true} />
-            <hr />
+            <Content key={node.id} node={node} link={true} />
+            <hr key={`hr-${node.id}`} />
           </>
         ))}
       </div>
@@ -36,7 +36,7 @@ export const query = graphql`
           html
           frontmatter {
             title
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "MMMM D, YYYY")
             category
             type
           }

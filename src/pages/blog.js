@@ -12,9 +12,11 @@ const Blog = ({ data }) => {
     >
       <div className="collection">
         <h1>Blog</h1>
-        {data.allMarkdownRemark.edges.map(({ node }) => (
-          <Snippet node={node}></Snippet>
-        ))}
+        <div className="items">
+          {data.allMarkdownRemark.edges.map(({ node }) => (
+            <Snippet node={node}></Snippet>
+          ))}
+        </div>
       </div>
     </Layout>
   )
