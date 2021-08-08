@@ -10,7 +10,7 @@ const Post = ({ data, pageContext }) => {
   const { previous, next } = pageContext
   const comments = React.createRef()
 
-  // Credit goes to Tania Rascia this Utterances implementation
+  // Credit goes to Tania Rascia for this Utterances implementation
   useEffect(() => {
     const commentScript = document.createElement("script")
     commentScript.async = true

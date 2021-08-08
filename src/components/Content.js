@@ -5,6 +5,7 @@ import Tag from "./Tag"
 const Content = ({ node, link }) => {
   const isPage = node.frontmatter.type === "page"
   const isPost = node.frontmatter.type === "post"
+  const isBook = node.frontmatter.type === "book"
   return (
     <div className="content">
       {link ? (
@@ -15,8 +16,8 @@ const Content = ({ node, link }) => {
         <h1>{node.frontmatter.title}</h1>
       )}
       <p className="date">
-        {isPage && "Updated "}
-        {isPost && "Posted "}
+        {isBook && `by ${node.frontmatter.author} · `}
+        {isPage ? "Updated " : "Posted "}
         {node.frontmatter.date}
         {isPost && ` · ${node.timeToRead} min read`}
       </p>

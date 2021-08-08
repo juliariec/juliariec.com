@@ -93,7 +93,7 @@ module.exports = {
                 {
                   allMarkdownRemark(
                     sort: { order: DESC, fields: [frontmatter___date] },
-                    filter: {frontmatter: {type: {eq: "post"}}}
+                    filter: {frontmatter: {type: {in: ["post", "book"]}}}
                   ) {
                     edges {
                       node {

@@ -348,7 +348,8 @@ hr:last-of-type {
   line-height: 1;
 }
 
-.strategies {
+.strategies,
+.nonfiction {
   background: $red;
 }
 
@@ -364,7 +365,8 @@ hr:last-of-type {
   background: $green;
 }
 
-.thoughts {
+.thoughts,
+.fiction {
   background: $blue;
 }
 

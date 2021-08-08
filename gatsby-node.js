@@ -23,6 +23,7 @@ exports.createPages = async ({ graphql, actions }) => {
           node {
             frontmatter {
               title
+              author
               date
               category
               type
@@ -38,7 +39,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   const all = result.data.allMarkdownRemark.edges
   const posts = all.filter(item => item.node.frontmatter.type === "post")
-  const pages = all.filter(item => item.node.frontmatter.type === "page")
+  const pages = all.filter(item => item.node.frontmatter.type !== "post")
 
   posts.forEach((post, i) => {
     const previous = i === posts.length - 1 ? null : posts[i + 1].node

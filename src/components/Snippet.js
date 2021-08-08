@@ -2,7 +2,9 @@ import React from "react"
 import { Link } from "gatsby"
 
 const Snippet = ({ node }) => {
-  const isPost = node.frontmatter.type === "post"
+  //const isPost = node.frontmatter.type === "post"
+  const isBook = node.frontmatter.type === "book"
+
   return (
     <div key={node.id} className="snippet">
       <div className="row">
@@ -10,8 +12,7 @@ const Snippet = ({ node }) => {
           <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
         </div>
         <div className="date">
-          {node.frontmatter.date}
-          {isPost === "post" && ` · ${node.timeToRead} min read`}
+          {isBook ? `by ${node.frontmatter.author}` : node.frontmatter.date}
         </div>
       </div>
     </div>

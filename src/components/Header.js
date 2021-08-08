@@ -28,7 +28,8 @@ const Header = () => {
       <ul>
         <ListLink to="/about/">About</ListLink>
         <ListLink to="/blog/">Blog</ListLink>
-        <ListLink to="/pages/">Pages</ListLink>
+        <ListLink to="/bookshelf/">Bookshelf</ListLink>
+        <ListLink to="/now/">Now</ListLink>
       </ul>
     </header>
   )
