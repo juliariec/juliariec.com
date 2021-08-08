@@ -67,16 +67,14 @@ const About = () => (
     </p>
     <p>
       In the future, I'd like to learn a NoSQL database like MongoDB, a
-      functional language like Haskell, and another flavours of CSS, like
+      functional language like Haskell, and another flavour of CSS, like
       TailwindCSS. I'd also like to try out Linux and some Python scripting.
     </p>
     <h3>Knowledge Management</h3>
     <p>
       I'm also interested in personal knowledge management and recently set up a{" "}
-      <a href="https://notion.so" rel="noreferrer noopener" target="_blank">
-        Notion
-      </a>{" "}
-      workspace to use as a productivity app slash{" "}
+      <Link to="/blog/my-notion-system/">Notion workspace</Link> to use as a
+      productivity app slash{" "}
       <a
         href="https://fortelabs.co/blog/basboverview/"
         rel="noreferrer noopener"
