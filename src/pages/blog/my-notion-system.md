@@ -130,7 +130,7 @@ Properties that define projects include an **Area** relation, a status **select*
 
 **Selects** and **multi-selects** are useful basic properties in Notion that are similar to dropdown menus. First, you predefine options, then you establish whether you should only be able to choose one (**select**) or whether you can pick multiple (**multi-select**).
 
-For projects, I use define the following:
+For projects, I define the following:
 
 - 'Status' is a **select** where I can choose 'Priority', 'Ongoing', 'Next', 'Later', 'Idea', 'Completed', or 'Retired'
 - 'Season' is a **multi-select** where I can choose any or multiple of the four seasons
