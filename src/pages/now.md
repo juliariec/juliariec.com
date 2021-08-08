@@ -1,16 +1,20 @@
 ---
 title: "Now"
-date: "2021-06-01"
+date: "2021-08-08"
 description: "What I'm currently up to."
 category: ""
 type: "page"
 ---
 
-Inspired by [NowNowNow](https://nownownow.com/about): "Think of what you'd tell a friend you hadn't seen in a year".
+- Working as a full stack developer in Toronto.
+- Writing content for this blog.
+- Training for a sprint triathlon with my roommate.
+- Reconnecting with friends while the weather is nice.
+- Reviewing and taking notes on books I've read this year.
+- Researching effective altruism.
 
-- Working in web development.
-- Staying (and working) at home until restrictions lift in Toronto.
-- Improving and finalizing features for this blog.
-- Learning about Acceptance and Commitment Therapy (ACT).
-- Starting my own herb garden.
-- Getting into cycling.
+&nbsp; &nbsp;
+
+#### What is this page?
+
+It's inspired by [NowNowNow](https://nownownow.com/about): "Think of what you'd tell a friend you hadn't seen in a year."
