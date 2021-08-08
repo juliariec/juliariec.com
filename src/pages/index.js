@@ -25,7 +25,6 @@ const Homepage = ({ data }) => {
 export const query = graphql`
   {
     allMarkdownRemark(
-      limit: 3
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { type: { eq: "post" } } }
     ) {
