@@ -8,9 +8,6 @@ module.exports = {
     url: "https://www.juliariec.com",
     image: "logo.png",
   },
-  flags: {
-    PRESERVE_WEBPACK_CACHE: true,
-  },
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
