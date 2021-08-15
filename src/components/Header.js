@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery, graphql, Link } from "gatsby"
+import { Link } from "gatsby"
 
 const ListLink = props => (
   <li>
@@ -8,22 +8,10 @@ const ListLink = props => (
 )
 
 const Header = () => {
-  const data = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
-    `
-  )
-
   return (
     <header>
       <Link to="/">
-        <h3>{data.site.siteMetadata.title}</h3>
+        <h3>julia cooke</h3>
       </Link>
       <ul>
         <ListLink to="/about/">About</ListLink>
