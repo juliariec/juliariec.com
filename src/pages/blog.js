@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/Layout"
-import Snippet from "../components/Snippet"
+import PostSnippet from "../components/PostSnippet"
 
 const Blog = ({ data }) => {
   return (
@@ -14,7 +14,7 @@ const Blog = ({ data }) => {
         <h1>Blog</h1>
         <div className="items">
           {data.allMarkdownRemark.edges.map(({ node }) => (
-            <Snippet node={node}></Snippet>
+            <PostSnippet node={node}></PostSnippet>
           ))}
         </div>
       </div>

@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/Layout"
-import Snippet from "../components/Snippet"
+import BookSnippet from "../components/BookSnippet"
 
 const Bookshelf = ({ data }) => {
   return (
@@ -13,7 +13,7 @@ const Bookshelf = ({ data }) => {
       <div className="collection">
         <h1>Bookshelf</h1>
         {data.allMarkdownRemark.edges.map(({ node }) => (
-          <Snippet node={node}></Snippet>
+          <BookSnippet node={node}></BookSnippet>
         ))}
       </div>
     </Layout>
@@ -23,7 +23,7 @@ const Bookshelf = ({ data }) => {
 export const query = graphql`
   {
     allMarkdownRemark(
-      sort: { fields: [frontmatter___author], order: ASC }
+      sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { type: { eq: "book" } } }
     ) {
       edges {
@@ -35,6 +35,11 @@ export const query = graphql`
             description
             date(formatString: "MMMM D, YYYY")
             type
+            category
+            rating
+            pages
+            review
+            notes
           }
           fields {
             slug

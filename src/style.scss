@@ -278,7 +278,7 @@ hr:last-of-type {
   .title {
     flex: 1 1;
     display: block;
-    font-size: $size4;
+    font-size: $size3;
     font-weight: 500;
     padding-top: 0;
 
@@ -295,6 +295,11 @@ hr:last-of-type {
       font-size: 0.8rem;
     }
   }
+}
+
+.review,
+.rating {
+  padding-top: 10px;
 }
 
 // Content

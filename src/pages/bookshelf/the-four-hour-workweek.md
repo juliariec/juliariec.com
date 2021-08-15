@@ -1,18 +1,18 @@
 ---
 title: "The 4-Hour Workweek"
 author: "Tim Ferriss"
-date: "2021-08-08"
+date: "2021-02-04"
 description: "Thoughts and notes from Tim Ferriss's 'The 4-Hour Workweek'."
 category: "nonfiction"
+rating: 3
+pages: 0
+review: "I found a lot of value from the book's perspective on reimagining and shaping life according to your own terms. At times in the book, this philosophy comes across as overly self-serving and empty, especially the (questionable) premise that life is just about doing what you want. I see the value of passive income, but personally wouldn't want to make a fortune selling something that people don't really need. Nonetheless, I found several of the practical tips helpful, and I enjoyed reading a different perspective.
+"
 type: "book"
-stars: 3
+notes: true
 ---
 
-## Summary
-
-Life is short, so dream big and fearlessly pursue those dreams. It's possible to live an enriched, exciting life — you just have to think outside of the box and take risks rather than settling for mediocrity. If you focus on accomplishing the most important things and creating passive income streams, you can free up the majority of your time to pursue interests and goals outside of work.
-
-### My Take
+## Review
 
 I found a lot of value from the book's perspective on reimagining and shaping life according to your own terms. At times in the book, this philosophy comes across as overly self-serving and empty, especially the (questionable) premise that life is just about doing what you want. I see the value of passive income, but personally wouldn't want to make a fortune selling something that people don't really need. Nonetheless, I found several of the practical tips helpful, and I enjoyed reading a different perspective.
 
@@ -24,6 +24,10 @@ I found a lot of value from the book's perspective on reimagining and shaping li
 - It's possible to travel without spending insane amounts of money.
 
 ## Notes
+
+### Summary
+
+Life is short, so dream big and fearlessly pursue those dreams. It's possible to live an enriched, exciting life — you just have to think outside of the box and take risks rather than settling for mediocrity. If you focus on accomplishing the most important things and creating passive income streams, you can free up the majority of your time to pursue interests and goals outside of work.
 
 ### Motivation
 

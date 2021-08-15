@@ -17,7 +17,9 @@ const Content = ({ node, link }) => {
       )}
       <p className="date">
         {isBook && `by ${node.frontmatter.author} · `}
-        {isPage ? "Updated " : "Posted "}
+        {isPage && "Updated "}
+        {isPost && "Posted "}
+        {isBook && "Read "}
         {node.frontmatter.date}
         {isPost && ` · ${node.timeToRead} min read`}
       </p>
