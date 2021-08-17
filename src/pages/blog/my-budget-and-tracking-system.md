@@ -76,7 +76,7 @@ The zero-based budget mentality has been useful for helping me understand my fin
 
 You can quote me on this: nothing beats a spreadsheet. I use Google Sheets — after all, you never know when you'll need to track your finances :)
 
-On my spreadsheet, I have a "Transactions" section where I manually enter all of my expenses and income. At the end of every month, I take about 15 to 30 minutes to look at my credit cards and savings account and record everything, sorting them into their respective subcategories. This is also an opportunity for me to review all my transactions and make sure there haven't been any unusual or fradulent charges on my accounts.
+On my spreadsheet, I have a "Transactions" section where I manually enter all of my expenses and income. At the end of every month, I take about 15 to 30 minutes to look at my credit cards and savings account and record everything, sorting them into their respective subcategories. This is also an opportunity for me to review all my transactions and make sure there haven't been any unusual or fraudulent charges on my accounts.
 
 ![Transactions View](../../images/blog/Transactions.png)
 
