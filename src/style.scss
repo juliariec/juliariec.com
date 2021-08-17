@@ -225,8 +225,12 @@ header {
   @media (max-width: 650px) {
     font-size: 0.9rem;
 
+    h3 {
+      font-size: $size4;
+    }
+
     li {
-      margin-left: 0.8rem;
+      margin-left: 0.4rem;
     }
   }
 }
@@ -290,10 +294,12 @@ hr:last-of-type {
   .date {
     flex: 0 0 auto;
     display: block;
+  }
+}
 
-    @media (max-width: 650px) {
-      font-size: 0.8rem;
-    }
+.date {
+  @media (max-width: 650px) {
+    font-size: 0.8rem;
   }
 }
 
