@@ -97,7 +97,7 @@ header a,
 header li a,
 .header-link a,
 .extension a,
-.snippet a {
+.post.snippet a {
   color: inherit;
   font-weight: inherit;
   text-decoration: none;
@@ -127,7 +127,8 @@ header li a,
 
 // Text links
 p a,
-li a {
+li a,
+.book.snippet a {
   color: $primary;
   font-weight: 500;
   text-decoration: none;
@@ -185,7 +186,8 @@ blockquote cite {
   text-align: right;
 }
 
-.date {
+.date,
+.subtitle {
   font-weight: 400;
   color: $grey;
   font-size: 0.9rem;
@@ -268,7 +270,7 @@ hr:last-of-type {
 
 // Snippet
 .snippet {
-  padding: 0.8rem 0;
+  padding: 0.6rem 0;
   display: flex;
   align-items: center;
   justify-content: stretch;
@@ -282,22 +284,28 @@ hr:last-of-type {
   .title {
     flex: 1 1;
     display: block;
-    font-size: $size3;
+    font-size: $size4;
     font-weight: 500;
     padding-top: 0;
-
-    @media (max-width: 650px) {
-      font-size: 1rem;
-    }
   }
 
-  .date {
+  .date,
+  .subtitle {
     flex: 0 0 auto;
     display: block;
   }
 }
 
-.date {
+.book.snippet .title {
+  font-size: $size3;
+
+  @media (max-width: 650px) {
+    font-size: $size4;
+  }
+}
+
+.date,
+.subtitle {
   @media (max-width: 650px) {
     font-size: 0.8rem;
   }
@@ -336,6 +344,10 @@ hr:last-of-type {
   a {
     font-weight: 500;
     font-size: $size4;
+
+    @media (max-width: 650px) {
+      font-size: 1rem;
+    }
   }
 }
 
