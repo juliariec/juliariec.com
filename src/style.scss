@@ -206,10 +206,12 @@ header {
   margin-bottom: 3rem;
   font-weight: 600;
   font-size: $size4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
-  h3 {
-    display: inline;
-    font-weight: inherit;
+  .title {
+    font-size: $size3;
   }
 
   ul {
@@ -225,14 +227,17 @@ header {
   }
 
   @media (max-width: 650px) {
-    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    flex-direction: column;
 
-    h3 {
-      font-size: $size4;
+    .title,
+    .menu {
+      align-self: center;
+      margin-bottom: 1rem;
     }
 
     li {
-      margin-left: 0.4rem;
+      margin-left: 1rem;
     }
   }
 }

@@ -10,15 +10,17 @@ const ListLink = props => (
 const Header = () => {
   return (
     <header>
-      <Link to="/">
-        <h3>julia cooke</h3>
-      </Link>
-      <ul>
-        <ListLink to="/about/">About</ListLink>
-        <ListLink to="/blog/">Blog</ListLink>
-        <ListLink to="/bookshelf/">Bookshelf</ListLink>
-        <ListLink to="/now/">Now</ListLink>
-      </ul>
+      <div className="title">
+        <Link to="/">julia cooke</Link>
+      </div>
+      <nav className="menu">
+        <ul>
+          <ListLink to="/about/">About</ListLink>
+          <ListLink to="/blog/">Blog</ListLink>
+          <ListLink to="/bookshelf/">Bookshelf</ListLink>
+          <ListLink to="/now/">Now</ListLink>
+        </ul>
+      </nav>
     </header>
   )
 }
