@@ -72,7 +72,7 @@ const About = () => (
     </p>
     <h3>Knowledge Management</h3>
     <p>
-      I'm also interested in personal knowledge management and recently set up a{" "}
+      I'm also interested in knowledge management and recently set up a{" "}
       <Link to="/blog/my-notion-system/">Notion workspace</Link> to use as a
       productivity app slash{" "}
       <a
