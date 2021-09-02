@@ -1,7 +1,9 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/Layout"
-import Content from "../components/Content"
+import CategorySnippet from "../components/CategorySnippet"
+import postCategories from "../data/categories"
 
 const Homepage = ({ data }) => {
   return (
@@ -10,13 +12,31 @@ const Homepage = ({ data }) => {
       description={data.site.siteMetadata.description}
       article={false}
     >
-      <div className="posts">
-        {data.allMarkdownRemark.edges.map(({ node }) => (
-          <>
-            <Content key={node.id} node={node} link={true} />
-            <hr key={`hr-${node.id}`} />
-          </>
-        ))}
+      <div className="intro">
+        <div className="photo">
+          <StaticImage src="../images/julia.jpg" alt="Photo of Julia" />
+        </div>
+        <div className="words">
+          <p>
+            I'm Julia, and this site is where I record my thoughts on books,
+            software, and life.
+          </p>
+          <p>
+            You can read <Link to="/about">about me</Link>, see what I'm up to{" "}
+            <Link to="/now">now</Link>, browse my <Link to="/blog">blog</Link>{" "}
+            and <Link to="/bookshelf">bookshelf</Link> archives, or check out my
+            latest posts and book reviews below.
+          </p>
+        </div>
+      </div>
+      <h2>Recently Posted</h2>
+      <div className="categories">
+        {postCategories.map(category => {
+          const items = data.allMarkdownRemark.edges.filter(
+            ({ node }) => node.frontmatter.category === category
+          )
+          return <CategorySnippet category={category} items={items} />
+        })}
       </div>
     </Layout>
   )
@@ -24,34 +44,24 @@ const Homepage = ({ data }) => {
 
 export const query = graphql`
   {
-    allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { type: { eq: "post" } } }
-    ) {
-      totalCount
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
           id
-          html
           frontmatter {
             title
-            date(formatString: "MMMM D, YYYY")
             category
             type
           }
           fields {
             slug
           }
-          timeToRead
         }
       }
     }
     site {
       siteMetadata {
-        author
         description
-        title
-        url
       }
     }
   }

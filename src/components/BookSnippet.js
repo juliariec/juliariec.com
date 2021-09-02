@@ -12,16 +12,17 @@ const BookSnippet = ({ node }) => {
       <div key={node.id} className="book snippet">
         <div className="row">
           <div className="title">
-            {node.frontmatter.notes ? (
-              <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
-            ) : (
-              node.frontmatter.title
-            )}
+            <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
           </div>
         </div>
       </div>
       <div className="row">
-        <div className="subtitle">{`by ${node.frontmatter.author} · read ${node.frontmatter.date}`}</div>
+        <div className="subtitle">
+          {`by ${node.frontmatter.author} · read ${node.frontmatter.date}`}
+          {node.frontmatter.notes && (
+            <span style={{ fontWeight: "500" }}>{` · includes notes`}</span>
+          )}
+        </div>
         <div className="rating" dangerouslySetInnerHTML={{ __html: stars }} />
         <div
           className="review"

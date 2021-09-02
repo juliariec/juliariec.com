@@ -23,7 +23,7 @@ const Content = ({ node, link }) => {
         {node.frontmatter.date}
         {isPost && ` · ${node.timeToRead} min read`}
       </p>
-      {node.frontmatter.category && (
+      {!isBook && node.frontmatter.category && (
         <Tag category={node.frontmatter.category} />
       )}
       <div className="body" dangerouslySetInnerHTML={{ __html: node.html }} />

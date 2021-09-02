@@ -3,7 +3,9 @@ import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import PostSnippet from "../components/PostSnippet"
 
-const Blog = ({ data }) => {
+export default function Blog({ data }) {
+  const posts = data.allMarkdownRemark.edges
+
   return (
     <Layout
       title="Blog"
@@ -12,9 +14,10 @@ const Blog = ({ data }) => {
     >
       <div className="collection">
         <h1>Blog</h1>
+        <p className="grey">{data.allMarkdownRemark.totalCount} posts</p>
         <div className="items">
-          {data.allMarkdownRemark.edges.map(({ node }) => (
-            <PostSnippet node={node}></PostSnippet>
+          {posts.map(({ node }) => (
+            <PostSnippet key={node.id} node={node}></PostSnippet>
           ))}
         </div>
       </div>
@@ -43,10 +46,9 @@ export const query = graphql`
             slug
           }
           timeToRead
+          excerpt(pruneLength: 190)
         }
       }
     }
   }
 `
-
-export default Blog
