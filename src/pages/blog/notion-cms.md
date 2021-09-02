@@ -2,7 +2,7 @@
 title: "Notion as my blog CMS"
 date: "2021-05-15"
 description: "How I use Notion as my Gatsby CMS."
-category: "strategies"
+category: "meta"
 type: "post"
 ---
 
