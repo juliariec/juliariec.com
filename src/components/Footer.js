@@ -5,6 +5,7 @@ import {
   IoLogoLinkedin,
   IoCafe,
   IoLogoRss,
+  IoMail,
 } from "react-icons/io5"
 
 const Footer = () => {
@@ -27,6 +28,15 @@ const Footer = () => {
         {data.site.siteMetadata.author} &copy; {data.site.buildTime}
       </div>
       <div className="half">
+        <a
+          title="Email"
+          className="icon"
+          href="mailto:hello@juliariec.com"
+          rel="noreferrer noopener"
+          target="_blank"
+        >
+          <IoMail />
+        </a>
         <a
           title="GitHub"
           className="icon"
