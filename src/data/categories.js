@@ -4,7 +4,7 @@ const categories = [
   "principles",
   "meta",
   "books",
-  "recommendations",
+  "collections",
 ]
 
 export default categories

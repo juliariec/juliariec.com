@@ -41,19 +41,19 @@ export default function Bookshelf({ data }) {
         <h1>Bookshelf</h1>
         <p className="grey">{data.allMarkdownRemark.totalCount} books</p>
         <p>
-          I love to read. In 2015 I started using{" "}
+          I love to read. In 2015 I started using my{" "}
           <a
             href="https://goodreads.com/juliariec"
             rel="noreferrer noopener"
             target="_blank"
           >
-            my Goodreads account
+            Goodreads account
           </a>{" "}
           to faithfully track what I was reading, and in 2018 I began to write
-          short reviews (or reactions) after I finished a book. This page is a
-          list of every book I've read that has an associated rating and review;
-          many entries will include a quote in italics, and may also include my
-          notes on the book.
+          short reviews/reactions after I finished a book. This page is a list
+          of every book I've read that has an associated rating and review; many
+          entries will include a quote in italics, and may also include my notes
+          on the book.
         </p>
         <button onClick={() => setExplanation(!showExplanation)}>
           {showExplanation
@@ -65,8 +65,8 @@ export default function Bookshelf({ data }) {
             <p>My ratings are based off of the Goodreads system:</p>
             <ol>
               <li>
-                <strong>Didn't like</strong> &mdash; unusual; I quit books that
-                I don't enjoy unless I'm hoping they'll get better
+                <strong>Didn't like it</strong> &mdash; unusual; I quit books
+                that I don't enjoy unless I'm hoping they'll get better
               </li>
               <li>
                 <strong>It was okay</strong> &mdash; I probably had some

@@ -18,7 +18,7 @@ const Homepage = ({ data }) => {
         </div>
         <div className="words">
           <p>
-            I'm Julia, and this site is where I record my thoughts on books,
+            I'm Julia, and this site is where I share my thoughts on books,
             software, and life.
           </p>
           <p>

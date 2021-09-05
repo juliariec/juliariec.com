@@ -166,7 +166,7 @@ footer a {
   border-bottom: none;
 
   &:hover {
-    color: $darker;
+    color: $lighter;
     transition: 0.2s color;
     padding-bottom: none;
     border-bottom: none;
@@ -243,8 +243,8 @@ header {
     }
 
     li {
-      margin-left: 1rem;
-      font-size: 1.1rem;
+      margin-left: 0.5rem;
+      font-size: 1rem;
     }
   }
 }
@@ -256,10 +256,6 @@ footer {
   font-weight: 300;
   font-size: 0.9rem;
   margin-top: 100px;
-
-  @media (max-width: 650px) {
-    font-size: 0.9rem;
-  }
 }
 
 // Homepage
@@ -397,13 +393,17 @@ hr:last-of-type {
 .extension {
   margin-bottom: 100px;
 
-  @media (max-width: 650px) {
-    margin-bottom: 50px;
-  }
-
   a {
     font-weight: 500;
     font-size: $size4;
+  }
+
+  @media (max-width: 650px) {
+    margin-bottom: 50px;
+
+    a {
+      font-size: 1rem;
+    }
   }
 }
 
@@ -471,7 +471,7 @@ button {
     @include buttonStyle($red);
   }
 
-  &.recommendations,
+  &.collections,
   &.orange {
     @include buttonStyle($orange);
   }
