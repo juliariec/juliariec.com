@@ -129,7 +129,8 @@ header li a,
 // Text links
 p a,
 li a,
-.book.snippet a {
+.book.snippet a,
+.review a {
   color: $primary;
   font-weight: 500;
   text-decoration: none;
