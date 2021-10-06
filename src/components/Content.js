@@ -19,7 +19,7 @@ const Content = ({ node, link }) => {
         {isBook && `by ${node.frontmatter.author} · `}
         {isPage && "Updated "}
         {isPost && "Posted "}
-        {isBook && "Read "}
+        {isBook && "read "}
         {node.frontmatter.date}
         {isPost && ` · ${node.timeToRead} min read`}
       </p>
