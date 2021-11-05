@@ -1,6 +1,6 @@
 ---
 title: "Now"
-date: "2021-08-08"
+date: "2021-11-05"
 description: "What I'm currently up to."
 category: ""
 type: "page"
@@ -8,12 +8,12 @@ type: "page"
 
 - Working as a full stack developer in Toronto.
 - Writing content for this blog.
-- Training for a sprint triathlon with my roommate.
-- Reconnecting with friends while the weather is nice.
-- Reviewing and taking notes on books I've read this year.
-- Researching effective altruism.
+- Trying to keep up with running and cycling for as long as the weather permits.
+- Practicing my tree identification skills.
+- Reading about algorithms, the alignment problem, and the attention economy.
+- Gearing up for Christmas!
 
-&nbsp; &nbsp;
+&nbsp;
 
 #### What is this page?
 
