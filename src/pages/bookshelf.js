@@ -8,15 +8,19 @@ export default function Bookshelf({ data }) {
   const [sort, setSort] = useState("date")
   const [books, setBooks] = useState(allBooks)
   const [showExplanation, setExplanation] = useState(false)
+  const [filter, setFilter] = useState("")
 
+  // For sorting books
   const sortByDate = (a, b) => {
     return new Date(a.node.frontmatter.date) < new Date(b.node.frontmatter.date)
+      ? 1
+      : -1
   }
   const sortByRating = (a, b) => {
-    return a.node.frontmatter.rating < b.node.frontmatter.rating
+    return a.node.frontmatter.rating < b.node.frontmatter.rating ? 1 : -1
   }
   const sortByTitle = (a, b) => {
-    return a.node.frontmatter.title > b.node.frontmatter.title
+    return a.node.frontmatter.title > b.node.frontmatter.title ? 1 : -1
   }
 
   useEffect(() => {
@@ -30,6 +34,19 @@ export default function Bookshelf({ data }) {
     }
     setBooks(sortedBooks)
   }, [sort, allBooks])
+
+  // For filtering books
+  useEffect(() => {
+    var filteredBooks = [...allBooks]
+    let filterText = filter.toLowerCase()
+    filteredBooks = filteredBooks.filter(book => {
+      return (
+        book.node.frontmatter.title.toLowerCase().indexOf(filterText) !== -1 ||
+        book.node.frontmatter.author.toLowerCase().indexOf(filterText) !== -1
+      )
+    })
+    setBooks(filteredBooks)
+  }, [filter, allBooks])
 
   return (
     <Layout
@@ -87,27 +104,36 @@ export default function Bookshelf({ data }) {
             </ol>
           </>
         )}
-        <p>
-          Sort list by: &nbsp;
-          <button
-            className={`blue ${sort === "date" && "active"}`}
-            onClick={() => setSort("date")}
-          >
-            date
-          </button>
-          <button
-            className={`purple ${sort === "title" && "active"}`}
-            onClick={() => setSort("title")}
-          >
-            title
-          </button>
-          <button
-            className={`pink ${sort === "rating" && "active"}`}
-            onClick={() => setSort("rating")}
-          >
-            rating
-          </button>
-        </p>
+        <div className="flex-container">
+          <div className="first">
+            Search by title or author:
+            <input
+              type="text"
+              onChange={event => setFilter(event.target.value)}
+            />
+          </div>
+          <div className="second">
+            Sort list by: &nbsp;
+            <button
+              className={`blue ${sort === "date" && "active"}`}
+              onClick={() => setSort("date")}
+            >
+              date
+            </button>
+            <button
+              className={`purple ${sort === "title" && "active"}`}
+              onClick={() => setSort("title")}
+            >
+              title
+            </button>
+            <button
+              className={`pink ${sort === "rating" && "active"}`}
+              onClick={() => setSort("rating")}
+            >
+              rating
+            </button>
+          </div>
+        </div>
         {books.map(({ node }) => (
           <BookSnippet key={node.id} node={node}></BookSnippet>
         ))}
