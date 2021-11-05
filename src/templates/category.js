@@ -43,7 +43,7 @@ export const query = graphql`
           frontmatter {
             title
             description
-            date(formatString: "MMMM D, YYYY")
+            date(formatString: "MMM D")
             category
             type
           }
@@ -51,7 +51,7 @@ export const query = graphql`
             slug
           }
           timeToRead
-          excerpt(pruneLength: 190)
+          excerpt(pruneLength: 175)
         }
       }
     }

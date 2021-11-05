@@ -1,29 +1,12 @@
-import React, { useEffect } from "react"
+import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import Content from "../components/Content"
-import Comment from "../components/Comment"
 import Extension from "../components/Extension"
 
 const Book = ({ data, pageContext }) => {
   const book = data.markdownRemark
   const { previous, next } = pageContext
-  const comments = React.createRef()
-
-  // Credit goes to Tania Rascia for this Utterances implementation
-  useEffect(() => {
-    const commentScript = document.createElement("script")
-    commentScript.async = true
-    commentScript.src = "https://utteranc.es/client.js"
-    commentScript.setAttribute("repo", "juliariec/comments")
-    commentScript.setAttribute("issue-term", "pathname")
-    commentScript.setAttribute("id", "utterances")
-    commentScript.setAttribute("theme", "github-light")
-    commentScript.setAttribute("crossorigin", "anonymous")
-    if (comments && comments.current) {
-      comments.current.appendChild(commentScript)
-    }
-  }, []) // eslint-disable-line
 
   return (
     <Layout
@@ -33,7 +16,6 @@ const Book = ({ data, pageContext }) => {
     >
       <Content node={book} link={false} />
       <Extension previous={previous} next={next} />
-      <Comment comments={comments} />
     </Layout>
   )
 }

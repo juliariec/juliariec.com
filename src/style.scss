@@ -42,7 +42,7 @@ body {
 .site-content {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 96vh;
   padding: 0rem 1rem;
   max-width: $maxWidth;
   margin: 1rem auto;
@@ -97,7 +97,7 @@ header a,
 header li a,
 .header-link a,
 .extension a,
-.post.snippet a,
+.post.snippet .title a,
 .categories a {
   color: inherit;
   font-weight: inherit;
@@ -130,6 +130,7 @@ header li a,
 p a,
 li a,
 .book.snippet a,
+.post.snippet .excerpt a,
 .review a {
   color: $primary;
   font-weight: 500;
@@ -188,12 +189,58 @@ blockquote cite {
   text-align: right;
 }
 
+input {
+  margin: 0 1rem;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.9rem;
+  border: 1px solid $lightgrey;
+  border-radius: 0.35rem;
+  width: 200px;
+  white-space: nowrap;
+  line-height: 1;
+  font-weight: 400;
+  box-shadow: none;
+
+  &:focus {
+    border-color: darken($lightgrey, 10%);
+    outline: none;
+  }
+
+  @media (max-width: 650px) {
+    margin: 0.5rem;
+  }
+}
+
 .date,
 .subtitle,
 .grey {
   font-weight: 400;
   color: $grey;
   font-size: 0.9rem;
+}
+
+.flex-container {
+  padding: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: stretch;
+  width: 100%;
+
+  .first {
+    flex: 1 1;
+    display: block;
+  }
+
+  .second {
+    flex: 0 0 auto;
+    display: block;
+  }
+
+  @media (max-width: 650px) {
+    align-items: flex-start;
+    flex-direction: column;
+  }
 }
 
 /* Sections */
@@ -256,7 +303,6 @@ footer {
   color: $primary;
   font-weight: 300;
   font-size: 0.9rem;
-  margin-top: 100px;
 }
 
 // Homepage
@@ -335,6 +381,10 @@ hr:last-of-type {
     display: block;
   }
 
+  .real.date {
+    display: inline-block;
+  }
+
   .excerpt {
     width: 100%;
     display: block;
@@ -375,18 +425,21 @@ hr:last-of-type {
 
 // Content
 .content {
-  margin-bottom: 100px;
-
-  @media (max-width: 650px) {
-    margin-bottom: 50px;
-  }
-
   .body {
     margin: 40px 0;
 
     @media (max-width: 650px) {
       margin: 20px 0;
     }
+  }
+}
+
+.content,
+.collection {
+  margin-bottom: 100px;
+
+  @media (max-width: 650px) {
+    margin-bottom: 50px;
   }
 }
 
@@ -410,6 +463,12 @@ hr:last-of-type {
 
 // Comments
 #comments {
+  margin-bottom: 100px;
+
+  @media (max-width: 650px) {
+    margin-bottom: 50px;
+  }
+
   h2 {
     padding-bottom: 30px;
   }
@@ -419,11 +478,11 @@ hr:last-of-type {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 1rem;
+  margin: 2rem 0 3rem 0;
 }
 
 .category {
-  width: 300px;
+  width: 350px;
   padding: 1rem 0;
 
   a {

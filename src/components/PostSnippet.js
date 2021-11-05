@@ -12,7 +12,10 @@ const PostSnippet = ({ node }) => {
         <div className="date">
           <Tag category={node.frontmatter.category} />
         </div>
-        <div className="excerpt">{node.excerpt}</div>
+        <div className="excerpt">
+          <span className="real date">{node.frontmatter.date} · &nbsp; </span>
+          {node.excerpt} &nbsp; <Link to={node.fields.slug}>[read]</Link>
+        </div>
       </div>
     </>
   )

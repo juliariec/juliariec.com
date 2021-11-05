@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "juliariec",
-    titleTemplate: "%s · juliariec",
+    title: "julia cooke",
+    titleTemplate: "%s · julia cooke",
     author: "Julia Cooke",
     description: "Thoughts on books, software, and life.",
     siteUrl: "https://www.juliariec.com",

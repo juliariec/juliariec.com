@@ -29,13 +29,14 @@ const Homepage = ({ data }) => {
           </p>
         </div>
       </div>
-      <h2>Recently Posted</h2>
       <div className="categories">
         {postCategories.map(category => {
           const items = data.allMarkdownRemark.edges.filter(
             ({ node }) => node.frontmatter.category === category
           )
-          return <CategorySnippet category={category} items={items} />
+          return (
+            <CategorySnippet key={category} category={category} items={items} />
+          )
         })}
       </div>
     </Layout>
@@ -51,6 +52,7 @@ export const query = graphql`
           frontmatter {
             title
             category
+            date(formatString: "MMM D")
             type
           }
           fields {

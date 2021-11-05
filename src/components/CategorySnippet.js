@@ -8,7 +8,8 @@ const CategorySnippet = ({ category, items }) => {
       <Tag key={`${category}-tag`} category={category} />
       {items.slice(0, 3).map(({ node }) => (
         <p key={node.id}>
-          <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
+          <Link to={node.fields.slug}>{node.frontmatter.title}</Link>{" "}
+          <span className="date">· {node.frontmatter.date}</span>
         </p>
       ))}
     </div>
