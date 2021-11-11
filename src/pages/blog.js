@@ -60,7 +60,7 @@ export const query = graphql`
             slug
           }
           timeToRead
-          excerpt(pruneLength: 175)
+          excerpt(pruneLength: 180)
         }
       }
     }

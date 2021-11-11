@@ -14,7 +14,7 @@ const PostSnippet = ({ node }) => {
         </div>
         <div className="excerpt">
           <span className="real date">{node.frontmatter.date} · &nbsp; </span>
-          {node.excerpt} &nbsp; <Link to={node.fields.slug}>[read]</Link>
+          {node.excerpt}
         </div>
       </div>
     </>
