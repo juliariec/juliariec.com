@@ -590,6 +590,10 @@ button {
   h4 {
     padding-top: 0;
   }
+
+  @media (max-width: 650px) {
+    width: 100%;
+  }
 }
 
 .icon {
