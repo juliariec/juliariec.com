@@ -23,7 +23,7 @@ const Category = ({ data, pageContext }) => {
           <PostSnippet key={node.id} node={node}></PostSnippet>
         ))}
       </div>
-      <p className="grey" style={{ paddingTop: "2rem" }}>
+      <p className="grey" style={{ padding: "2rem 0 3rem 0" }}>
         <Link to="/blog">{`<--`} return to all posts</Link>
       </p>
     </Layout>
