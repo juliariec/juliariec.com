@@ -12,11 +12,11 @@ Now that I'm using Notion to organize my reading library, I thought it would be 
 
 In this post, I'm going to walk you through how to write this script so that you can understand and modify it for your own purposes. If you'd rather just clone the repository and work it out yourself, you can find it [here](https://github.com/juliariec/export-kobo-to-notion/).
 
-## Some preliminary pseudocode
+## A preliminary algorithm
 
 The first step is to establish what we're trying to accomplish. I have a database in Notion called "Library" which includes books I've read or want to read, so my goal is to automate the export of Kobo highlights into that library database.
 
-This is the pseudocode I wrote for the script:
+This is the algorithm I wrote for the script:
 
 - Get a list of books from my Kobo that have highlights.
 - Check each book in Notion to see if it already has its highlights uploaded.
@@ -111,7 +111,7 @@ If the console shows the author of the book, everything is working as expected a
 
 ## Writing the script
 
-Since we wrote some pseudocode at the beginning, we have a general idea of the algorithm we'll use to write our script. First of all, we'll want to write everything in an async function called `exportHighlights`, because our Notion API calls will be asynchronous. (If you don't know what that means, Mozilla's [documentation](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous) on asynchronous code is worth a read!)
+Since we wrote a preliminary algorithm at the beginning, we have a general idea of the steps we'll take to write our script. First of all, we'll want to write everything in an async function called `exportHighlights`, because our Notion API calls will be asynchronous. (If you don't know what that means, Mozilla's [documentation](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous) on asynchronous code is worth a read!)
 
 ### Step 1: get a list of books that have highlights
 
