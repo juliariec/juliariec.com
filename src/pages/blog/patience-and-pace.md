@@ -1,6 +1,6 @@
 ---
 title: "Patience and pace"
-date: "2021-11-24"
+date: "2021-11-23"
 description: "Instead of 'waiting', try reimagining how long it should take."
 category: "thoughts"
 type: "post"
