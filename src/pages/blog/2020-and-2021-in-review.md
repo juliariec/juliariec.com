@@ -87,7 +87,7 @@ _If you're reading this and feel like you have anything valuable to impart to me
 As I look back, I feel especially grateful to certain people that have shaped these two years:
 
 - Mom and Dad — for giving me everything I could possibly need and more.
-- LC, ER, OR, RG, AH, and RA — for your love, friendship, support, and joy, always.
+- LC, ER, OR, RG, AO, and RA — for your love, friendship, support, and joy, always.
 - SM — for your encouragement and honesty when I needed it most.
 - AL — for being a privilege to love.
 - AR — for wisdom, patience, and being a good influence on me.
