@@ -46,7 +46,7 @@ Focus on being productive instead of busy.
 
 Question to ask about what to do — what would excite me?
 
-Pareto’s Law can be summarized as follows: 80% of the outputs result from 20% of the inputs.
+Pareto's Law can be summarized as follows: 80% of the outputs result from 20% of the inputs.
 
 _Less is Not Laziness_
 
