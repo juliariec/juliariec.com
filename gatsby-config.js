@@ -122,6 +122,12 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-plausible`,
+      options: {
+        domain: `juliariec.com`,
+      },
+    },
     `gatsby-plugin-advanced-sitemap`,
     `gatsby-plugin-robots-txt`,
   ],
