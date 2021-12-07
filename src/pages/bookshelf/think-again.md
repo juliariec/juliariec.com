@@ -77,4 +77,4 @@ The benefit of performing career checkups — reassessing if what you decided in
 1. When did you form your aspirations and how have you changed since then?
 2. Have you reached a learning plateau and is it time to pivot?
 
-Happiness depends more on what we do then on where we are
+Happiness depends more on what we do than on where we are
