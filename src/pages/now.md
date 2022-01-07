@@ -1,6 +1,6 @@
 ---
 title: "Now"
-date: "2021-12-03"
+date: "2022-01-07"
 description: "What I'm currently up to."
 category: ""
 type: "page"
@@ -8,10 +8,8 @@ type: "page"
 
 - Working as a full stack developer in Toronto.
 - Writing content for this blog.
-- Trying to keep up with running for as long as the weather permits.
-- Reading about algorithms, the alignment problem, and the attention economy.
-- Taking notes on some of the books I've finished.
-- Gearing up for Christmas!
+- Reading about existential risk.
+- Hiding in my apartment for the duration of January.
 
 &nbsp;
 
