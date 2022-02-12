@@ -1,0 +1,18 @@
+---
+title: "Beasts of a Little Land"
+author: "Juhea Kim"
+date: "2022-02-08"
+description: "Thoughts on 'Beasts of a Little Land' by Juhea Kim."
+shelf: "time-and-place"
+rating: 3
+review: "What struck me about this book is that it felt a little scattered as a novel, but in return much more representative of real life. I didn’t feel like it had a strong plot — the story is that of Korean independence told through the experiences of an array of characters, but it didn't feel like there was a narrative arc beyond the political and material setting (maybe the relationship between Jade and JungHo, but it certainly wasn’t a dominating feature of the book). It was precisely that quality that made it feel just like life, which is a story that we all co-create but doesn't have an overarching theme or a denouement. When I finished reading it, I felt like I had lived for a very long time, and through a lot.<br/><br/><i>He breathed in the night air and was surprised to discover a brief, sharp pang of exhilaration. It was just the feeling of being awake at that hour between the deepest night and the earliest morning. He was reminded of being sixteen or so and staying up all night to read a book, more awake and alive than in the middle of the day. He was sure then of having his entire life ahead of him, and the fresh and smoky smell of 4:00 A.M. had filled him with senseless happiness. Now he was a crippled man with snow-white hair—and the years had passed in the blink of an eye. The meaning of old age was that all the bliss in one’s life must now be found looking backward, not forward. But he had played his part, he’d lived for something greater than himself. ... This, the everlasting stillness of morning, brought him unbearable joy and sorrow. Tears flowed down his cheeks raked by time. Death was such a small price to pay for life.</i>"
+type: "book"
+category: "books"
+notes: false
+---
+
+## Review
+
+What struck me about this book is that it felt a little scattered as a novel, but in return much more representative of real life. I didn't feel like it had a strong plot — the story is that of Korean independence told through the experiences of an array of characters, but it didn't feel like there was a narrative arc beyond the political and material setting (maybe the relationship between Jade and JungHo, but it certainly wasn't a dominating feature of the book). It was precisely that quality that made it feel just like life, which is a story that we all co-create but doesn't have an overarching theme or a denouement. When I finished reading it, I felt like I had lived for a very long time, and through a lot.
+
+_He breathed in the night air and was surprised to discover a brief, sharp pang of exhilaration. It was just the feeling of being awake at that hour between the deepest night and the earliest morning. He was reminded of being sixteen or so and staying up all night to read a book, more awake and alive than in the middle of the day. He was sure then of having his entire life ahead of him, and the fresh and smoky smell of 4:00 A.M. had filled him with senseless happiness. Now he was a crippled man with snow-white hair—and the years had passed in the blink of an eye. The meaning of old age was that all the bliss in one's life must now be found looking backward, not forward. But he had played his part, he’d lived for something greater than himself. ... This, the everlasting stillness of morning, brought him unbearable joy and sorrow. Tears flowed down his cheeks raked by time. Death was such a small price to pay for life._
