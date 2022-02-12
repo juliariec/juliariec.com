@@ -28,8 +28,8 @@ const Seo = ({ title, description, article }) => {
       }}
     >
       <meta charSet="utf-8" />
-      <meta name="description" content={seo.description} />
       <meta name="author" content={seo.author} />
+      <meta name="description" content={seo.description} />
       <link rel="shortcut icon" type="image/png" href={favicon} />
       <link rel="canonical" href={seo.url} />
       <meta property="og:url" content={seo.url} />
