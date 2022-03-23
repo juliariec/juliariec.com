@@ -37,7 +37,7 @@ export default function Bookshelf({ data }) {
 
   // For filtering books
   useEffect(() => {
-    var filteredBooks = [...allBooks]
+    let filteredBooks = [...allBooks]
     let filterText = filter.toLowerCase()
     filteredBooks = filteredBooks.filter(book => {
       return (
