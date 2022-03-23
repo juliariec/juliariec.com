@@ -24,7 +24,7 @@ const Category = ({ data, pageContext }) => {
         ))}
       </div>
       <p className="grey" style={{ padding: "2rem 0 3rem 0" }}>
-        <Link to="/blog">{`<--`} return to all posts</Link>
+        <Link to="/blog">&#8592; return to all posts</Link>
       </p>
     </Layout>
   )

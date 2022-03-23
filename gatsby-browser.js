@@ -1,3 +1,3 @@
-import "./src/normalize.css"
-import "./src/style.scss"
 require("prismjs/themes/prism.css")
+require("./src/normalize.css")
+require("./src/style.scss")
