@@ -128,7 +128,7 @@ module.exports = {
         domain: `juliariec.com`,
       },
     },
-    `gatsby-plugin-advanced-sitemap`,
+    `gatsby-plugin-complex-sitemap-tree`,
     `gatsby-plugin-robots-txt`,
   ],
 }
