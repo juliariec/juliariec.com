@@ -1,15 +1,16 @@
 ---
 title: "Now"
-date: "2022-01-07"
+date: "2022-03-22"
 description: "What I'm currently up to."
 category: ""
 type: "page"
 ---
 
-- Working as a full stack developer in Toronto.
-- Writing content for this blog.
-- Reading about existential risk.
-- Hiding in my apartment for the duration of January.
+- Taking time off before my next role starts in April.
+- Participating in EA Cambridge's [AGI Safety Fundamentals](https://www.eacambridge.org/agi-safety-fundamentals) program (governance track).
+- Triathlon training: swimming ~1x a week and getting back into running.
+- Trying to make headway on various administrative projects while I have the time to tackle them.
+- Contemplating a blog redesign.
 
 &nbsp;
 
