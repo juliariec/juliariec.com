@@ -127,7 +127,63 @@ module.exports = {
         domain: `juliariec.com`,
       },
     },
-    `gatsby-plugin-complex-sitemap-tree`,
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        query: `
+        {
+          site {
+            siteMetadata {
+              siteUrl
+            }
+            buildTime(formatString: "YYYY-MM-DD")
+          }
+          allSitePage {
+            nodes {
+              path
+            }
+          }
+          allMarkdownRemark {
+            nodes {
+              fields {
+                slug
+              }
+              frontmatter {
+                date
+              }
+            }
+          }
+        }        
+      `,
+        resolveSiteUrl: data => data.site.siteMetadata.siteUrl,
+        resolvePages: ({
+          allSitePage: { nodes: allPages },
+          allMarkdownRemark: { nodes: allPosts },
+        }) => {
+          const pathToDateMap = {}
+
+          allPosts.map(post => {
+            pathToDateMap[post.fields.slug] = {
+              date: post.frontmatter.date,
+            }
+          })
+
+          const pages = allPages.map(page => {
+            return { ...page, ...pathToDateMap[page.path] }
+          })
+
+          return pages
+        },
+        serialize: ({ path, date, buildTime }) => {
+          let entry = {
+            url: path,
+            lastmod: date || buildTime,
+          }
+
+          return entry
+        },
+      },
+    },
     `gatsby-plugin-robots-txt`,
   ],
 }
