@@ -9,7 +9,7 @@ const ListLink = props => (
 
 const Navigation = () => {
   return (
-    <nav class="sidenav">
+    <nav className="sidenav">
       <div className="title">
         <Link to="/">julia cooke</Link>
       </div>
