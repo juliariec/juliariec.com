@@ -14,7 +14,6 @@ $blue: #ddebf1;
 $purple: #eae4f2;
 $pink: #f4dfeb;
 $lightgrey: #ebeced;
-$emphasis: #086627;
 
 $maxWidth: 960px;
 
@@ -70,10 +69,11 @@ body {
   text-align: right;
   padding: 2rem 1rem;
   text-transform: lowercase;
-  font-weight: 600;
+  font-weight: 500;
 
   .title {
     font-size: $size3;
+    font-weight: 600;
     margin-bottom: 0.5rem;
   }
 
@@ -186,11 +186,15 @@ nav li a,
 .extension a,
 .categories a {
   color: inherit;
+  font-weight: inherit;
   text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s linear;
+  position: relative;
 
   &:hover {
-    color: $emphasis;
-    text-decoration: underline;
+    border-bottom: 2px solid $lighter;
   }
 }
 
@@ -199,12 +203,16 @@ p a,
 li a,
 .post.snippet .excerpt a,
 .review a {
-  color: $emphasis;
+  color: $primary;
   font-weight: 500;
   text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 2px solid $lightgrey;
+  transition: all 0.2s linear;
+  position: relative;
 
   &:hover {
-    text-decoration: underline;
+    border-bottom: 2px solid $lighter;
   }
 }
 
@@ -217,7 +225,7 @@ footer a {
   border-bottom: none;
 
   &:hover {
-    color: $emphasis;
+    color: $darker;
     transition: 0.2s color;
     padding-bottom: none;
     border-bottom: none;
@@ -509,7 +517,7 @@ hr:last-of-type {
 }
 
 // Tags
-@mixin buttonStyle($color: $green) {
+@mixin buttonStyle($color: $lightgrey) {
   background: $color;
   color: $primary;
   margin: 0.4rem 0;
@@ -539,6 +547,40 @@ hr:last-of-type {
 
 button {
   @include buttonStyle();
+
+  &.strategies,
+  &.red {
+    @include buttonStyle($red);
+  }
+
+  &.collections,
+  &.orange {
+    @include buttonStyle($orange);
+  }
+
+  &.principles,
+  &.yellow {
+    @include buttonStyle($yellow);
+  }
+
+  &.meta,
+  &.green {
+    @include buttonStyle($green);
+  }
+
+  &.thoughts,
+  &.blue {
+    @include buttonStyle($blue);
+  }
+
+  &.books,
+  &.purple {
+    @include buttonStyle($purple);
+  }
+
+  &.pink {
+    @include buttonStyle($pink);
+  }
 }
 
 /* Utilities */
