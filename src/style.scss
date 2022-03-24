@@ -1,7 +1,7 @@
 @import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/inter.css");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;400;500;600&display=swap");
 
-$primary: #222;
+$primary: #444;
 $lighter: #7a7a7a;
 $darker: #000;
 $grey: #6e6e6e;
@@ -14,8 +14,9 @@ $blue: #ddebf1;
 $purple: #eae4f2;
 $pink: #f4dfeb;
 $lightgrey: #ebeced;
+$emphasis: #086627;
 
-$maxWidth: 800px;
+$maxWidth: 960px;
 
 $size1: 1.8rem;
 $size2: 1.5rem;
@@ -36,17 +37,97 @@ body {
   line-height: 165%;
   word-wrap: break-word;
   text-rendering: optimizeLegibility;
-  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
-.site-content {
-  display: flex;
-  flex-direction: column;
-  min-height: 96vh;
-  padding: 0rem 1rem;
+.full-layout {
+  margin: 0 auto;
   max-width: $maxWidth;
-  margin: 1rem auto;
+}
+
+.body-layout {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+}
+
+.main-body {
+  width: 80%;
+  padding: 0 1rem;
+}
+
+.sidenav {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 100px;
+  min-height: 200px;
+  width: 15%;
+  height: 25vh;
+  text-align: right;
+  padding: 2rem 1rem;
+  text-transform: lowercase;
+  font-weight: 600;
+
+  .title {
+    font-size: $size3;
+    margin-bottom: 0.5rem;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+  }
+
+  li {
+    margin-left: 1.5rem;
+    padding: 0;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 930px) {
+  .main-body {
+    width: 75%;
+  }
+
+  .sidenav {
+    width: 20%;
+  }
+}
+
+@media (max-width: 700px) {
+  .body-layout {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .main-body,
+  .sidenav {
+    width: 100%;
+  }
+
+  .sidenav {
+    position: relative;
+    text-align: left;
+    padding: 2rem 1rem 1rem 1rem;
+    height: 5vh;
+    min-height: 100px;
+    top: 0;
+
+    .title {
+      font-size: 1.4rem;
+    }
+
+    li {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+      margin-left: 0rem;
+      font-size: 1rem;
+      display: inline-block;
+      padding-right: 1rem;
+    }
+  }
 }
 
 /* Basics */
@@ -94,69 +175,32 @@ li {
 }
 
 // Main links
-header a,
-header li a,
-.header-link a,
-.extension a,
 .post.snippet .title a,
+.book.snippet a,
+nav a,
+nav li a,
+.extension a,
 .categories a {
   color: inherit;
-  font-weight: inherit;
   text-decoration: none;
-  padding-bottom: 2px;
-  border-bottom: 2px solid transparent;
-  transition: all 0.2s linear;
-  position: relative;
 
-  &:before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 2px;
-    background-color: $lightgrey;
-    position: absolute;
-    left: 0;
-    bottom: -2px;
-    transform-origin: center;
-    transform: scale(0);
-    transition: 0.2s linear;
-  }
-
-  &:hover:before {
-    transform: scale(1);
+  &:hover {
+    color: $emphasis;
+    text-decoration: underline;
   }
 }
 
 // Text links
 p a,
 li a,
-.book.snippet a,
 .post.snippet .excerpt a,
 .review a {
-  color: $primary;
+  color: $emphasis;
   font-weight: 500;
   text-decoration: none;
-  padding-bottom: 2px;
-  border-bottom: 2px solid $lightgrey;
-  transition: all 0.2s linear;
-  position: relative;
 
-  &:before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 2px;
-    background-color: $primary;
-    position: absolute;
-    left: 0;
-    bottom: -2px;
-    transform-origin: center;
-    transform: scale(0);
-    transition: 0.2s linear;
-  }
-
-  &:hover:before {
-    transform: scale(1);
+  &:hover {
+    text-decoration: underline;
   }
 }
 
@@ -169,7 +213,7 @@ footer a {
   border-bottom: none;
 
   &:hover {
-    color: $lighter;
+    color: $emphasis;
     transition: 0.2s color;
     padding-bottom: none;
     border-bottom: none;
@@ -262,54 +306,6 @@ pre[class*="language-"] {
   flex: 1 0 auto;
 }
 
-// Header
-header {
-  text-transform: lowercase;
-  margin-top: 1rem;
-  margin-bottom: 3rem;
-  font-weight: 600;
-  font-size: $size4;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-  .title {
-    font-size: $size3;
-  }
-
-  ul {
-    list-style: none;
-    float: right;
-    margin: 0;
-  }
-
-  li {
-    display: inline-block;
-    margin-left: 1.5rem;
-    padding: 0;
-  }
-
-  @media (max-width: 650px) {
-    margin-bottom: 1rem;
-    flex-direction: column;
-
-    .title,
-    .menu {
-      align-self: center;
-      margin-bottom: 1rem;
-    }
-
-    .title {
-      font-size: 1.4rem;
-    }
-
-    li {
-      margin-left: 0.5rem;
-      font-size: 1rem;
-    }
-  }
-}
-
 // Footer
 footer {
   display: flex;
@@ -368,7 +364,7 @@ hr:last-of-type {
 
 // Snippet
 .snippet {
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -383,8 +379,8 @@ hr:last-of-type {
   .title {
     flex: 1 1;
     display: block;
-    font-size: $size3;
-    font-weight: 500;
+    font-size: $size4;
+    font-weight: 400;
     padding-top: 0;
   }
 
@@ -405,11 +401,10 @@ hr:last-of-type {
   }
 
   @media (max-width: 650px) {
-    padding: 1rem 0;
+    padding: 0.7rem 0;
     align-items: flex-start;
     flex-direction: column;
 
-    .date,
     .subtitle {
       margin-top: 10px;
     }
@@ -418,6 +413,7 @@ hr:last-of-type {
 
 .book.snippet .title {
   font-size: $size3;
+  font-weight: 500;
 
   @media (max-width: 650px) {
     font-size: $size4;
@@ -438,6 +434,8 @@ hr:last-of-type {
 
 // Content
 .content {
+  min-height: 82vh;
+
   .body {
     margin: 40px 0;
 
@@ -508,7 +506,7 @@ hr:last-of-type {
 }
 
 // Tags
-@mixin buttonStyle($color: $lightgrey) {
+@mixin buttonStyle($color: $green) {
   background: $color;
   color: $primary;
   margin: 0.4rem 0;
@@ -538,40 +536,6 @@ hr:last-of-type {
 
 button {
   @include buttonStyle();
-
-  &.strategies,
-  &.red {
-    @include buttonStyle($red);
-  }
-
-  &.collections,
-  &.orange {
-    @include buttonStyle($orange);
-  }
-
-  &.principles,
-  &.yellow {
-    @include buttonStyle($yellow);
-  }
-
-  &.meta,
-  &.green {
-    @include buttonStyle($green);
-  }
-
-  &.thoughts,
-  &.blue {
-    @include buttonStyle($blue);
-  }
-
-  &.books,
-  &.purple {
-    @include buttonStyle($purple);
-  }
-
-  &.pink {
-    @include buttonStyle($pink);
-  }
 }
 
 /* Utilities */

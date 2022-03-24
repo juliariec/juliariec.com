@@ -25,7 +25,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="half">
-        {data.site.siteMetadata.author} &copy; {data.site.buildTime}
+        {data.site.siteMetadata.author} &copy; 2020 - {data.site.buildTime}
       </div>
       <div className="half">
         <a

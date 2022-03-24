@@ -1,43 +1,38 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import { graphql } from "gatsby"
 import Layout from "../components/Layout"
-import CategorySnippet from "../components/CategorySnippet"
-import postCategories from "../data/categories"
+import PostSnippet from "../components/PostSnippet"
 
 const Homepage = ({ data }) => {
+  const posts = data.allMarkdownRemark.edges
+  const years = Array.from(
+    new Set(posts.map(post => post.node.frontmatter.year))
+  )
+
   return (
     <Layout
       title="Homepage"
       description={data.site.siteMetadata.description}
       article={false}
     >
-      <div className="intro">
-        <div className="photo">
-          <StaticImage src="../images/julia.jpg" alt="Photo of Julia" />
+      <div className="collection">
+        <h1>Posts</h1>
+        <p className="grey">{data.allMarkdownRemark.totalCount} posts</p>
+        <div className="items">
+          {years.map(year => {
+            const yearPosts = posts.filter(
+              ({ node }) => node.frontmatter.year === year
+            )
+            return (
+              <>
+                <h2 key={year}>{year}</h2>
+                {yearPosts.map(({ node }) => (
+                  <PostSnippet key={node.id} node={node}></PostSnippet>
+                ))}
+              </>
+            )
+          })}
         </div>
-        <div className="words">
-          <p>
-            I'm Julia, and this site is where I share my thoughts on books,
-            software, and life.
-          </p>
-          <p>
-            You can read <Link to="/about">about me</Link>, see what I'm up to{" "}
-            <Link to="/now">now</Link>, browse my <Link to="/blog">blog</Link>{" "}
-            and <Link to="/bookshelf">bookshelf</Link> archives, or check out my
-            latest posts and book reviews below.
-          </p>
-        </div>
-      </div>
-      <div className="categories">
-        {postCategories.map(category => {
-          const items = data.allMarkdownRemark.edges.filter(
-            ({ node }) => node.frontmatter.category === category
-          )
-          return (
-            <CategorySnippet key={category} category={category} items={items} />
-          )
-        })}
       </div>
     </Layout>
   )
@@ -45,19 +40,26 @@ const Homepage = ({ data }) => {
 
 export const query = graphql`
   {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { type: { eq: "post" } } }
+    ) {
+      totalCount
       edges {
         node {
           id
           frontmatter {
             title
-            category
+            description
             date(formatString: "MMM D")
+            year: date(formatString: "YYYY")
+            category
             type
           }
           fields {
             slug
           }
+          timeToRead
         }
       }
     }
