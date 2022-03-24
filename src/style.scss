@@ -51,6 +51,10 @@ body {
   padding: 0rem 1rem;
 }
 
+.all-content {
+  min-height: 90vh;
+}
+
 .main-body {
   width: 80%;
   padding: 0 1rem;
@@ -310,6 +314,7 @@ pre[class*="language-"] {
 footer {
   display: flex;
   color: $primary;
+  padding-top: 2rem;
   font-weight: 300;
   font-size: 0.9rem;
 }
@@ -434,8 +439,6 @@ hr:last-of-type {
 
 // Content
 .content {
-  min-height: 82vh;
-
   .body {
     margin: 40px 0;
 

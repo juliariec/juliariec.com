@@ -11,7 +11,7 @@ const Layout = ({ title, description, article, children }) => {
         <div className="body-layout">
           <Navigation />
           <div className="main-body">
-            {children}
+            <div className="all-content">{children}</div>
             <Footer />
           </div>
         </div>
