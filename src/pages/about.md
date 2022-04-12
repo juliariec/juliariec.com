@@ -6,7 +6,7 @@ category: ""
 type: "page"
 ---
 
-<img src="../images/julia_small.jpg" alt="Photo of me">
+<div class="me"><img src="../images/julia_small.jpg" alt="Photo of me"></div>
 
 I'm Julia, the author and developer of this blog. I created this site in April 2021, but I've blogged sporadically on various platforms (Blogger, WordPress) since 2008. I've always enjoyed clarifying my own thoughts and sharing them with others; I've written a bit about the site's philosophy and technical details [here](/about-this-blog/).
 

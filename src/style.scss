@@ -41,6 +41,7 @@ body {
 
 .full-layout {
   margin: 0 auto;
+  padding-top: 1rem;
   max-width: $maxWidth;
 }
 
@@ -62,7 +63,7 @@ body {
 .sidenav {
   position: sticky;
   position: -webkit-sticky;
-  top: 100px;
+  top: 83px; // I want this to align with the grey subtitle texts...
   min-height: 200px;
   width: 15%;
   height: 25vh;
@@ -118,6 +119,7 @@ body {
     height: 5vh;
     min-height: 100px;
     top: 0;
+    margin-bottom: 2rem;
 
     .title {
       font-size: 1.4rem;
@@ -356,10 +358,6 @@ hr:last-of-type {
     display: block;
     max-width: 120px;
     padding-right: 1.5rem;
-
-    img {
-      border-radius: 10px;
-    }
   }
 
   @media (max-width: 650px) {
@@ -372,6 +370,12 @@ hr:last-of-type {
       margin-bottom: 10px;
       padding-right: 0;
     }
+  }
+}
+
+.me {
+  img {
+    border-radius: 10px;
   }
 }
 
