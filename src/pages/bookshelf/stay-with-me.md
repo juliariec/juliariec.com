@@ -8,7 +8,6 @@ rating: 4
 pages: 260
 review: "This novel is a story about family and love that's also about loneliness and shattered trust and tragedy. It wasn't hard to read in the sense that it was difficult to get through, but it was hard because it dealt with a lot of tough circumstances, and it jumped around in perspective and time, and it contains a lot of historical/cultural connections that may not be intuitive (but are valuable to learn). All of that said, I'm glad that I read it."
 type: "book"
-category: "books"
 notes: false
 ---
 

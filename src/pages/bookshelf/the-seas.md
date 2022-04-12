@@ -7,8 +7,7 @@ shelf: ""
 rating: 3
 review: "Distinctive, evocative prose for a poignant story. Didn't fully resonate with me, but I appreciated it.<br/><br/>
 <i>My mother is regularly torn between being herself and being my mother.</i>"
-type: "book"
-category: "books"
+type: "book" 
 notes: false
 ---
 

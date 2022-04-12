@@ -8,7 +8,6 @@ rating: 4
 pages: 160
 review: "Lyrical and compelling - I especially liked the sonnet piece and the short story at the end told through vignettes."
 type: "book"
-category: "books"
 notes: false
 ---
 

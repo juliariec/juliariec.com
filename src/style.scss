@@ -593,6 +593,10 @@ button {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+
+  &.extension {
+    align-items: flex-start;
+  }
 }
 
 .half {

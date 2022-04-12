@@ -8,7 +8,6 @@ rating: 2
 pages: 358
 review: "A pretty standard suspenseful novel about a nature photographer on an extremely isolated island. I liked the information about the different animals, and occasionally the descriptions of the setting, but the interpersonal plots didn't really engage me. I think that the description for the book was inaccurate, which gave me false hopes that the story didn't live up to. I liked it enough but not a lot."
 type: "book"
-category: "books"
 notes: false
 ---
 

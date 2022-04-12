@@ -8,7 +8,6 @@ rating: 1
 pages: 368
 review: "There were a lot of things I disliked about this book - I couldn't really sympathize with Sophia, it didn't seem to have a plot, there was too much writing about how great all her bosses were or how great she was, etc. I liked some parts with her family but that was about it. Not really worth the read."
 type: "book"
-category: "books"
 notes: false
 ---
 

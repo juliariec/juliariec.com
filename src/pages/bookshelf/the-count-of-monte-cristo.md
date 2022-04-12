@@ -7,7 +7,6 @@ shelf: ""
 rating: 4
 review: "This novel was the height of vicarious enjoyment and even a kind of moral catharsis — an extended fantasy of the poor becoming rich, of good triumphing over evil, of justice being served — that was exciting and satisfying.<br/><br/><i>'You don't believe in God, but you've just been struck down by God. You don't believe in God, yet all He asks of you is a prayer, a word, a tear in order to forgive you.'</i>"
 type: "book"
-category: "books"
 notes: false
 ---
 

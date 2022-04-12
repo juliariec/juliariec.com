@@ -43,13 +43,17 @@ const Posts = () => {
   return (
     <>
       <div className="collection">
-        <h1>Posts</h1>
+        <h1>Blog</h1>
         <p className="grey">{data.allMarkdownRemark.totalCount} posts</p>
         <div className="browse">
           <p>
             Browse by category: &nbsp;
             {postCategories.map(category => {
-              return <Tag key={category} category={category} />
+              return (
+                category !== "books" && (
+                  <Tag key={category} category={category} />
+                )
+              )
             })}
           </p>
         </div>

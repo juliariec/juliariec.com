@@ -8,8 +8,7 @@ rating: 3
 pages: 0
 review: "I found a lot of value from the book's perspective on reimagining and shaping life according to your own terms. At times in the book, this philosophy comes across as overly self-serving and empty, especially the (questionable) premise that life is just about doing what you want. I see the value of passive income, but personally wouldn't want to make a fortune selling something that people don't really need. Nonetheless, I found several of the practical tips helpful, and I enjoyed reading a different perspective.
 "
-type: "book"
-category: "books"
+type: "book" 
 notes: true
 ---
 

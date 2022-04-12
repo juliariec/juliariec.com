@@ -7,8 +7,7 @@ shelf: ""
 rating: 2
 review: "Not quite my style &mdash; gritty and Machiavellian &mdash; but intriguing and very aptly named.<br/><br/>
 <i>This world isn't a mess because people are evil. It's because everyone has their own stories and excuses for doing bad things.</i>"
-type: "book"
-category: "books"
+type: "book" 
 notes: false
 ---
 

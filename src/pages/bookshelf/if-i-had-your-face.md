@@ -8,7 +8,6 @@ rating: 4
 pages: 288
 review: "Engrossing and insightful, which can be a tricky combination to pull off. It felt like the novel was showing pieces of the characters' lives rather than getting at some kind of message, which I liked. Kyuri and Miho were the most interesting to me."
 type: "book"
-category: "books"
 notes: false
 ---
 

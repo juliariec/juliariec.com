@@ -8,7 +8,6 @@ rating: 2
 pages: 330
 review: "This one just wasn't for me, but I have a hard time identifying why. I liked the novel's characters and the themes but it didn't feel cohesive enough and my sense of humor doesn't quite mesh with the British style either."
 type: "book"
-category: "books"
 notes: false
 ---
 

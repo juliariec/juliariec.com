@@ -8,7 +8,6 @@ rating: 4
 pages: 374
 review: "Spotted it on my sister's bookshelf and decided to reread it - I have fond memories of when this novel exploded and everyone in my grade was reading it! It had way more hunting/looking for food and way less fighting than I remembered it, but I definitely enjoyed the reread. The descriptions of Panem were thorough without being tedious and Katniss is a well developed main character. "
 type: "book"
-category: "books"
 notes: false
 ---
 

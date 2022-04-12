@@ -8,7 +8,6 @@ rating: 3
 pages: 273
 review: "I think this book made a strong case around the 'branding' quality of Trump, and it did a good job of connecting current American politics to a history of shock politics. The last few chapters felt a little repetitive, but I agree that creating a vision for an alternate system is essential. "
 type: "book"
-category: "books"
 notes: false
 ---
 

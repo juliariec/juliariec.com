@@ -8,7 +8,6 @@ rating: 3
 pages: 288
 review: "Interesting information about characteristics of trees and forest ecosystems in an accessible, colloquial style. Lack of organization in the text made it a little difficult to follow the author's trajectory."
 type: "book"
-category: "books"
 notes: false
 ---
 

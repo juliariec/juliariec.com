@@ -8,7 +8,6 @@ rating: 2
 pages: 228
 review: "A little creepy and disconcerting, but mostly too winding and descriptive. I think it was intended to make me feel restless, but it bordered on 'bored' for me."
 type: "book"
-category: "books"
 notes: false
 ---
 

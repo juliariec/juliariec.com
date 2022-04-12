@@ -8,7 +8,6 @@ rating: 4
 pages: 384
 review: "This was a really engaging novel that follows the main character, Li-yan, and her family through her childhood in a remote Chinese tea village into adulthood. I particularly liked learning about Akha culture and seeing the tensions between tradition and modernity arise over the span of the story, and I liked the 'no coincidence, no story' thread that ran through it as well. I liked the characters more than the style, which seemed fairly direct to me."
 type: "book"
-category: "books"
 notes: false
 ---
 

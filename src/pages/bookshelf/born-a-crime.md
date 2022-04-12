@@ -8,7 +8,6 @@ rating: 4
 pages: 289
 review: "I found this book super engaging - I really enjoyed the mix of incredible stories, bits of history/context, and personal reflections."
 type: "book"
-category: "books"
 notes: false
 ---
 

@@ -8,7 +8,6 @@ rating: 4
 pages: 366
 review: "Really enjoyed this reread, it's been ages since I've read this novel. Pacing was good, way more mishaps than I remembered, and I liked Bilbo's internal struggle between his Baggins and his Took sides. 'Riddles In the Dark' remains a stellar chapter."
 type: "book"
-category: "books"
 notes: false
 ---
 

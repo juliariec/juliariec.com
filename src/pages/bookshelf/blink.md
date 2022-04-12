@@ -8,7 +8,6 @@ rating: 3
 pages: 296
 review: "The content of the book was interesting and the chapters were internally cohesive, but the overall arc of the book was difficult to fully discern; findings from the examples seemed to contradict each other at times. I liked the chapter on thin slicing facial expressions the most, and it was an easy read."
 type: "book"
-category: "books"
 notes: false
 ---
 

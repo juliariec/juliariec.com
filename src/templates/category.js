@@ -10,7 +10,7 @@ const Category = ({ data, pageContext }) => {
   return (
     <Layout
       title={`Posts in '${category}'`}
-      description={`A list of all the posts in the ${category} category.`}
+      description={`A list of all the posts in the '${category}' category.`}
       article={false}
     >
       <h1>Posts in '{category}'</h1>
