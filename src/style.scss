@@ -105,6 +105,7 @@ body {
   .body-layout {
     align-items: flex-start;
     flex-direction: column;
+    padding: 0 0.2rem;
   }
 
   .main-body,
@@ -327,6 +328,10 @@ footer {
   padding-top: 2rem;
   font-weight: 300;
   font-size: 0.9rem;
+
+  @media (max-width: 650px) {
+    font-size: 0.8rem;
+  }
 }
 
 // Homepage
@@ -629,4 +634,9 @@ button {
 .icon {
   font-size: 1.1rem;
   padding-left: 14px;
+
+  @media (max-width: 650px) {
+    font-size: 1rem;
+    padding-left: 10px;
+  }
 }
