@@ -8,7 +8,6 @@ rating: 2
 pages: 247
 review: "I thought that the main ideas of this book were useful, but I wasn't very impressed with it as a whole. My primary annoyance was that its conclusions seemed to be based on a lot of anecdotal observations and small studies that weren't wholly convincing; also, some of the points were too repetitive."
 type: "book"
-category: "books"
 notes: false
 ---
 

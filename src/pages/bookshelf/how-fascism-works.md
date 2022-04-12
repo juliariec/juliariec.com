@@ -8,7 +8,6 @@ rating: 4
 pages: 240
 review: "This is a clear, well-written overview of the key elements of fascism that connect current political movements to historical ones. Accessible, well structured, and full of compelling arguments and relevant insights."
 type: "book"
-category: "books"
 notes: false
 ---
 

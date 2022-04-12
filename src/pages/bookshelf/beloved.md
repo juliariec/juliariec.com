@@ -8,7 +8,6 @@ rating: 4
 pages: 324
 review: "Incredible prose that shares stories of love and struggle. The attention to language and communication in this novel is so arresting and thought-provoking. Difficult at times but so rich and insightful."
 type: "book"
-category: "books"
 notes: false
 ---
 

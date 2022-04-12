@@ -7,9 +7,7 @@ shelf: "came-recommended"
 rating: 4
 pages: 326
 review: "Helpful overview of Stoicism, drawing from fundamental texts and making clear modern connections. Well structured and easy to follow - I liked the summary at the end, and the author's transparency in writing about his own life as well."
-type: "book"
-category: "books"
-notes: false
+type: "book"notes: false
 ---
 
 ## Review

@@ -8,7 +8,6 @@ rating: 2
 pages: 288
 review: "This collection just didn't really click with me. I appreciated the premise, expanding our conceptions of what mothers are like or 'should be', but at the same time the repeated emotional excavation didn't ring true."
 type: "book"
-category: "books"
 notes: false
 ---
 

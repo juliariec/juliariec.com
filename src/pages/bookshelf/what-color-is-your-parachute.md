@@ -8,7 +8,6 @@ rating: 3
 pages: 352
 review: "Valuable information about the process of finding a career. I really liked the emphasis on determining your own strengths and desires as a starting point."
 type: "book"
-category: "books"
 notes: false
 ---
 

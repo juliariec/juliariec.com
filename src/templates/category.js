@@ -10,7 +10,7 @@ const Category = ({ data, pageContext }) => {
   return (
     <Layout
       title={`Posts in '${category}'`}
-      description={`A list of all the posts in the ${category} category.`}
+      description={`A list of all the posts in the '${category}' category.`}
       article={false}
     >
       <h1>Posts in '{category}'</h1>
@@ -24,7 +24,7 @@ const Category = ({ data, pageContext }) => {
         ))}
       </div>
       <p className="grey" style={{ padding: "2rem 0 3rem 0" }}>
-        <Link to="/blog">&#8592; return to all posts</Link>
+        <Link to="/">&#8592; return to all posts</Link>
       </p>
     </Layout>
   )

@@ -7,21 +7,21 @@ const ListLink = props => (
   </li>
 )
 
-const Header = () => {
+const Navigation = () => {
   return (
-    <header>
+    <nav className="sidenav">
       <div className="title">
         <Link to="/">julia cooke</Link>
       </div>
-      <nav className="menu">
+      <div className="menu">
         <ul>
           <ListLink to="/about/">About</ListLink>
           <ListLink to="/bookshelf/">Bookshelf</ListLink>
           <ListLink to="/now/">Now</ListLink>
         </ul>
-      </nav>
-    </header>
+      </div>
+    </nav>
   )
 }
 
-export default Header
+export default Navigation

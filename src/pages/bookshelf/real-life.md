@@ -8,7 +8,6 @@ rating: 4
 pages: 329
 review: "This novel was hard to put down, not because it was plot heavy but because the chord of loneliness is so striking and insightful. I especially loved reading the composition of Wallace's thoughts, but the book was also full of excellent scenes (the dinner party especially). <br/><br/><i>This too is real life, he thinks. Not merely the accumulation of tasks, things to be done and sorted, but also the bumping up against other lives, everyone in the world insignificant when taken and observed together.</i>"
 type: "book"
-category: "books"
 notes: false
 ---
 

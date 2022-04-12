@@ -8,7 +8,6 @@ rating: 3
 pages: 368
 review: "Light and entertaining. Makes me feel extremely financially responsible!"
 type: "book"
-category: "books"
 notes: false
 ---
 

@@ -7,7 +7,6 @@ shelf: ""
 rating: 4
 review: "This book is a detailed historical account of the Partition of India that taught me a <i>lot</i> about the political, religious, and geographic landscape of both India and Pakistan. I would recommend reading this, and with a map handy."
 type: "book"
-category: "books"
 notes: false
 ---
 

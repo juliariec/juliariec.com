@@ -8,7 +8,6 @@ rating: 4
 pages: 405
 review: "Reread this novel on a whim and it's as good as I remembered it, with a deep attention to pain and grief. Brown has crafted the characters such that it's hard not to feel for all of them; I especially felt for Valerie's relationship with her parents. "
 type: "book"
-category: "books"
 notes: false
 ---
 

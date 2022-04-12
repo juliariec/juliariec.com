@@ -8,7 +8,6 @@ rating: 2
 pages: 207
 review: "Another story that just wasn't for me, although I think that readers with interest in the wilderness or survival would like it. Personal impressions: too many geographical details that didn't interest me, a lot of 'telling' about McCandless' personality/character rather than showing, and some thought-provoking quotes/passages."
 type: "book"
-category: "books"
 notes: false
 ---
 
