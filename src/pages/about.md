@@ -1,16 +1,16 @@
 ---
 title: "About"
-date: "2021-11-13"
+date: "2022-03-23"
 description: "About Julia, the author of this blog."
 category: ""
 type: "page"
 ---
 
+<div class="me"><img src="../images/julia_small.jpg" alt="Photo of me"></div>
+
 I'm Julia, the author and developer of this blog. I created this site in April 2021, but I've blogged sporadically on various platforms (Blogger, WordPress) since 2008. I've always enjoyed clarifying my own thoughts and sharing them with others; I've written a bit about the site's philosophy and technical details [here](/about-this-blog/).
 
 To contact me, please [send me an email](mailto:hello@juliariec.com). I'd love to hear from you!
-
-![Photos of me](../images/aboutme.jpg)
 
 ## A brief origin story
 

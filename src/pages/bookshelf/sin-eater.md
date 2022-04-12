@@ -8,7 +8,6 @@ rating: 3
 pages: 304
 review: "I enjoyed the premise and setting of this story but not particularly the plot. Fun to read but not too substantial."
 type: "book"
-category: "books"
 notes: false
 ---
 

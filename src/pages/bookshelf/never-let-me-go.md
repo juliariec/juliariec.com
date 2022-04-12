@@ -8,7 +8,6 @@ rating: 3
 pages: 288
 review: "This was an intriguing novel – the mystery of the characters' circumstances kept me engaged, but I also really liked reading about the normal dynamics between the three characters. An enjoyable and thought provoking read!"
 type: "book"
-category: "books"
 notes: false
 ---
 

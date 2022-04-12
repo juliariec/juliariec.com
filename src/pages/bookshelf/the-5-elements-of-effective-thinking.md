@@ -8,7 +8,6 @@ rating: 4
 pages: 157
 review: "One of those books that you should have a copy of just to thumb through over and over again. It's not revolutionary, but it's a great collection of techniques and strategies for thinking that I think anyone would enjoy. The book is compact, well organized (I love the 'elements' mnemonic), and very practical - plus, it has its own outline at the back, which I think is absolutely fantastic."
 type: "book"
-category: "books"
 notes: false
 ---
 

@@ -8,7 +8,6 @@ rating: 4
 pages: 208
 review: "I love books where nothing really happens and this novel did not disappoint. I loved the lists, the introspection, the narrator's friendship with the kindergarten student, and the fact that there were no catastrophes or mishaps during the story. It also reminded me strongly of a close friend of mine.<br/><br/><i>I fill my mouth with water and swallow a little at a time. Water is good. If I had to choose between a lot of things, I'd quite definitely choose water.</i>"
 type: "book"
-category: "books"
 notes: false
 ---
 

@@ -8,7 +8,7 @@ rating: 3
 pages: 184
 review: "Good quality content on personal finance. Mostly introductory, so it was predominantly review for me, but I appreciated his clear explanation of the role of bonds in a portfolio."
 type: "book"
-category: "books"
+notes: false
 ---
 
 ## Review

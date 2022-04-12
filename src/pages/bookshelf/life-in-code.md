@@ -8,7 +8,6 @@ rating: 5
 pages: 320
 review: "A diverse range of thought-provoking and reflective essays on technology in relation to society, culture, and personal experiences. I loved the measured tone, the details, and the special moments of recognizing an interior thought expressed by someone else. Reading this made me both marvel at computer science and question its trajectory."
 type: "book"
-category: "books"
 notes: false
 ---
 

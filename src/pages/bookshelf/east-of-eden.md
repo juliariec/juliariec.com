@@ -8,7 +8,6 @@ rating: 5
 pages: 601
 review: "One of my all time favourite books. I love the thematic intertwining with the characters' stories and experiences; it feels just right, not heavy-handed or entirely implicit. The pace and style make it entrancing and so easy to get through (even though it's a long book). Would definitely recommend.<br/><br/><b>3rd read</b>: This book gets better each time I read it, and I keep seeing new things about the characters. Steinbeck has a masterful, unique way of encapsulating their defining qualities with one well written sentence or idea. The book is honest and insightful regarding human nature while remaining gracious. So good!"
 type: "book"
-category: "books"
 notes: false
 ---
 

@@ -8,7 +8,6 @@ rating: 4
 pages: 242
 review: "This book was touching and challenging. I felt that I really empathized with the characters and their difficult circumstances, and alongside those difficulties were poignant moments of contentment and love. "
 type: "book"
-category: "books"
 notes: false
 ---
 

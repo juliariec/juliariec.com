@@ -8,7 +8,6 @@ rating: 2
 pages: 104
 review: "I loved certain passages and ideas in this book, especially as someone deeply preoccupied with records and archives, but the writing felt too fragmented to understand and I would have loved to see the ideas developed further."
 type: "book"
-category: "books"
 notes: false
 ---
 

@@ -8,7 +8,6 @@ rating: 4
 pages: 105
 review: "Well organized and explained, funny, and immensely useful. I'm excited to use the advice from this book to improve my writing, especially to make it more powerful and concise."
 type: "book"
-category: "books"
 notes: false
 ---
 

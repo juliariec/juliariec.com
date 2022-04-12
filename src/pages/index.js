@@ -1,9 +1,7 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import { graphql } from "gatsby"
 import Layout from "../components/Layout"
-import CategorySnippet from "../components/CategorySnippet"
-import postCategories from "../data/categories"
+import Posts from "../components/Posts"
 
 const Homepage = ({ data }) => {
   return (
@@ -12,55 +10,13 @@ const Homepage = ({ data }) => {
       description={data.site.siteMetadata.description}
       article={false}
     >
-      <div className="intro">
-        <div className="photo">
-          <StaticImage src="../images/julia.jpg" alt="Photo of Julia" />
-        </div>
-        <div className="words">
-          <p>
-            I'm Julia, and this site is where I share my thoughts on books,
-            software, and life.
-          </p>
-          <p>
-            You can read <Link to="/about">about me</Link>, see what I'm up to{" "}
-            <Link to="/now">now</Link>, browse my <Link to="/blog">blog</Link>{" "}
-            and <Link to="/bookshelf">bookshelf</Link> archives, or check out my
-            latest posts and book reviews below.
-          </p>
-        </div>
-      </div>
-      <div className="categories">
-        {postCategories.map(category => {
-          const items = data.allMarkdownRemark.edges.filter(
-            ({ node }) => node.frontmatter.category === category
-          )
-          return (
-            <CategorySnippet key={category} category={category} items={items} />
-          )
-        })}
-      </div>
+      <Posts />
     </Layout>
   )
 }
 
 export const query = graphql`
   {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      edges {
-        node {
-          id
-          frontmatter {
-            title
-            category
-            date(formatString: "MMM D")
-            type
-          }
-          fields {
-            slug
-          }
-        }
-      }
-    }
     site {
       siteMetadata {
         description

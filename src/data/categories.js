@@ -1,10 +1,10 @@
 const categories = [
   "strategies",
-  "thoughts",
+  "collections",
   "principles",
   "meta",
+  "thoughts",
   "books",
-  "collections",
 ]
 
 export default categories

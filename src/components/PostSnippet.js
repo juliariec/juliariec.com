@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import Tag from "./Tag"
 
 const PostSnippet = ({ node }) => {
   return (
@@ -9,13 +8,7 @@ const PostSnippet = ({ node }) => {
         <div className="title">
           <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
         </div>
-        <div className="date">
-          <Tag category={node.frontmatter.category} />
-        </div>
-        <div className="excerpt">
-          <span className="real date">{node.frontmatter.date} · &nbsp; </span>
-          {node.excerpt}
-        </div>
+        <div className="date">{node.frontmatter.date}</div>
       </div>
     </>
   )

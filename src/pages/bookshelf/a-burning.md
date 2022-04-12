@@ -7,7 +7,6 @@ shelf: ""
 rating: 2
 review: "I didn't really click with this one; I was interested enough to keep reading, but the characters fell a bit flat and their storylines weren't as connected as I thought they would be."
 type: "book"
-category: "books"
 notes: false
 ---
 

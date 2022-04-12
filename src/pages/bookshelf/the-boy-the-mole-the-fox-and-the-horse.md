@@ -8,7 +8,7 @@ rating: 3
 pages: 128
 review: "Sweet and heartwarming. I love the artwork."
 type: "book"
-category: "books"
+notes: false
 ---
 
 ## Review
