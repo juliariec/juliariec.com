@@ -249,7 +249,7 @@ blockquote cite {
   text-align: right;
 }
 
-input {
+input[type="text"] {
   margin: 0 1rem;
   padding: 0.3rem 0.8rem;
   font-size: 0.9rem;
@@ -325,7 +325,7 @@ pre[class*="language-"] {
 footer {
   display: flex;
   color: $primary;
-  padding-top: 2rem;
+  padding: 2rem 0 1rem 0;
   font-weight: 300;
   font-size: 0.9rem;
 
