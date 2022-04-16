@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: "2022-03-23"
+date: "2022-04-16"
 description: "About Julia, the author of this blog."
 category: ""
 type: "page"
@@ -8,9 +8,15 @@ type: "page"
 
 <div class="me"><img src="../images/julia_small.jpg" alt="Photo of me"></div>
 
-I'm Julia, the author and developer of this blog. I created this site in April 2021, but I've blogged sporadically on various platforms (Blogger, WordPress) since 2008. I've always enjoyed clarifying my own thoughts and sharing them with others; I've written a bit about the site's philosophy and technical details [here](/about-this-blog/).
+I'm Julia, the author and developer of this blog. I created this site in April 2021, but I've blogged sporadically on various platforms (Blogger, WordPress) since 2008. I've always enjoyed clarifying my own thoughts and sharing them with others.
 
 To contact me, please [send me an email](mailto:hello@juliariec.com). I'd love to hear from you!
+
+### Some links
+
+- [About this blog](/about-this-blog/): the site philosophy and technical details
+- [Blog to-dos](/blog-to-dos/): what I'd like to do next on the site
+- ['Meta' posts](/categories/meta/): posts I've written about this blog
 
 ## A brief origin story
 
@@ -24,7 +30,7 @@ At the end of high school and the beginning of university, I didn't read much fo
 
 ## What I'm doing now
 
-After graduating from McMaster in April 2019, I spent some time learning French in Quebec through the [Explore program](https://www.canada.ca/en/canadian-heritage/services/funding/explore.html) and travelling through northern Europe before returning to Toronto and starting work as a full stack software developer at my current company.
+After graduating from McMaster in April 2019, I spent some time learning French in Quebec through the [Explore program](https://www.canada.ca/en/canadian-heritage/services/funding/explore.html) and travelling through northern Europe before returning to Toronto and starting work as a full stack software developer.
 
 ## Where I want to go
 
