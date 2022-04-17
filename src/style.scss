@@ -75,7 +75,7 @@ body {
   .title {
     font-size: $size3;
     font-weight: 600;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
   }
 
   ul {
@@ -285,7 +285,8 @@ pre[class*="language-"] {
 
 .date,
 .subtitle,
-.grey {
+.grey,
+.acknowledgements {
   font-weight: 400;
   color: $grey;
   font-size: 0.9rem;
@@ -466,26 +467,32 @@ hr:last-of-type {
 }
 
 .content,
-.collection {
-  margin-bottom: 100px;
+.collection,
+.extension {
+  margin-bottom: 4rem;
 
   @media (max-width: 650px) {
-    margin-bottom: 50px;
+    margin-bottom: 2rem;
+  }
+}
+
+.acknowledgements {
+  padding-top: 4rem;
+  font-style: italic;
+
+  @media (max-width: 650px) {
+    padding-top: 2rem;
   }
 }
 
 // Extension
 .extension {
-  margin-bottom: 100px;
-
   a {
     font-weight: 500;
     font-size: $size4;
   }
 
   @media (max-width: 650px) {
-    margin-bottom: 50px;
-
     a {
       font-size: 1rem;
     }
