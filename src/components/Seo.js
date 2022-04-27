@@ -3,62 +3,77 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useLocation } from "@reach/router"
 import { useStaticQuery, graphql } from "gatsby"
+import { constructUrl } from "../utils"
 import favicon from "../../favicon.ico"
 
-const Seo = ({ title, description, article }) => {
+const Seo = ({ title, description, article, imageUrl, imageAlt }) => {
   const { pathname } = useLocation()
-  const { site } = useStaticQuery(query)
+  const { site, ogImageDefault } = useStaticQuery(query)
 
   const { author, defaultTitle, titleTemplate, defaultDescription, siteUrl } =
     site.siteMetadata
 
   const seo = {
     title: title || defaultTitle,
-    author: author,
     description: description || defaultDescription,
     url: `${siteUrl}${pathname}`,
   }
+
+  const defaultImageUrl = constructUrl(
+    siteUrl,
+    ogImageDefault?.childImageSharp?.gatsbyImageData?.src
+  )
+
+  const ogImageUrl = imageUrl || defaultImageUrl
 
   return (
     <Helmet
       title={seo.title}
       titleTemplate={titleTemplate}
-      htmlAttributes={{
-        lang: "en",
-      }}
+      htmlAttributes={{ lang: "en" }}
+      meta={[
+        { name: "charSet", content: "utf-8" },
+        { name: "author", content: author },
+        { name: "description", content: seo.description },
+        { property: "og:url", content: seo.url },
+        { property: "og:title", content: seo.title },
+        { property: "og:description", content: seo.description },
+        { property: "og:type", content: article ? "article" : "website" },
+        { property: `og:image`, content: ogImageUrl },
+        { property: "twitter:card", content: "summary" },
+        {
+          property: `twitter:card`,
+          content: imageUrl ? "summary_large_image" : "summary",
+        },
+        {
+          property: `twitter:image:alt`,
+          content: imageAlt || "juliariec.com logo",
+        },
+      ]}
     >
-      <meta charSet="utf-8" />
-      <meta name="author" content={seo.author} />
-      <meta name="description" content={seo.description} />
       <link rel="shortcut icon" type="image/png" href={favicon} />
       <link rel="canonical" href={seo.url} />
-      <meta property="og:url" content={seo.url} />
-      {article && <meta property="og:type" content="article" />}
-      {seo.title && <meta property="og:title" content={seo.title} />}
-      {seo.description && (
-        <meta property="og:description" content={seo.description} />
-      )}
-      {seo.title && <meta name="twitter:title" content={seo.title} />}
-      {seo.description && (
-        <meta name="twitter:description" content={seo.description} />
-      )}
     </Helmet>
   )
 }
 
-const query = graphql`
-  query SEO {
-    site {
-      siteMetadata {
-        defaultTitle: title
-        titleTemplate
-        author
-        defaultDescription: description
-        siteUrl: url
-        defaultImage: image
-      }
+const query = graphql`query SEO {
+  site {
+    siteMetadata {
+      defaultTitle: title
+      titleTemplate
+      author
+      defaultDescription: description
+      siteUrl: url
+      defaultImage: image
     }
   }
+  ogImageDefault: file(relativePath: {eq: "default.jpg"}) {
+    childImageSharp {
+      gatsbyImageData(height: 260, width: 260, placeholder: BLURRED, layout: FIXED)
+    }
+  }
+}
 `
 
 Seo.propTypes = {

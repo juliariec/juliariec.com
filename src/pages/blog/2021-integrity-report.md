@@ -4,6 +4,8 @@ date: "2022-02-12"
 description: "How I lived in accordance with my core values in 2021."
 category: "thoughts"
 type: "post"
+image: "../../images/og/integrity.jpg"
+imageAlt: "Trees in autumn"
 ---
 
 One of the bloggers I like to read, James Clear, has published [integrity reports](https://jamesclear.com/integrity) on his blog to keep himself accountable to living in accordance with his personal values. After reading his reports, I decided it was something I'd like to commit to as well... so here's my first ever integrity report, for 2021!

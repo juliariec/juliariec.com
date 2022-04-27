@@ -4,6 +4,8 @@ date: "2022-04-17"
 description: "I've learned a lot so far and still have a long way to go."
 category: "thoughts"
 type: "post"
+image: "../../images/og/effective.jpg"
+imageAlt: "Sydney, Australia"
 ---
 
 > One day Alice came to a fork in the road and saw a Cheshire cat in a tree. "Which road do I take?" she asked. "Where do you want to go?" was his response. "I don't know," Alice answered. "Then," said the cat, "it doesn't matter."
