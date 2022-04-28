@@ -4,6 +4,8 @@ date: "2021-08-17"
 description: "An introduction to budgeting and my strategies for budgeting and tracking my money."
 category: "strategies"
 type: "post"
+image: "../../images/og/budgeting.jpg"
+imageAlt: "Various tax forms strewn on the floor"
 ---
 
 One of the critical elements of personal finance is to know where your money goes and make a plan for where you want it to go. In this post, I'm going to briefly introduce budgeting and money tracking, and then share my strategy and how I've set up my own tracking spreadsheet. My hope is that you will come away with some ideas about how you could organize your money habits to reach your financial goals.

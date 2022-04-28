@@ -1,11 +1,11 @@
 ---
 title: "Effective altruism, nine months in"
 date: "2022-04-17"
-description: "I've learned a lot so far and still have a long way to go."
+description: "Reflections on what I've learned about EA, how I've been involved, and what I'd like to do next."
 category: "thoughts"
 type: "post"
-image: "../../images/og/effective.jpg"
-imageAlt: "Sydney, Australia"
+image: "../../images/og/orb.jpg"
+imageAlt: "A glass orb reflecting nature"
 ---
 
 > One day Alice came to a fork in the road and saw a Cheshire cat in a tree. "Which road do I take?" she asked. "Where do you want to go?" was his response. "I don't know," Alice answered. "Then," said the cat, "it doesn't matter."

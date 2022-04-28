@@ -4,6 +4,8 @@ date: "2021-07-30"
 description: "How I organize my project and personal knowledge management system using Notion."
 category: "strategies"
 type: "post"
+image: "../../images/blog/3_Projects.png"
+imageAlt: "Screenshot of a database in Notion"
 ---
 
 At the beginning of this year, I set up a workspace using [Notion](https://notion.so) that I use for my project and personal knowledge management. In this post, I'm going to introduce Notion, explain my approach to creating my system, and walk through its core features. After reading this, you'll have an overview of what Notion is and how you could use it to set up your own system. As a disclaimer I'm not affiliated with Notion in any way, I'm just interested in sharing my own experience. Let's get started!

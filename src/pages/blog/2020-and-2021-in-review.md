@@ -4,6 +4,8 @@ date: "2021-12-03"
 description: "Learning about growth and maintenance as I build a foundation for the future."
 category: "thoughts"
 type: "post"
+image: "../../images/og/field.jpg"
+imageAlt: "A field of grass dotted with flowers"
 ---
 
 It's almost the end of 2021! The fresh snowfall in Toronto, the Christmas lights adorning its houses, and the early nightfall all have me feeling contemplative about the conclusion of the last two years. Since graduating from university in April 2019, I've changed and learned so much. I hope that this post, where I share what's been happening in my life, is one that challenges and encourages you as well.

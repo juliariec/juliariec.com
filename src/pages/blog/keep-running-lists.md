@@ -4,6 +4,8 @@ date: "2022-03-22"
 description: "Brains are good for generating ideas, not for remembering them."
 category: "principles"
 type: "post"
+image: "../../images/og/harbour.jpg"
+imageAlt: "An aerial view of Sydney Harbour"
 ---
 
 It's useful to keep a handful of running lists and update them periodically.
