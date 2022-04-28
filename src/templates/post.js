@@ -59,8 +59,8 @@ export const query = graphql`
         image {
           childImageSharp {
             gatsbyImageData(
-              height: 600
-              width: 1200
+              height: 400
+              width: 800
               placeholder: BLURRED
               layout: FIXED
             )
