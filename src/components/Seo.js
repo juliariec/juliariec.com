@@ -21,7 +21,7 @@ const Seo = ({ title, description, article, imageUrl, imageAlt }) => {
 
   const defaultImageUrl = constructUrl(
     siteUrl,
-    ogImageDefault?.childImageSharp?.gatsbyImageData?.src
+    ogImageDefault?.childImageSharp?.gatsbyImageData?.images.fallback.src
   )
 
   const ogImageUrl = imageUrl || defaultImageUrl
@@ -57,23 +57,31 @@ const Seo = ({ title, description, article, imageUrl, imageAlt }) => {
   )
 }
 
-const query = graphql`query SEO {
-  site {
-    siteMetadata {
-      defaultTitle: title
-      titleTemplate
-      author
-      defaultDescription: description
-      siteUrl: url
-      defaultImage: image
+const query = graphql`
+  query SEO {
+    site {
+      siteMetadata {
+        defaultTitle: title
+        titleTemplate
+        author
+        defaultDescription: description
+        siteUrl: url
+        defaultImage: image
+      }
+    }
+    ogImageDefault: file(
+      absolutePath: { glob: "**/src/images/og/default.jpg" }
+    ) {
+      childImageSharp {
+        gatsbyImageData(
+          height: 260
+          width: 260
+          placeholder: BLURRED
+          layout: FIXED
+        )
+      }
     }
   }
-  ogImageDefault: file(relativePath: {eq: "default.jpg"}) {
-    childImageSharp {
-      gatsbyImageData(height: 260, width: 260, placeholder: BLURRED, layout: FIXED)
-    }
-  }
-}
 `
 
 Seo.propTypes = {

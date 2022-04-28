@@ -34,7 +34,8 @@ const Post = ({ data, pageContext }) => {
       article={true}
       imageUrl={constructUrl(
         site.siteMetadata.siteUrl,
-        post.frontmatter.image?.childImageSharp?.gatsbyImageData?.src
+        post.frontmatter.image?.childImageSharp?.gatsbyImageData?.images
+          .fallback.src
       )}
       imageAlt={post.frontmatter.imageAlt}
     >
@@ -63,9 +64,6 @@ export const query = graphql`
               placeholder: BLURRED
               layout: FIXED
             )
-            fluid(maxWidth: 700, maxHeight: 500) {
-              ...GatsbyImageSharpFluid
-            }
           }
         }
         imageAlt
