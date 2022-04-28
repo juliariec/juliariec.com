@@ -40,6 +40,8 @@ const Seo = ({ title, description, article, imageUrl, imageAlt }) => {
         { property: "og:description", content: seo.description },
         { property: "og:type", content: article ? "article" : "website" },
         { property: `og:image`, content: ogImageUrl },
+        { property: "twitter:title", content: seo.title },
+        { property: "twitter:description", content: seo.description },
         { property: "twitter:card", content: "summary" },
         {
           property: `twitter:card`,
