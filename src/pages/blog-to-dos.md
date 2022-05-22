@@ -13,6 +13,8 @@ A list of to-dos I have for this blog:
 - Configure a separate RSS feed for my book updates
 - Submit my site to the [NowNowNow](https://nownownow.com/) page
 - Add a new section called "Snippets" with shorter notes
+- ~~Add a new section called "Recipes" with links to recipes I like~~ (22/05/22)
+  - Update the Recipes page to pull from a Notion database
 - Add a new section called "Articles" or something with articles that I've read and my responses to them
 - Roll out my own comment section so that people without GitHub accounts can write comments \[maybe\]
 - Write a fun, interactive timeline for my "About" page \[maybe\]

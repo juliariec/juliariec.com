@@ -16,8 +16,10 @@ const Navigation = () => {
       <div className="menu">
         <ul>
           <ListLink to="/about/">About</ListLink>
+          <ListLink to="/">Blog</ListLink>
           <ListLink to="/bookshelf/">Bookshelf</ListLink>
           <ListLink to="/now/">Now</ListLink>
+          <ListLink to="/recipes/">Recipes</ListLink>
         </ul>
       </div>
     </nav>
