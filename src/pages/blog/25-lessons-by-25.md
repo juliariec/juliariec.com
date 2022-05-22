@@ -4,6 +4,8 @@ date: "2022-05-22"
 description: "A few things I've learned along the way."
 category: "principles"
 type: "post"
+image: "../../images/og/reflected.jpg"
+imageAlt: "Mist over a lake in the morning with trees"
 ---
 
 Last month, I turned 25. To mark the occasion, here are 25 lessons/principles that I've learned so far:
