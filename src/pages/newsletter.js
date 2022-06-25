@@ -10,7 +10,7 @@ export default function Newsletter() {
     >
       <div className="content">
         <h1>Newsletter</h1>
-        <p className="grey">Updated May 22, 2022</p>
+        <p className="grey">Updated June 25, 2022</p>
         <p>
           If you enjoy what I write but wish that you didn't have to actually
           visit my blog to read it, fear not: like every other blogger, I now
