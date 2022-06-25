@@ -1,6 +1,6 @@
 const recipes = [
   {
-    name: "Yellow Lentil Soup",
+    name: "Red Lentil Soup",
     link: "https://www.thekitchn.com/lentil-soup-recipe-23004361",
     vegetarian: true,
   },
