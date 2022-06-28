@@ -1,15 +1,16 @@
 ---
 title: "Now"
-date: "2022-04-11"
+date: "2022-06-25"
 description: "What I'm currently up to."
 category: ""
 type: "page"
 ---
 
-- Developing software to [see the whole](https://www.system.com/graph) [system](https://about.system.com/about/overview).
-- Participating in EA Cambridge's [AGI Safety Fundamentals](https://www.eacambridge.org/agi-safety-fundamentals) program ([governance](https://www.eacambridge.org/ai-governance-curriculum) track).
-- Training for my second sprint triathlon in June.
-- Trying (and failing) to read the books on my physical bookshelf so I can give them away afterwards.
+- Working as a software engineer at [System](https://about.system.com/about/overview) &mdash; [check it out](https://www.system.com/graph).
+- Enjoying my summer in the 6ix: cycling around, reading at the park, meeting friends, etc.
+- Training for my second sprint triathlon in ~~June~~ August!
+- Preparing to relocate to New York City in September.
+- Reading the books on my physical bookshelf so I can give them away when I'm done.
 
 &nbsp;
 

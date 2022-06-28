@@ -9,7 +9,7 @@ type: "page"
 A list of to-dos I have for this blog:
 
 - Migrate Gatsby from Remark to MDX (see [here](https://www.gatsbyjs.com/docs/how-to/routing/migrate-remark-to-mdx/))
-- Set up a simple newsletter to notify readers when I post something new
+- ~~Set up a simple newsletter to notify readers when I post something new~~ (25/06/22)
 - Configure a separate RSS feed for my book updates
 - Submit my site to the [NowNowNow](https://nownownow.com/) page
 - Add a new section called "Snippets" with shorter notes

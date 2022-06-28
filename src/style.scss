@@ -60,7 +60,8 @@ body {
   padding: 0 1rem;
 }
 
-.sidenav {
+header {
+  // Desktop
   position: sticky;
   position: -webkit-sticky;
   top: 83px; // I want this to align with the grey subtitle texts...
@@ -89,38 +90,23 @@ body {
     display: block;
     margin-bottom: 0.5rem;
   }
-}
 
-@media (max-width: 930px) {
-  .main-body {
-    width: 75%;
+  // Mobile
+  .mobile-button,
+  .mobile-menu {
+    display: none;
   }
 
-  .sidenav {
-    width: 20%;
-  }
-}
-
-@media (max-width: 700px) {
-  .body-layout {
-    align-items: flex-start;
-    flex-direction: column;
-    padding: 0 0.2rem;
-  }
-
-  .main-body,
-  .sidenav {
-    width: 100%;
-  }
-
-  .sidenav {
+  @media (max-width: 680px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     position: relative;
     text-align: left;
-    padding: 2rem 1rem 1rem 1rem;
-    height: 5vh;
-    min-height: 100px;
+    height: auto;
+    min-height: 0px;
     top: 0;
-    margin-bottom: 2rem;
+    padding: 1rem 1rem 0 1rem;
 
     .title {
       font-size: 1.4rem;
@@ -134,6 +120,52 @@ body {
       display: inline-block;
       padding-right: 0.7rem;
     }
+
+    .icon {
+      font-size: 1.5rem;
+    }
+
+    .mobile-button {
+      display: inline-block;
+      font-size: 1.5rem;
+      padding-top: 0.2rem;
+    }
+
+    .mobile-menu {
+      display: block;
+      width: 100%;
+
+      li {
+        display: block;
+      }
+    }
+
+    .desktop-menu {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .main-body {
+    width: 75%;
+  }
+
+  header {
+    width: 20%;
+  }
+}
+
+@media (max-width: 680px) {
+  .body-layout {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0 0.2rem;
+  }
+
+  .main-body,
+  header {
+    width: 100%;
   }
 }
 
@@ -184,8 +216,8 @@ li {
 // Main links
 .post.snippet .title a,
 .book.snippet a,
-nav a,
-nav li a,
+header a,
+header li a,
 .extension a,
 .categories a {
   color: inherit;
@@ -220,7 +252,8 @@ li a,
 }
 
 // Footer links
-footer a {
+footer a,
+.mobile-button a {
   color: inherit;
   font-weight: inherit;
   text-decoration: none;
@@ -249,8 +282,9 @@ blockquote cite {
   text-align: right;
 }
 
-input[type="text"] {
-  margin: 0 1rem;
+input[type="text"],
+input[type="email"] {
+  margin: 0.5rem 1rem;
   padding: 0.3rem 0.8rem;
   font-size: 0.9rem;
   border: 1px solid $lightgrey;
@@ -264,6 +298,14 @@ input[type="text"] {
   &:focus {
     border-color: darken($lightgrey, 10%);
     outline: none;
+  }
+
+  &#first-name {
+    width: 150px;
+  }
+
+  &#email-address {
+    width: 250px;
   }
 
   @media (max-width: 650px) {
@@ -561,7 +603,7 @@ hr:last-of-type {
   }
 }
 
-button {
+button:not(button.icon-button) {
   @include buttonStyle();
 
   &.strategies,
@@ -597,6 +639,16 @@ button {
   &.pink {
     @include buttonStyle($pink);
   }
+}
+
+button.icon-button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
 }
 
 /* Utilities */
@@ -646,4 +698,8 @@ button {
     font-size: 1rem;
     padding-left: 10px;
   }
+}
+
+.block {
+  display: block;
 }
