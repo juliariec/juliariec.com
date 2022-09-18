@@ -1,16 +1,14 @@
 ---
 title: "Now"
-date: "2022-06-25"
+date: "2022-09-18"
 description: "What I'm currently up to."
 category: ""
 type: "page"
 ---
 
-- Working as a software engineer at [System](https://about.system.com/about/overview) &mdash; [check it out](https://www.system.com/graph).
-- Enjoying my summer in the 6ix: cycling around, reading at the park, meeting friends, etc.
-- Training for my second sprint triathlon in ~~June~~ August!
-- Preparing to relocate to New York City in September.
-- Reading the books on my physical bookshelf so I can give them away when I'm done.
+- Living in Brooklyn and working as a software engineer at [System](https://www.system.com/graph).
+- Settling in and attending meetups in NYC.
+- Reading _Gödel, Escher, Bach_ and considering getting into formal logic.
 
 &nbsp;
 
