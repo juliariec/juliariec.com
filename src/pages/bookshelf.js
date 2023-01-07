@@ -144,9 +144,9 @@ export default function Bookshelf({ data }) {
 }
 
 export const query = graphql`
-  {
+  query getBooks {
     allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
       filter: { frontmatter: { type: { eq: "book" } } }
     ) {
       totalCount

@@ -16,7 +16,7 @@ const Homepage = ({ data }) => {
 }
 
 export const query = graphql`
-  {
+  query getDescription {
     site {
       siteMetadata {
         description
