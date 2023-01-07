@@ -21,7 +21,7 @@ const Book = ({ data, pageContext }) => {
 }
 
 export const query = graphql`
-  query ($slug: String!) {
+  query getBook($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {

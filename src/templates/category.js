@@ -31,9 +31,9 @@ const Category = ({ data, pageContext }) => {
 }
 
 export const query = graphql`
-  query ($category: String!) {
+  query getCategoryPosts($category: String!) {
     allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
       filter: { frontmatter: { category: { eq: $category } } }
     ) {
       totalCount

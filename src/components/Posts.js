@@ -7,9 +7,9 @@ import postCategories from "../data/categories"
 const Posts = () => {
   const data = useStaticQuery(
     graphql`
-      {
+      query getPosts {
         allMarkdownRemark(
-          sort: { fields: [frontmatter___date], order: DESC }
+          sort: { frontmatter: { date: DESC } }
           filter: { frontmatter: { type: { eq: "post" } } }
         ) {
           totalCount

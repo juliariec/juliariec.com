@@ -11,7 +11,7 @@ import {
 const Footer = () => {
   const data = useStaticQuery(
     graphql`
-      query {
+      query getFooterInfo {
         site {
           siteMetadata {
             author

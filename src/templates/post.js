@@ -47,7 +47,7 @@ const Post = ({ data, pageContext }) => {
 }
 
 export const query = graphql`
-  query ($slug: String!) {
+  query getPost($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
