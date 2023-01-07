@@ -11,7 +11,7 @@ Disclaimer aside, this collection was very hit-or-miss for me. My favourites wer
 <li>'Do You Remember Candy', in which everyone on Earth loses their sense of taste at once, that reminded me not to take the world I have for granted; and</li>
 <li>'June Bugs', about a woman who, in fleeing her abusive partner, ends up in a house infested with bugs, which provided such a visceral metaphor for what we're willing to tolerate</li></ul>"
 type: "book"
-category: "books"
+ 
 notes: false
 ---
 

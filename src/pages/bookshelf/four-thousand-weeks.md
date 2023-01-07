@@ -8,7 +8,7 @@ rating: 4
 review: "I devoured this in a day—it was a balm for my soul as I panic about many outstanding tasks in my life.<br/><br/>
 <i>Once you give up on the unattainable goal of eradicating all your problems, it becomes possible to develop an appreciation for the fact that life just <b>is</b> a process of engaging with problem after problem, giving each one the time it requires—that the presence of problems in your life, in other words, isn't an impediment to a meaningful existence but the very substance of one.</i>"
 type: "book"
-category: "books"
+ 
 notes: false
 ---
 

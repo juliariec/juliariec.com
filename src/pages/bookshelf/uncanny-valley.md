@@ -8,7 +8,7 @@ rating: 4
 review: "More thoughts to follow in an intentionally incoherent blog post, but this was a good read &mdash; entertaining and interrogative.<br/><br/>
 <i>For nearly two years, I had been seduced by the confidence of young men. They made it look so simple, knowing what you wanted and getting it.</i>"
 type: "book"
-category: "books"
+ 
 notes: false
 ---
 

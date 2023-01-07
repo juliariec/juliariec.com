@@ -8,16 +8,12 @@ rating: 4
 review: "This novel should be assigned reading before getting married.<br/><br/>
 <i>The really delightful marriage must be that where your husband was a sort of father, and could teach you even Hebrew, if you wished it.</i>"
 type: "book"
-category: "books"
+ 
 notes: false
 ---
 
-## Review 
+## Review
 
-This novel should be assigned reading before getting married. 
+This novel should be assigned reading before getting married.
 
-  
-
- 
 _The really delightful marriage must be that where your husband was a sort of father, and could teach you even Hebrew, if you wished it._
-

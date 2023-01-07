@@ -9,7 +9,7 @@ review: "This book is Didion's account of the year following her husband's sudde
 So while I didn't enjoy reading the book, I think that in some way it's a reminder of what makes loss so challenging — that it's always particular and personal, and therefore never really understandable by anyone else.<br/><br/>
 <i>Grief turns out to be a place none of us know until we reach it.</i>"
 type: "book"
-category: "books"
+ 
 notes: false
 ---
 

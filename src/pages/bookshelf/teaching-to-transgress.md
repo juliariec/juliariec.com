@@ -9,7 +9,7 @@ review: "This collection of essays on pedagogy, theory, and feminism was rich an
 My favourites from the collection: 'Essentialism and Experience', 'Holding My Sister’s Hand', and 'Embracing Change'.<br/><br/>
 <i>There are times when personal experience keeps us from reaching the mountaintop and so we let it go because the weight of it is too heavy. And sometimes the mountaintop is difficult to reach with all our resources, factual and confessional, so we are just there collectively grasping, feeling the limitations of knowledge, longing together, yearning for a way to reach that highest point. Even this yearning is a way to know.</i>"
 type: "book"
-category: "books"
+ 
 notes: false
 ---
 
