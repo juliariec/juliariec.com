@@ -9,7 +9,7 @@ review: "I think the huge value of this book is the identification of 'bullshit 
 Since I agreed with Graeber's position, I didn't read this book very critically. It did make me wish I knew more about labour studies, and I might do some further investigation into feudalism and universal basic income. I think it also has interesting implications for discussions on how artificial intelligence could affect the workforce, since (thus far) productivity/efficiency gains seem to have increased economic output but not decreased working hours for most people. Much 2 think about with this one.<br/><br/>
 <i>One might even say that this is the core question—perhaps ultimately the only question—of all social theory and all revolutionary thought. Together we create the world we inhabit. Yet if any one of us tried to imagine a world we'd like to live in, who would come up with one exactly like the one that currently exists? We can all imagine a better world. Why can't we just create one?</i>"
 type: "book"
-category: "books"
+ 
 notes: false
 ---
 

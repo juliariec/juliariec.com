@@ -8,7 +8,7 @@ rating: 4
 review: "Effervescent, charming, and insistent that young women can be everything. I loved Isa's voice.<br/><br/>
 <i>A person should never take on a city with an empty stomach, and I am always hungry.</i>"
 type: "book"
-category: "books"
+ 
 notes: false 
 ---
 
