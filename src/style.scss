@@ -590,7 +590,8 @@ hr:last-of-type {
   box-shadow: none;
   margin-right: 5px;
 
-  &:hover {
+  &:hover,
+  .active {
     background: darken($color, 10%);
     color: $darker;
     transition: 0.2s color;
