@@ -1,15 +1,17 @@
 ---
 title: "Maps for the getaway."
 date: "2015-03-25"
+category: "thoughts"
+type: "post"
 coverImage: "19903-road.jpg"
 ---
 
 There's a song called "[Maps for the Getaway](https://www.youtube.com/watch?v=2DwwyEuiF3o)" off a CD that Louise recently purchased that has lately become one of my favourite songs to listen to. I just returned from a road trip, so the lyrics of the song are even more relatable than they were before.
 
-I think my favourite lines from the song are the following: 
+I think my favourite lines from the song are the following:
 
 > _Lights that used to blind us_
-> 
+>
 > _Somehow they will guide us through the night._
 
 I'm not sure what the songwriters intended when they wrote these lyrics, but I think they're powerful and they definitely made me think. The song is both nostalgic and hopeful, and these two lines really combine these two ideas.
@@ -21,7 +23,7 @@ It's also a reminder that everything I experience contains two sides. In class t
 Another section of the song I love is:
 
 > _Now that we're outside it_
-> 
+>
 > _I guess we survived it after all._
 
 For high school especially I've noticed this - days can be tough, stressful, and overwhelming, but at the end of the year you look back and realize that you made it. You might even be better than when you started. This is another lesson to me: I'm trying to practice appreciating things in the moment, and not just when I'm outside them and looking back in on my own life.

@@ -1,10 +1,11 @@
 ---
 title: "Coming of age."
 date: "2014-12-29"
-coverImage: "c97ed-img_9671.jpg"
+category: "thoughts"
+type: "post"
 ---
 
-**coming of age: ** a young person's transition from childhood to adulthood There's a quote from one of Lemony Snicket's books that says "If we wait until we’re ready, we’ll be waiting for the rest of our lives." I feel like coming of age, or whatever teenager-hood (?) is, basically adheres to this quote. _Am I ready for \_\_\_\_\_?_ The answer doesn't really matter, because you're going to have to deal with it anyways.
+**coming of age**: a young person's transition from childhood to adulthood There's a quote from one of Lemony Snicket's books that says "If we wait until we’re ready, we’ll be waiting for the rest of our lives." I feel like coming of age, or whatever teenager-hood (?) is, basically adheres to this quote. _Am I ready for \_\_\_\_\_?_ The answer doesn't really matter, because you're going to have to deal with it anyways.
 
 Sometimes it's helpful, sometimes it's painful, and most of the time it's both. I think there are some things that you just need to dive into and work out from there, but at other times I feel like I'm rushed, and I can't tell if it's my own problem or something that a lot of other people my age are also experiencing.
 
@@ -16,4 +17,8 @@ For one of the independent study units I need to complete this year, I'm going t
 
 To conclude this somewhat scattered reflection on the coming of age topic, here are four of my favourite "growing up" songs (and probably my all time favourite songs as well, actually), plus a One Direction song because One Direction (that kind of discusses coming of age so I can legitimately list it here):
 
-[Face Up](https://www.youtube.com/watch?v=dtgMSidl1zU) by LIGHTS [The World You Love](https://www.youtube.com/watch?v=URjX4Fye1Pg) by Jimmy Eat World [Stop This Train](https://www.youtube.com/watch?v=sHhhTtqWcOM) by John Mayer [Trust Me](https://www.youtube.com/watch?v=igJIABldKpk) by The Fray [Night Changes](https://www.youtube.com/watch?v=syFZfO_wfMQ) by One Direction
+- [Face Up](https://www.youtube.com/watch?v=dtgMSidl1zU) by LIGHTS
+- [The World You Love](https://www.youtube.com/watch?v=URjX4Fye1Pg) by Jimmy Eat World
+- [Stop This Train](https://www.youtube.com/watch?v=sHhhTtqWcOM) by John Mayer
+- [Trust Me](https://www.youtube.com/watch?v=igJIABldKpk) by The Fray
+- [Night Changes](https://www.youtube.com/watch?v=syFZfO_wfMQ) by One Direction

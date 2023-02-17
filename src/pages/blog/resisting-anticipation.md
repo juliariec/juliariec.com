@@ -1,15 +1,13 @@
 ---
 title: "Resisting anticipation."
 date: "2018-06-17"
+category: "thoughts"
+type: "post"
 ---
 
-Since I _should_ be studying right now, it's the perfect time for me to write another blog post! I also figured it was about time for another brief life update and some thoughts about anticipation and the way it can sap away joy. (So stay tuned!)
+Since I *should* be studying right now, it's the perfect time for me to write another blog post! I also figured it was about time for another brief life update and some thoughts about anticipation and the way it can sap away joy. (So stay tuned!)
 
 First off, today is the last day of our week-long "study vacation", emphasis on the "vacation"! Exam period starts tomorrow and runs until the very end of June -- I have three exams and a final paper, but fortunately they're spread out, starting on the 19th and ending on the 29th. I've always found exam period so difficult because my entire daily schedule breaks down, and without anchors of classes or events it feels like my time just siphons away. I'm still working on creating systems that help me to focus and be productive in preparation for the end of the semester, but it's definitely a challenge.
-
- 
-
-\[gallery ids="329,330,331,332,333,334,335" type="rectangular"\]
 
 Now that my friends and I don't have urgent assignments or presentations to do, we've been able to plan ahead and coordinate activities together before we all leave. It's been fun to get out into the city a bit more, play ping pong, go swing dancing, or even just study together in our building. Katie and I also went on a three day trip to Brisbane and Gold Coast, where we visited the Australia Zoo and explored Byron Bay, which was really fun! After a week of non-stop rain in Sydney it was definitely nice to get some sun and fit in some time at the beach before returning to the city in winter.
 

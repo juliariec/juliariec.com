@@ -1,6 +1,9 @@
 ---
 title: "Can it be April already?"
 date: "2019-03-26"
+category: "thoughts"
+type: "post"
+image: "../../images/blog/ottawa.jpg"
 ---
 
 I'm long overdue for a life update of some kind, but I'm going to do my best to keep this one short and sweet because I'm not really sure what to say. March is definitely the worst month of the year when you're in university: not only is the weather is both unpredictable and bad, it's also third month of the semester (when all the major work and assignments have to get done) and everyone is pretty tired of the school year.
@@ -11,8 +14,8 @@ I think there's a certain sweet spot when it comes to a weekly routine. In my op
 
 The strange thing is that it can be difficult to actually recall what I've been doing this whole time. I've come to heavily rely on my Google calendar (since I'm pretty diligent about recording what I'm up to with it) to remind me of the ways my life has deviated from routine. As I was updating it the other day, it reminded me of a quote from a book I read over reading week called _Ongoingness_:
 
-> To write a diary is to make a series of choices about what to omit, what to forget. A memorable sandwich, an unmemorable flight of stairs. A memorable bit of conversation surrounded by chatter that no one records.  
-> 
+> To write a diary is to make a series of choices about what to omit, what to forget. A memorable sandwich, an unmemorable flight of stairs. A memorable bit of conversation surrounded by chatter that no one records.
+>
 > Sarah Manguso
 
 This is how I feel when I write in my journal, or update my Google Calendar, or make a post on this blog; there's a certain power that comes with deciding to record one event but not another. One mistake I used to make pretty frequently was to write extremely sparse descriptions or obscure references with the expectation that because whatever had happened to me seemed so interesting or meaningful I would always remember what I was referring to. Reading through old records can get so confusing because I have no idea what memory my younger self thought that I would associate with what she wrote.

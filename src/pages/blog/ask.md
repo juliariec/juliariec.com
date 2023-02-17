@@ -1,15 +1,17 @@
 ---
 title: "Ask."
 date: "2019-10-21"
-coverImage: "thebean.jpg"
+category: "thoughts"
+type: "post"
+image: "../../images/blog/thebean.jpg"
 ---
 
 > Ask, and it will be given to you; seek, and you will find; knock, and it will be opened to you. For everyone who asks receives, and the one who seeks finds, and to the one who knocks it will be opened.
-> 
+>
 > Matthew 7:7-8
 
 > If you want more love, why don't you say so?
-> 
+>
 > John Mayer, "Heartbreak Warfare"
 
 Lately I've been growing increasingly frustrated with 'being online' and trying to parse through the sheer volume of useless information and lack of critical thinking that seems ubiquitous. Once in a while, though, I stumble across an idea or an article that actually adds value to my life, and I figured that I would share one of those here!

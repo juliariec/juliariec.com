@@ -1,11 +1,13 @@
 ---
 title: "Undulation."
 date: "2015-05-20"
+category: "thoughts"
+type: "post"
 coverImage: "ea46d-fluct.jpg"
 ---
 
 > Humans are amphibians -- half spirit and half animal. As spirits they belong to the eternal world, but as animals they inhabit time. This means that while their spirit can be directed to an eternal object, their bodies, passions, and imaginations are in continual change, for to be in time, means to change. Their nearest approach to constancy, therefore, is undulation--the repeated return to a level from which they repeatedly fall back, a series of troughs and peaks.
-> 
+>
 > **C. S. Lewis,** _The Screwtape Letters_
 
 When I was reading _The Screwtape Letters_, this description of undulation, the movement of waves, struck me as a particularly unique description of the human condition and the way we experience change.

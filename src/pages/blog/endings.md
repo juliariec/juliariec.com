@@ -1,7 +1,9 @@
 ---
 title: "Endings."
 date: "2019-05-01"
-coverImage: "nowwhat.jpg"
+category: "thoughts"
+type: "post"
+image: "../../images/blog/nowwhat.jpg"
 ---
 
 One thing that I've realized is that endings take a long time. Last year when I was leaving Australia and this year as I've been finishing up my undergraduate degree, I've really seen how the process of finishing something is exactly that: a process, often an involved one. A lesson that I took away from exchange, though, is that rushing the process by starting it early or trying to wrap it up too soon doesn't really help. It seems to me that it's best if I let it happen naturally and deal with it according to my own judgment, rather than what I think I 'should' be doing.

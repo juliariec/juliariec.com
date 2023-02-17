@@ -1,7 +1,9 @@
 ---
 title: "2019 reads."
 date: "2019-12-30"
-coverImage: "2019reads.jpg"
+category: "collections"
+type: "post"
+image: "../../images/blog/2019reads.jpg"
 ---
 
 It's hard to believe it's been a year since I wrote 2018 reads, the first post in what I hope will be a long standing series of annual book recommendations! This has been a great year for reading -- I've had lots of spare time, which meant that I tackled some longer and more involved books, and due to school and friends' recommendations I ended up reading a bit of a wider range than I had in 2018. In this post I'm going to share 8 novels and 4 non-fiction books that I really enjoyed and would recommend you give a shot. (A quick note that the numbers are intended to help organize the post, not to rank the choices.)
@@ -13,7 +15,7 @@ It's hard to believe it's been a year since I wrote 2018 reads, the first post i
 **Author:** Haruki Murakami  
 **Found It:** Recommended by my friend Henry  
 **Premise:** The tale of a young Japanese man, Toru, attempting to find his missing wife Kumiko through a network of assorted acquaintances, including his psychopathic brother-in-law, his delinquent teenage neighbour, a veteran of the Imperial Japanese Army, and a clairvoyant businesswoman.  
-**What I Liked:** This novel had an unpredictable energy that kept me on my toes while reading -- I had never read a story with such a creative combination of the mundane and the imaginative. I felt like I was constantly looking for footing in the novel, whether trying to determine a character's intentions or to connect their plotline to something else that was happening, and that made me excited to keep reading and often surprised by where the story would move. I also liked that the novel was ambitious in scope and clearly had a lot going on, because I can envision myself rereading it several times and picking up something new each time. 
+**What I Liked:** This novel had an unpredictable energy that kept me on my toes while reading -- I had never read a story with such a creative combination of the mundane and the imaginative. I felt like I was constantly looking for footing in the novel, whether trying to determine a character's intentions or to connect their plotline to something else that was happening, and that made me excited to keep reading and often surprised by where the story would move. I also liked that the novel was ambitious in scope and clearly had a lot going on, because I can envision myself rereading it several times and picking up something new each time.
 
 #### 2 Half Of A Yellow Sun
 
@@ -33,7 +35,7 @@ It's hard to believe it's been a year since I wrote 2018 reads, the first post i
 
 **Author:** Madeline Miller  
 **Found It:** Recommended by my Discrete Math prof  
-**Premise:** A reimagining of _The Odyssey_ from the perspective of Circe, the nymph whose island Odysseus visits on his journey back to Ithaca.    
+**Premise:** A reimagining of *The Odyssey* from the perspective of Circe, the nymph whose island Odysseus visits on his journey back to Ithaca.    
 **What I Liked:** For me, the quality that really set this novel apart from so many others was its beautiful prose, melodic and at times even arresting. I really liked the way that it focused on Circe's own story while still intersecting with so many well known mythological adventures. Having read _The Odyssey_ some time prior to reading this novel, I particularly enjoyed reading the Miller's characterizations of Hermes, Odysseus, and Telemachus; Circe's relationships with the three men gave rise to some insightful and striking passages in the book. It was a great reminder of how the classic elements of mythology -- allies and enemies, loyalty and betrayal, peace and conflict -- continue to capture our imaginations.
 
 #### 5 Beloved
@@ -55,7 +57,7 @@ It's hard to believe it's been a year since I wrote 2018 reads, the first post i
 **Author:** Jane Harper  
 **Found It:** Through Goodreads  
 **Premise:** Two men find their brother mysteriously dead in the Australian outback and try to piece together the circumstances leading to his death.  
-**What I Liked:** This book was just fun to read -- it was suspenseful, the pacing felt good, and the backstory around the main character, Nathan, helped to keep it interesting. It was the first novel I've read set in the outback, and evoking its unrelenting, isolating nature definitely contributed to the book's tone. I don't read a lot of mystery-style books, but this was one that I finished quickly because I was enjoying it so much. 
+**What I Liked:** This book was just fun to read -- it was suspenseful, the pacing felt good, and the backstory around the main character, Nathan, helped to keep it interesting. It was the first novel I've read set in the outback, and evoking its unrelenting, isolating nature definitely contributed to the book's tone. I don't read a lot of mystery-style books, but this was one that I finished quickly because I was enjoying it so much.
 
 #### 8 All My Puny Sorrows
 
@@ -92,6 +94,6 @@ It's hard to believe it's been a year since I wrote 2018 reads, the first post i
 **Author:** Daniel Kahneman  
 **Found It:** Probably word of mouth since I can't remember  
 **Premise:** A summary of Kahneman's research, which combines psychology and behavioural economics to investigate cognitive behaviour.  
-**What I Liked:** There is so much to learn from reading this book! Kahneman's tone is understandable and often hilarious, and he provides excellent examples that display the relevancy of the material to his readers. It's quite long and the focus of the book shifts substantially from section to section, but in my opinion it covers and even surpasses the material of multiple other popular psychology books (for example, I think it's far superior to "Predictably Irrational"). I especially enjoyed learning about cognitive heuristics/biases and factors influencing how we make decisions, and this book has already helped me to think in more effective and reasonable ways. 
+**What I Liked:** There is so much to learn from reading this book! Kahneman's tone is understandable and often hilarious, and he provides excellent examples that display the relevancy of the material to his readers. It's quite long and the focus of the book shifts substantially from section to section, but in my opinion it covers and even surpasses the material of multiple other popular psychology books (for example, I think it's far superior to "Predictably Irrational"). I especially enjoyed learning about cognitive heuristics/biases and factors influencing how we make decisions, and this book has already helped me to think in more effective and reasonable ways.
 
 And that concludes my list of recommended reads in 2019! If you feel inspired to read any of the books I've mentioned here, or if you've already read them, I would love to hear your thoughts on them as well! Enjoy the last day of the year and I will be back at some point in the New Year :)

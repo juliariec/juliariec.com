@@ -1,7 +1,8 @@
 ---
 title: "Layers and checkboxes."
 date: "2015-10-16"
-coverImage: "6e6f6018-c581-485a-adb3-5c5b6eda3f7a5f9a5e0e-ae8f-4138-b4bf-1f3fe7d76b7a1.jpg"
+category: "thoughts"
+type: "post"
 ---
 
 At the beginning of September, I started my first year of university. Since then, I feel like my mind and emotions have been running marathons trying to keep up with all the changes in my life -- living in a different city and residence, having to find my own food and pick my own outfits every day (after uniforms, it's a shock...), meeting hundreds of new people, adjusting to a completely new schedule... it's been a huge transition for me. One of the biggest shocks to me was moving to a place where no one knew me. When I began school, I knew only a couple people attending the same university as me, and I hadn't seen them at all. There was _no one_ around who knew what I was like, which was disconcerting. This fact, combined with all the other changes in my life, has made me think a lot more. I've come across two analogies (of sorts) that I've been using to help process my own thoughts during these last seven weeks.

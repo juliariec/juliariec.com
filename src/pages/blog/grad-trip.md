@@ -1,7 +1,8 @@
 ---
 title: "Grad trip."
 date: "2019-08-03"
-coverImage: "img_5357.jpg"
+category: "thoughts"
+type: "post"
 ---
 
 Over the last six weeks, I've been travelling in northern Europe on a graduation trip; first with my friend Katie, who was my roommate in Australia, and then with my younger sister Louise and my mom. I don't like to post or update a lot when I'm away, but since I'm back now I thought it would be good to record and share some of my experiences! This post will include some impressions, photos, reflections, and book reviews, and I've divided the sections by country.

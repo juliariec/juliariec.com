@@ -1,9 +1,11 @@
 ---
 title: "Processing."
 date: "2018-08-09"
+category: "thoughts"
+type: "post"
 ---
 
-It's been about a month since I've returned to Canada and it's been... strange. The last few weeks have found me drafting posts that don't quite say what I want to because I don't really know how or what I'm feeling, so this is my attempt to put _something_ together, even if it's not entirely what I'm experiencing.
+It's been about a month since I've returned to Canada and it's been... strange. The last few weeks have found me drafting posts that don't quite say what I want to because I don't really know how or what I'm feeling, so this is my attempt to put *something* together, even if it's not entirely what I'm experiencing.
 
 At the moment, I definitely feel like I'm in 'transition mode', due to a variety of different factors all at play right now. A lot of it stems from shuffling around in terms of location -- sleeping in a different place or bed every few days for the last month or so -- paired with the still summer heat at night. Not having my own phone has also been unexpectedly disorienting; I guess since I spend quite a bit of time on my phone, not having it set up the way I like throws me off and makes me feel out of place. Another part of it is being between social groups, making connections with my friends from different schools while not really being 'around'. These factors aren't bad, they just contribute to this overall sense of being in between two big life stages, which is a space that I don't feel the most comfortable or at ease in. The good thing is that it's an area of growth I want to work on -- how to find peace and fulfillment in the average days and the 'gaps' in life -- so this is a good opportunity to practice that. I have enough on my plate to keep me busy but not too much to stress me out, so I'm in a nice sweet spot for the time being. Part of my free time has definitely been spent trying to process my thoughts on ending exchange, which has been valuable too.
 

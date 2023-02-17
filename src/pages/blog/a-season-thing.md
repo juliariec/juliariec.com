@@ -1,6 +1,8 @@
 ---
 title: "A season thing."
 date: "2019-11-18"
+category: "thoughts"
+type: "post"
 ---
 
 > And indeed there will be time  
@@ -14,11 +16,11 @@ date: "2019-11-18"
 > Time for you and time for me,  
 > And time yet for a hundred indecisions,  
 > And for a hundred visions and revisions,  
-> Before the taking of a toast and tea.  
->   
+> Before the taking of a toast and tea.
+>
 > In the room the women come and go  
-> Talking of Michelangelo.  
->   
+> Talking of Michelangelo.
+>
 > And indeed there will be time  
 > To wonder, “Do I dare?” and, “Do I dare?”  
 > Time to turn back and descend the stair,  
@@ -31,7 +33,7 @@ date: "2019-11-18"
 > Disturb the universe?  
 > In a minute there is time  
 > For decisions and revisions which a minute will reverse.
-> 
+>
 > T. S. Eliot, "The Love Song of J. Alfred Prufrock"
 
 > There is a time for everything,  
@@ -49,14 +51,14 @@ date: "2019-11-18"
 > a time to tear and a time to mend,  
 > a time to be silent and a time to speak,  
 > a time to love and a time to hate,  
-> a time for war and a time for peace.  
->   
-> What do workers gain from their toil? I have seen the burden God has laid on the human race. He has made everything beautiful in its time. He has also set eternity in the human heart; yet no one can fathom what God has done from beginning to end. I know that there is nothing better for people than to be happy and to do good while they live. That each of them may eat and drink, and find satisfaction in all their toil—this is the gift of God. I know that everything God does will endure forever; nothing can be added to it and nothing taken from it. God does it so that people will fear him.  
->   
+> a time for war and a time for peace.
+>
+> What do workers gain from their toil? I have seen the burden God has laid on the human race. He has made everything beautiful in its time. He has also set eternity in the human heart; yet no one can fathom what God has done from beginning to end. I know that there is nothing better for people than to be happy and to do good while they live. That each of them may eat and drink, and find satisfaction in all their toil—this is the gift of God. I know that everything God does will endure forever; nothing can be added to it and nothing taken from it. God does it so that people will fear him.
+>
 > Whatever is has already been,  
 > and what will be has been before;  
 > and God will call the past to account.
-> 
+>
 > Ecclesiastes 3:1-15
 
 > You can't build a house of leaves  
@@ -65,7 +67,7 @@ date: "2019-11-18"
 > It's just this thing the seasons do...  
 > That's the way this wheel keeps working now  
 > You can't love too much one part of it.
-> 
+>
 > John Mayer, "Wheel"
 
 Sometimes living in Toronto feels like the Crowded House song "[Four Seasons in One Day](https://www.youtube.com/watch?v=dXiIU6ZcXdQ)"; or, as the saying goes, "If you don't like the weather, wait five minutes." Last week, as my coworkers and I were complaining about the change from a balmy Sunday at 15 degrees to a Tuesday morning of -10 degrees (sans windchill), one of them mentioned that although we have these dramatic changes in the weather she's happy that she lives in a region that has seasons. I have to say I agree -- although it's temperamental and unpredictable, having such a wide range gives us snowy Christmases, rainy springs, hot summer days, and beautiful fall colours.

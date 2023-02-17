@@ -1,7 +1,8 @@
 ---
 title: "Details of reality."
 date: "2018-03-14"
-coverImage: "20180311_132850.jpg"
+category: "thoughts"
+type: "post"
 ---
 
 In my first year of university I can distinctly remember being asked if it was "what I expected" - and I can remember having no clue what to say, because I didn't know what to expect. I've been thinking about that again - the way that our expectations for the future are so vague, but how our everyday lives are so detailed that it's beyond our imagination altogether.
@@ -25,4 +26,4 @@ I think the reason I've had a hard time answering these questions is because I t
 - I can't charge my laptop and phone at the same time because I only have one good quality adapter.
 - Cans here have tabs, so I don't need a can opener.
 
-These kinds of things are things that I had never even considered while thinking about this trip, many of which I couldn't foresee even if I wanted to. But literally every single day at least six of these are running through my head, because they affect my daily life, and that's how we live - daily. Australia _is_ like the 'big picture' -- it's hot, and I've seen kangaroos, and there are lots of beaches -- but living here in Sydney is not only those things, but this assortments of hundreds of other details that have become part of my life now. Personally, I think it's pretty cool that even though you can think ahead to what our lives might look like in years or even months, there will always be things that surprise you when you get there :)
+These kinds of things are things that I had never even considered while thinking about this trip, many of which I couldn't foresee even if I wanted to. But literally every single day at least six of these are running through my head, because they affect my daily life, and that's how we live - daily. Australia *is* like the 'big picture' -- it's hot, and I've seen kangaroos, and there are lots of beaches -- but living here in Sydney is not only those things, but this assortments of hundreds of other details that have become part of my life now. Personally, I think it's pretty cool that even though you can think ahead to what our lives might look like in years or even months, there will always be things that surprise you when you get there :)

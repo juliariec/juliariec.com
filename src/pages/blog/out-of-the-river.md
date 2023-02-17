@@ -1,11 +1,13 @@
 ---
 title: "Out of the river."
 date: "2018-07-10"
+category: "thoughts"
+type: "post"
 coverImage: "gorfam.jpg"
 ---
 
 > No man ever steps in the same river twice, for it's not the same river and he's not the same man.
-> 
+>
 > _Heraclitus_
 
 Tonight is my last night in Sydney, and saying goodbye to this city, the people I've met here, and my semester on exchange in general has been bittersweet. It reminds me of my realization upon graduating high school that the experience I had could never be relived, for better or for worse. It's true for anything I encounter, but especially poignant in times of closure or big life changes.

@@ -1,12 +1,14 @@
 ---
 title: "Two weeks."
 date: "2018-05-27"
+category: "thoughts"
+type: "post"
 coverImage: "2018-05-25-01-33-43-1.jpg"
 ---
 
 Snapshots of the last two weeks:
 
-- Teaching myself a _lot_ about machine learning and diabetes
+- Teaching myself a *lot* about machine learning and diabetes
 - Celebrating Norway Day with pancakes, champagne, and bacon
 - The overwhelming satisfaction of my code passing all the test cases
 - Finally booking a flight home

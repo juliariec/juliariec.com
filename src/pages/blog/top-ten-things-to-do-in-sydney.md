@@ -1,6 +1,8 @@
 ---
 title: "Top ten things to do in Sydney."
 date: "2019-02-20"
+category: "thoughts"
+type: "post"
 coverImage: "2018-03-09-04.58.31-1.jpg"
 ---
 

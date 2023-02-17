@@ -1,16 +1,14 @@
 ---
 title: "Journeying."
 date: "2018-02-05"
+category: "thoughts"
+type: "post"
 coverImage: "20180201_135703.jpg"
 ---
 
 Thirteen days later and I'm back in a major airport waiting for a long flight! Two weeks ago I was boarding a plane to London from Toronto for a brief trip in Europe, and now I'm waiting for my flight to Australia for the next stage of my adventure.
 
 I've really enjoyed my trip so far. First, I landed in London and traveled solo for a couple of days, mostly just walking around the city to get glimpses of all the famous places and attractions. My favourite things to see were St Paul's Cathedral and the British Library, but I'm sure I would have enjoyed much more if I had time to see it.
-
- 
-
-\[gallery ids="219,220,221,222,224" type="rectangular" link="none"\]
 
 From London I took a short flight to France to visit two of my close friends from my program who are living there on exchange. It was great to see them, and the city was beautiful -- plus it had lots of good food! I think I had a different dessert every day ^.^ From there I flew back to England to see my younger sister for a few days, who's studying near Lancaster. I hadn't seen her since September, so I was thankful for the opportunities we had to catch up, hang out with her friends, and explore a bit together! We even had the chance to spend a day in Liverpool with a friend from camp, which was fun. I took two trains (and the Tube) to get back to London today, and here I am!
 

@@ -1,6 +1,8 @@
 ---
 title: "Imagining the future."
 date: "2019-01-01"
+category: "thoughts"
+type: "post"
 ---
 
 Now that I'm in my final year of university, one of the top questions I get from people I talk to is "What are your plans after you graduate?". It's a question I'm still not good at answering, and the subsequent blanking in my head (??? ? ? ??) is somewhat new for me. When I was in high school, I had a general outline of what I would do: graduate high school with good grades and complete an undergraduate degree at a Canadian university with a semester abroad to Australia during my third year. Once I returned from exchange, I quickly realized that I could envision the next eight months (finishing school), but that the space after that -- the rest of my life -- looked totally empty and I had no idea what it would look like.

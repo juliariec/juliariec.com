@@ -1,7 +1,9 @@
 ---
 title: "Communicating the self."
 date: "2019-04-03"
-coverImage: "mainstreet.jpg"
+category: "thoughts"
+type: "post"
+image: "../../images/blog/mainstreet.jpg"
 ---
 
 _What am I really like?_ This is a question that everyone has to grapple with as they consider who they are and how they communicate that self to other people. Sometimes we have characteristics that are consistent and easy to name, like being organized or athletic, but more often than not I think that motivating question is one that's hard to answer, probably because we all change depending on our surroundings. When I'm with my family, I love to be entertaining and outrageous to make them laugh, but at a party here at university I'm much less likely to be as vocal or the centre of attention. With fluctuating characteristics like those, it can be hard for me to decide whether or not it's part of what I'm truly like.

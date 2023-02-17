@@ -1,6 +1,8 @@
 ---
 title: "On learning."
 date: "2019-01-09"
+category: "thoughts"
+type: "post"
 ---
 
 This week is my first week back at university for the semester, sometimes known as "syllabus week". In my experience, there's usually only one lecture that covers the course outline and expectations, and then professors tend to dive right into the content. These introductory classes are generally perceived as necessary but dull and often include the same logistical information regarding late submissions or technology usage as every other university course.

@@ -1,16 +1,14 @@
 ---
 title: "(In)dependence."
 date: "2018-04-29"
+category: "thoughts"
+type: "post"
 coverImage: "2018-04-29-06-13-15-1.jpg"
 ---
 
 It feels like a long time since my last post because I've had so much schoolwork to do lately, but I'm back with some more updates and contemplations! So, the updates first, and then on to some of my thoughts on independence and interdependence :)
 
 These last two weeks have been pretty packed because quizzes and assignments have definitely picked up and my friends and I have started planning the trips around Australia that we want to go on before we all fly out in July. On top of that, I realized last week that I've hit the halfway mark of my travels, so I've been trying to figure out when I can do all the things I still want to explore and see here. I honestly feel pretty drained from what feels like a fast paced lifestyle for an extended stretch of time, so even having the time to write this post and collect my thoughts is really good for me.
-
- 
-
-\[gallery ids="290,289,292,291,288,293" type="rectangular"\]
 
 Now that I've given a brief update, I want to ruminate a bit on a topic that's been on my mind since the beginning of my exchange - independence. Last week, Annecy, Emily, and I went to see an acrobatic performance called "Driftwood" at the Opera House, and on top of being incredibly impressive it felt very engaging because it was about human connection and the ways we depend on each other. I thought it was amazing that a show with no words could communicate playfulness and trust so distinctly, and that it was centred on a topic that has been on my mind for a while.
 
