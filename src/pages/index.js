@@ -6,7 +6,7 @@ import Posts from "../components/Posts"
 const Homepage = ({ data }) => {
   return (
     <Layout
-      title="Homepage"
+      title="Blog"
       description={data.site.siteMetadata.description}
       article={false}
     >
