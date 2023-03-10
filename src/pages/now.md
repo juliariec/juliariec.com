@@ -1,14 +1,14 @@
 ---
 title: "Now"
-date: "2022-09-18"
+date: "2023-03-09"
 description: "What I'm currently up to."
 category: ""
 type: "page"
 ---
 
 - Living in Brooklyn and working as a software engineer at [System](https://www.system.com/graph).
-- Settling in and attending meetups in NYC.
-- Reading _Gödel, Escher, Bach_ and considering getting into formal logic.
+- Enjoying a mild winter by running around my neighbourhood every few days.
+- Refreshing my basic French skills on Duolingo.
 
 &nbsp;
 
