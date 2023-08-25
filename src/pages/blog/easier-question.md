@@ -32,7 +32,7 @@ Neither of those behaviours contributed to my actual goal of being healthier; th
 
 Ness Labs has [an excellent article](https://nesslabs.com/what-gets-measured-gets-managed) on this issue, which they call **measurement myopia:**
 
-> The problem is not so much with measurement in general; it’s with blind measurement and the belief that measurement is intrinsically good.
+> The problem is not so much with measurement in general; it's with blind measurement and the belief that measurement is intrinsically good.
 
 **Measurements are easy.**
 

@@ -96,7 +96,7 @@ The key to having more time is doing less.
 This presents a very curious phenomenon. There are two synergistic approaches for increasing productivity that are inversions of each other:
 
 1. Limit tasks to the important to shorten work time (80/20).
-2. Shorten work time to limit tasks to the important (Parkinson’s Law).
+2. Shorten work time to limit tasks to the important (Parkinson's Law).
 
 The best solution is to use both together: Identify the few critical tasks that contribute most to income and schedule them with very short and clear deadlines.
 
