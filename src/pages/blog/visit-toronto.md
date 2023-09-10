@@ -96,7 +96,7 @@ I have four different suggestions for how you could spend your third day, which 
 
 **What to do:** spend the day at Woodbine Beach; rent a bike from [Toronto Bikeshare](https://bikesharetoronto.com/) and ride through Tommy Thompson Park; rent a kayak at Cherry Beach and kayak on Lake Ontario; window shop and eat in the Distillery District; see a performance at [Berkeley Street Theatre](https://www.canadianstage.com/plan-your-visit/venues-directions/berkeley-street-theatre)
 
-**Where to eat nearby:** The Beaches ([_Delina Restaurant_](https://goo.gl/maps/YNT8UCpX77upHgN48) for Mediterranean, [Breakwall](https://goo.gl/maps/EwBMdiG3MjDEY9Nq6) for BBQ, [Restaurant Tiflisi](https://goo.gl/maps/69o1jLV282HFwjuY8) for Georgian), Distillery District ([_Cluny_](https://goo.gl/maps/rHCMDq6zJs2gdFUn7) for French, [Madrina Bar y Tapas](https://goo.gl/maps/VD5XH8j4hP473W7Y6) for Spanish)
+**Where to eat nearby:** The Beaches ([_Delina Restaurant_](https://goo.gl/maps/YNT8UCpX77upHgN48) for Mediterranean, [Breakwall](https://goo.gl/maps/EwBMdiG3MjDEY9Nq6) for BBQ, [Restaurant Tiflisi](https://goo.gl/maps/69o1jLV282HFwjuY8) for Georgian), Distillery District ([_Cluny_](https://goo.gl/maps/rHCMDq6zJs2gdFUn7) for French, [Madrina Bar y Tapas](https://goo.gl/maps/VD5XH8j4hP473W7Y6) for Spanish, [Arvo](https://goo.gl/maps/4q4RkAvMrMrYM9eb8) for Australian coffee)
 
 ## Toronto Islands
 
