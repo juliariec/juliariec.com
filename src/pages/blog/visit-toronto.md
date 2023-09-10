@@ -4,6 +4,8 @@ date: "2023-09-10"
 description: "My recommendations for a long weekend trip in the city."
 category: "strategies"
 type: "post"
+image: "../../images/og/nathanphillips.jpg"
+imageAlt: "Nathan Phillips Square and the Toronto sign in the winter"
 ---
 
 I'm a bit biased, but I think Toronto is a city that's worth a visit! Although it doesn't have as many "attractions" as London or New York City, it has an amazing diversity of good food, vibrant green space, and distinctive neighbourhoods. In my opinion, this makes Toronto a strong candidate for an enjoyable 3 or 4 day trip — it's enough time to both see _some_ of the main attractions and to just walk, eat, and explore different parts of the city.
@@ -71,34 +73,32 @@ From here, I have three ideas for an afternoon activity:
 
 Here are two possibilities for where to go for dinner and drinks in the evening:
 
-1. Stay on Bloor Street near Ossington and get dinner ([_Lalibela_](https://goo.gl/maps/UJUSvdAkVqzMk3AM6) for Ethiopian, [Little Sito](https://goo.gl/maps/Qh9RtmeczeHuDUfz8) for Lebanese, [_La Bella Managua_](https://goo.gl/maps/fdLAxj8V7mbjmccq6) for Nicaraguan) followed by drinks at [_Civil Liberties_](https://goo.gl/maps/6ZbnGRUXtNgQed6i7) (bespoke cocktails), [Paradise Grapevine](https://goo.gl/maps/sQ3qLrHf6hHpD2Hk8) (wine), or _[Tallboys](https://goo.gl/maps/sjdCmYAm1k1nR7p6A)_ (beers) and possibly a show at [Comedy Bar](https://comedybar.ca/). This is the more centralized, lowkey option of the two!
+1. Stay on Bloor Street near Ossington and get dinner ([_Lalibela_](https://goo.gl/maps/UJUSvdAkVqzMk3AM6) for Ethiopian, [Little Sito](https://goo.gl/maps/Qh9RtmeczeHuDUfz8) for Lebanese, [_La Bella Managua_](https://goo.gl/maps/fdLAxj8V7mbjmccq6) for Nicaraguan) followed by drinks at [_Civil Liberties_](https://goo.gl/maps/6ZbnGRUXtNgQed6i7) (bespoke cocktails), [Paradise Grapevine](https://goo.gl/maps/sQ3qLrHf6hHpD2Hk8) (wine), or _[Tallboys](https://goo.gl/maps/sjdCmYAm1k1nR7p6A)_ (beers) and possibly a show at [Comedy Bar](https://comedybar.ca/).
 2. From Trinity Bellwoods (or Bloor), head to the "Ossington strip", a trendy stretch of Ossington Avenue between Queen and Dundas, which is full of restaurants and bars. I haven't been to many of the restaurants, but I liked [_Pho Tien Thanh_](https://goo.gl/maps/QukMYhB72FcZTfxy9) (Vietnamese) and [_La Cubana_](https://goo.gl/maps/t2uYCPNaVVzXG4HK9) (Cuban), and I've been eyeing [Soos](https://goo.gl/maps/hm2miyFLXoJaLTAN6) (Malaysian) for my next visit. There's also a popular ice cream place, [_Bang Bang_](https://goo.gl/maps/LoYFiwqmucbi44e99), where you could pick up an ice cream sandwich if you're there before 8:30 PM. For drinks, you could either head south to [_Sweaty Betty's_](https://goo.gl/maps/zNLtYucMnkDAwrFv6) or [_Bar Poet_](https://goo.gl/maps/b3qnvGriQYKc5Yfx8) on Queen, or northwest to [Black Dice Cafe](https://goo.gl/maps/5mSkVVZwDRXEhYLd9) or [Project Gigglewater](https://goo.gl/maps/cw14mCWDkRxnH6tz8) on Dundas.
 
 # Day 3: Natural Attractions
 
-I have 4 different suggestions for what you could spend "day 3" on, which are all parks- or nature-focused. You could definitely do more than one of these if you had the time, but these are just some ideas about how to enjoy Toronto's natural attractions!
+I have four different suggestions for how you could spend your third day, which are all parks- or nature-focused. You could definitely do more than one of these if you had the time, but these are just some ideas about how to enjoy Toronto's natural attractions! Since some of these are neighbourhoods/areas I'm less familiar with, I'm going to provide more of a bare-bones structure from the day that you could fill out with your own research.
 
-Since some of these are neighbourhoods/areas I'm less familiar with, I'm going to provide more of a bare-bones structure from the day that you could fill out with your own research.
-
-## Option A: Don Valley
+## Don Valley
 
 **What to do:** enjoy a nature walk through [Evergreen Brickworks](https://www.evergreen.ca/evergreen-brick-works/); walk through the Don Valley via the Lower Don River Trail; window shop on the Danforth; see a show at [Danforth Music Hall](http://thedanforth.com/); visit Riverdale Farm; watch the sunset over Toronto at Riverdale Park East
 
 **Where to eat nearby:** Cabbagetown ([_House on Parliament_](https://goo.gl/maps/tspsSB4srvzyQNRe9) for British, [Momo Ghar](https://goo.gl/maps/QJn4C8HyXhFc4vPV6) for Tibetan) or Greektown ([Mezes](https://goo.gl/maps/QNRxXwC64m281JQ76) for Greek, [_Ryus Noodle Bar_](https://goo.gl/maps/m1ZSL7W3s1yCCxkZ9) for ramen, [_Herby_](https://goo.gl/maps/xmDiGhA9kiDRpVsFA) for Persian, [Simone's](https://goo.gl/maps/E2sNDKihYn1RWBPR6) for Jamaican)
 
-## Option B: High Park
+## High Park
 
 **What to do:** explore High Park, including a visit to the zoo or the [amphitheatre](https://www.canadianstage.com/plan-your-visit/venues-directions/high-park-amphitheatre); walk along the Sunnyside Boardwalk; check out the Humber Bay Arch Bridge or rent a bike from [Toronto Bikeshare](https://bikesharetoronto.com/) and ride along the lake to Humber Bay Park; visit the [Museum of Contemporary Art](https://moca.ca/)
 
 **Where to eat nearby:** Roncesvalles ([Cafe Polonez](https://goo.gl/maps/uuEbur8Hbc8VAarA9) for Polish, [_Bawara_](https://goo.gl/maps/LNaaan4KYhiVgFE69) for Indian), Bloor West Village ([Flame Food+Design](https://goo.gl/maps/2rgQMMSZ9BJ3k8cS7) for Turkish, [Queen's Pasta Cafe](https://goo.gl/maps/7FZSvMrBmJgJrN1a7) for Italian)
 
-## Option C: Beaches
+## Beaches
 
 **What to do:** spend the day at Woodbine Beach; rent a bike from [Toronto Bikeshare](https://bikesharetoronto.com/) and ride through Tommy Thompson Park; rent a kayak at Cherry Beach and kayak on Lake Ontario; window shop and eat in the Distillery District; see a performance at [Berkeley Street Theatre](https://www.canadianstage.com/plan-your-visit/venues-directions/berkeley-street-theatre)
 
 **Where to eat nearby:** The Beaches ([_Delina Restaurant_](https://goo.gl/maps/YNT8UCpX77upHgN48) for Mediterranean, [Breakwall](https://goo.gl/maps/EwBMdiG3MjDEY9Nq6) for BBQ, [Restaurant Tiflisi](https://goo.gl/maps/69o1jLV282HFwjuY8) for Georgian), Distillery District ([_Cluny_](https://goo.gl/maps/rHCMDq6zJs2gdFUn7) for French, [Madrina Bar y Tapas](https://goo.gl/maps/VD5XH8j4hP473W7Y6) for Spanish)
 
-## Option D: Toronto Islands
+## Toronto Islands
 
 **What to do:** catch the ferry (or a water taxi) and spend the day on the [Toronto Islands](https://www.torontoisland.com/) — rent a tandem bike or quadricycle and traverse the islands; visit the [Centreville Amusement Park](https://www.centreisland.ca/centreville-amusement-park) (for kids); chill on Ward's Island Beach
 
@@ -106,4 +106,4 @@ Since some of these are neighbourhoods/areas I'm less familiar with, I'm going t
 
 # Onwards!
 
-I hope that this post has provided you with some useful ideas about how to spend your time in Toronto, and that you enjoy your time there as much as I do!
+I hope that this post has provided you with some useful ideas about how to spend your time in Toronto, and that you enjoy your time there as much as I do.
