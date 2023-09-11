@@ -1,14 +1,16 @@
 ---
 title: "Now"
-date: "2023-03-09"
+date: "2023-09-10"
 description: "What I'm currently up to."
 category: ""
 type: "page"
 ---
 
 - Living in Brooklyn and working as a software engineer at [System](https://www.system.com/graph).
-- Enjoying a mild winter by running around my neighbourhood every few days.
-- Refreshing my basic French skills on Duolingo.
+- Wedding planning with Andrew!
+- Meditating weekly with our 'plant room' group in the [Evolving Ground](https://www.evolvingground.org/) practice.
+- Settling into our new apartment in Crown Heights.
+- Participating in the inaugural cohort of [Fractal University](https://fractaluniversity.substack.com/p/coming-soon).
 
 &nbsp;
 
