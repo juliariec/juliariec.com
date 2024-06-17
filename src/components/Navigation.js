@@ -34,7 +34,7 @@ const Navigation = () => {
   return (
     <header>
       <div className="title">
-        <Link to="/">julia cooke</Link>
+        <Link to="/">julia rodenburg</Link>
       </div>
       <nav className="desktop-menu">{Links()}</nav>
       <div className="mobile-button">
