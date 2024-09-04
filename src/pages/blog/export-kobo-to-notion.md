@@ -71,17 +71,20 @@ const notion = new Client({ auth: NOTION_TOKEN })
 I always like to confirm that what I've done is working before I move onto the next step; it helps me to debug when things go wrong. We can check that our Notion database is properly connected by querying for a page we know is in our library database (in my case, it's the book "Circe") with the following code:
 
 ```javascript
-const response = await notion.databases.query({
-  database_id: NOTION_DATABASE_ID,
-  filter: {
-    property: "Title",
-    text: {
-      equals: "Circe",
+async function exportHighlights() {
+  const response = await notion.databases.query({
+    database_id: NOTION_DATABASE_ID,
+    filter: {
+      property: "Title",
+      rich_text: {
+        equals: "Circe",
+      },
     },
-  },
-})
-console.log(response)
-})()
+  })
+  console.log(response)
+}
+
+exportHighlights()
 ```
 
 If you'd like to write a different database query, the documentation for queries is [here](https://developers.notion.com/reference/post-database-query). After running this code (with the command `node index.js`), you should see a "page" object printed out in the console; if you don't, something is wrong. Once you've confirmed that the Notion database connection is working, delete this code before moving on.
