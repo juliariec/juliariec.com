@@ -16,7 +16,7 @@ When I look at those drafts, I think: _This is something that I clearly need to 
 
 ## Running a race… on a treadmill
 
-I like to have goals and clear definitions of what it means to succeed at them. This served me well when I was in school, because it was clear to me that the goal was to learn and that getting good grades meant that I was succeeding. (Although as I've [mentioned previously](/blog/easier-question/), it's easy to unintentionally equivocate the goal with the metric.)
+I like to have goals and clear definitions of what it means to succeed at them. This served me well when I was in school, because it was clear to me that the goal was to learn and that getting good grades meant that I was succeeding. (Although as I've [mentioned previously](/blog/easier-question/), it's easy to unintentionally equate the goal with the metric.)
 
 When I graduated from university, I stepped into a world with which I was unfamiliar. It was suddenly difficult to know what I should do and if I was doing it well. In absence of a clear framework for success, I invented my own, full of initiatives that I thought would make it clear that I was "doing it right" — starting a full time job, improving my physical health, dating seriously, and eventually switching jobs and moving to a new city in a different country.
 

@@ -1,15 +1,14 @@
 ---
 title: "Now"
-date: "2024-07-14"
+date: "2024-11-12"
 description: "What I'm currently up to."
 category: ""
 type: "page"
 ---
 
-- Living in Brooklyn and working as a software engineer at [System](https://www.system.com/graph).
-- Meditating weekly with our 'plant room' group in the [Evolving Ground](https://www.evolvingground.org/) practice.
-- Getting back into practicing yoga and Pilates more regularly.
-- Looking forward to weekend trips to Chicago and Charlotte in the coming months.
+- Living in Brooklyn and working as a software engineer at [System](https://www.system.com/).
+- Participating in a weekly _Anna Karenina_ close reading course.
+- Taking a beat after a busy few months of weekend trips and hosting friends & family.
 - Considering doing another blog re-design...
 
 &nbsp;
