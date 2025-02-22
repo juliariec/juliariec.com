@@ -1,14 +1,15 @@
 ---
 title: "Now"
-date: "2024-11-12"
+date: "2025-02-22"
 description: "What I'm currently up to."
 category: ""
 type: "page"
 ---
 
 - Living in Brooklyn and working as a software engineer at [System](https://www.system.com/).
-- Participating in a weekly _Anna Karenina_ close reading course.
-- Taking a beat after a busy few months of weekend trips and hosting friends & family.
+- Learning how to knit! So far, I've successfully completed 1 scarf in garter stitch.
+- Participating in a _Seeing Like A State_ reading group with some friends.
+- Getting back into weight-lifting.
 - Considering doing another blog re-design...
 
 &nbsp;

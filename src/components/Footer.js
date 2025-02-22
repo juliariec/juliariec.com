@@ -3,7 +3,6 @@ import { useStaticQuery, graphql } from "gatsby"
 import {
   IoLogoGithub,
   IoLogoLinkedin,
-  IoCafe,
   IoLogoRss,
   IoMail,
 } from "react-icons/io5"
@@ -54,15 +53,6 @@ const Footer = () => {
           target="_blank"
         >
           <IoLogoLinkedin />
-        </a>
-        <a
-          title="Buy Me a Coffee"
-          className="icon"
-          href="https://www.buymeacoffee.com/juliariec"
-          rel="noreferrer noopener"
-          target="_blank"
-        >
-          <IoCafe />
         </a>
         <a
           title="RSS"
